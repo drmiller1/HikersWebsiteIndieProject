@@ -919,7 +919,7 @@
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
     <table id="231" parent="2" name="Hiker_Account"/>
-    <table id="232" parent="2" name="Hiking_Trails"/>
+    <table id="232" parent="2" name="Hiking_Trail"/>
     <column id="233" parent="231" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>

@@ -13,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class HikingTrailsDaoTest {
 
     HikingTrailsDao dao;
+    GenericDao genericDao;
 
     /**
      * Creating the dao.
@@ -20,6 +21,7 @@ class HikingTrailsDaoTest {
     @BeforeEach
     void setUp() {
         dao = new HikingTrailsDao();
+        genericDao = new GenericDao(HikingTrails.class);
 
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
@@ -34,7 +36,7 @@ class HikingTrailsDaoTest {
 
     @Test
     void getByIdSuccess() {
-        HikingTrails retrievedHikingTrails = dao.getById(2);
+        HikingTrails retrievedHikingTrails = (HikingTrails)genericDao.getById(2);
         assertNotNull(retrievedHikingTrails);
         assertEquals("TrailHead1", retrievedHikingTrails.getTrailHeadName());
     }

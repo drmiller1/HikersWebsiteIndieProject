@@ -50,6 +50,19 @@ class HikerAccountDaoTest {
      * Verify successful insert
      */
     @Test
+    void updateSuccess() {
+        String newLastName = "Coyne";
+        HikerAccount hikerToUpdate = dao.getById(1);
+        hikerToUpdate.setLastName(newLastName);
+        dao.saveOrUpdate(hikerToUpdate);
+        HikerAccount retrievedHiker = dao.getById(1);
+        assertEquals(hikerToUpdate, retrievedHiker);
+    }
+
+    /**
+     * Verify successful insert
+     */
+    @Test
     void insertSuccess() {
 
         HikerAccount newHiker = new HikerAccount("Fred", "Flintstone", "Madison", "WI","emailaddress1@hotmail.com",2);

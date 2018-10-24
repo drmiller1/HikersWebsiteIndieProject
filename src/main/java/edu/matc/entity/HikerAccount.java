@@ -6,6 +6,7 @@ import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 
@@ -28,6 +29,24 @@ public class HikerAccount {
 
     @Column(name = "state")
     private String state;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        HikerAccount hikerAccount = (HikerAccount) o;
+        return id == hikerAccount.id &&
+                Objects.equals(firstName, hikerAccount.firstName) &&
+                Objects.equals(lastName, hikerAccount.lastName) &&
+                Objects.equals(city, hikerAccount.city) &&
+                Objects.equals(state, hikerAccount.state) &&
+                Objects.equals(emailAddress, hikerAccount.emailAddress);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(firstName, lastName, city, state, emailAddress, id);
+    }
 
     @Column(name = "email_address")
     private String emailAddress;

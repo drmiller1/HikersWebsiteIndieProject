@@ -8,6 +8,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <html>
+    <style>
+        div {
+            width: 35px;
+            height: 5px;
+            background-color: black;
+            margin: 6px 0;
+        }
+    </style>
     <div id="header">
         <h1 align="center">
             Hiker Website Homepage
