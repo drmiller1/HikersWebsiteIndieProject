@@ -1,26 +1,24 @@
 package edu.matc.persistence;
 
 import edu.matc.entity.HikerAccount;
-import edu.matc.entity.HikingTrails;
 import edu.matc.test.util.Database;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.time.LocalDate;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class HikerAccountDaoTest {
+class HikerAccountgenericDaoTest {
 
-    HikerAccountDao dao;
+    GenericDao genericDao;
 
     /**
-     * Creating the dao.
+     * Creating the genericDao.
      */
     @BeforeEach
     void setUp() {
-        dao = new HikerAccountDao();
+        genericDao = new GenericDao(HikerAccount.class);
 
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
@@ -29,19 +27,19 @@ class HikerAccountDaoTest {
 
     @Test
     void getAllHikerAccountsSuccess() {
-        List<HikerAccount> hikerAccounts = dao.getAllHikerAccounts();
+        List<HikerAccount> hikerAccounts = genericDao.getAll();
         assertEquals(6, hikerAccounts.size());
     }
 
     @Test
     void getHikerAccountsByLastNameSuccess() {
-        List<HikerAccount> hikerAccounts = dao.getHikerAccountsByLastName("c");
+        List<HikerAccount> hikerAccounts = genericDao.getByPropertyLike("lastName","c");
         assertEquals(3, hikerAccounts.size());
     }
 
     @Test
     void getByIdSuccess() {
-        HikerAccount retrievedHikerAccount = dao.getById(1);
+        HikerAccount retrievedHikerAccount = (HikerAccount) genericDao.getById(1);
         assertNotNull(retrievedHikerAccount);
         assertEquals("Joe", retrievedHikerAccount.getFirstName());
     }
@@ -52,10 +50,10 @@ class HikerAccountDaoTest {
     @Test
     void updateSuccess() {
         String newLastName = "Coyne";
-        HikerAccount hikerToUpdate = dao.getById(1);
+        HikerAccount hikerToUpdate = (HikerAccount) genericDao.getById(1);
         hikerToUpdate.setLastName(newLastName);
-        dao.saveOrUpdate(hikerToUpdate);
-        HikerAccount retrievedHiker = dao.getById(1);
+        genericDao.saveOrUpdate(hikerToUpdate);
+        HikerAccount retrievedHiker = (HikerAccount) genericDao.getById(1);
         assertEquals(hikerToUpdate, retrievedHiker);
     }
 
@@ -65,10 +63,10 @@ class HikerAccountDaoTest {
     @Test
     void insertSuccess() {
 
-        HikerAccount newHiker = new HikerAccount("Fred", "Flintstone", "Madison", "WI","emailaddress1@hotmail.com",2);
-        int id = dao.insert(newHiker);
+        HikerAccount newHiker = new HikerAccount("Fred", "Flintstone", "Madison", "WI","emailaddress7@hotmail.com",7);
+        int id = genericDao.insert(newHiker);
         assertNotEquals(0, id);
-        HikerAccount insertedHikerAccount = dao.getById(id);
+        HikerAccount insertedHikerAccount = (HikerAccount) genericDao.getById(id);
         assertNotNull(insertedHikerAccount);
         assertEquals("Fred", insertedHikerAccount.getFirstName());
     }
@@ -81,14 +79,14 @@ class HikerAccountDaoTest {
 
         String hikingTrailName = "Trail2";
         HikerAccount newHiker = new HikerAccount("Barney", "Rubble", "Madison", "WI","emailaddress2@hotmail.com",2);
-        HikingTrails hikingTrail = new HikingTrails(hikingTrailName, newHiker);
+        HikingTrail hikingTrail = new HikingTrail(hikingTrailName, newHiker);
 
         newHiker.addHikingTrail(hikingTrail);
 
-        int id = dao.insert(newHiker);
+        int id = genericDao.insert(newHiker);
 
         assertNotEquals(0, id);
-        HikerAccount insertedHiker = dao.getById(id);
+        HikerAccount insertedHiker = genericDao.getById(id);
         assertNotNull(insertedHiker);
         assertEquals("Fred", insertedHiker.getFirstName());
         assertEquals(1, insertedHiker.getHikingTrails().size());*/

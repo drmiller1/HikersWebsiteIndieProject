@@ -1,4 +1,4 @@
-<Context docBase="authDemo" path="/authDemo" reloadable="true">
+<Context docBase="hikerWebsite" path="/hikerWebsite" reloadable="true">
     <Realm className="org.apache.catalina.realm.JDBCRealm"
            driverName="com.mysql.jdbc.Driver"
            connectionURL="jdbc:mysql://localhost:3306/sample?user=tomcat&amp;password=WalterPayton#34"

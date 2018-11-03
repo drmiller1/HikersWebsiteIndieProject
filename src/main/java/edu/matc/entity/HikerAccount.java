@@ -3,8 +3,6 @@ package edu.matc.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
-import java.time.LocalDate;
-import java.time.Period;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
@@ -57,7 +55,7 @@ public class HikerAccount {
     private int id;
 
     @OneToMany(mappedBy = "hikerAccount", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    private Set<HikingTrails> hikingTrails = new HashSet<>();
+    private Set<HikingTrail> hikingTrails = new HashSet<>();
 
     /**
      * Instantiates a new Hiker Account.
@@ -198,7 +196,7 @@ public class HikerAccount {
      *
      * @return the hiking trails
      */
-    public Set<HikingTrails> getHikingTrails() {
+    public Set<HikingTrail> getHikingTrails() {
         return hikingTrails;
     }
 
@@ -207,7 +205,7 @@ public class HikerAccount {
      *
      * @param hikingTrails the hiking trails
      */
-    public void setHikingTrails(Set<HikingTrails> hikingTrails) {
+    public void setHikingTrails(Set<HikingTrail> hikingTrails) {
         this.hikingTrails = hikingTrails;
     }
 
@@ -216,7 +214,7 @@ public class HikerAccount {
      *
      * @param hikingTrail the hiking trail
      */
-    public void addHikingTrail(HikingTrails hikingTrail) {
+    public void addHikingTrail(HikingTrail hikingTrail) {
         hikingTrails.add(hikingTrail);
         hikingTrail.setHikerAccount(this);
     }
@@ -226,7 +224,7 @@ public class HikerAccount {
      *
      * @param hikingTrail the hiking trail
      */
-    public void removeHikingTrail(HikingTrails hikingTrail) {
+    public void removeHikingTrail(HikingTrail hikingTrail) {
         hikingTrails.remove(hikingTrail);
         hikingTrail.setHikerAccount(null);
     }

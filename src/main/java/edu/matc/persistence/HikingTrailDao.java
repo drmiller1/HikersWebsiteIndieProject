@@ -1,6 +1,6 @@
 package edu.matc.persistence;
 
-import edu.matc.entity.HikingTrails;
+import edu.matc.entity.HikingTrail;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
@@ -13,66 +13,66 @@ import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Root;
 import java.util.List;
 
-public class HikingTrailsDao {
+public class HikingTrailDao {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
     private SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
 
-    public List<HikingTrails> getAllHikingTrails() {
+    public List<HikingTrail> getAllHikingTrails() {
 
         Session session = sessionFactory.openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<HikingTrails> query = builder.createQuery(HikingTrails.class);
-        Root<HikingTrails> root = query.from(HikingTrails.class);
-        List<HikingTrails> HikingTrails = session.createQuery(query).getResultList();
+        CriteriaQuery<HikingTrail> query = builder.createQuery(HikingTrail.class);
+        Root<HikingTrail> root = query.from(HikingTrail.class);
+        List<HikingTrail> HikingTrails = session.createQuery(query).getResultList();
         session.close();
         return(HikingTrails);
     }
 
-    public List<HikingTrails> getHikingTrailsByTrailHeadName(String trailHeadName) {
+    public List<HikingTrail> getHikingTrailsByTrailHeadName(String trailHeadName) {
 
         logger.debug("Searching for {}" + trailHeadName);
 
         Session session = sessionFactory.openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<HikingTrails> query = builder.createQuery(HikingTrails.class);
-        Root<HikingTrails> root = query.from(HikingTrails.class);
+        CriteriaQuery<HikingTrail> query = builder.createQuery(HikingTrail.class);
+        Root<HikingTrail> root = query.from(HikingTrail.class);
         Expression<String> propertyPath = root.get("trailHeadName");
         query.where(builder.like(propertyPath, "%" + trailHeadName + "%"));
-        List<HikingTrails> HikingTrails = session.createQuery(query).getResultList();
+        List<HikingTrail> HikingTrails = session.createQuery(query).getResultList();
         session.close();
         return(HikingTrails);
     }
 
     /**
-     * Gets a HikingTrails by id
-     * @return a HikingTrails
+     * Gets a HikingTrail by id
+     * @return a HikingTrail
      */
 
-    public HikingTrails getById(int id) {
+    public HikingTrail getById(int id) {
 
         Session session = sessionFactory.openSession();
-        HikingTrails HikingTrails = session.get(HikingTrails.class, id);
+        HikingTrail HikingTrails = session.get(HikingTrail.class, id);
         session.close();
         return HikingTrails;
     }
 
 
     /**
-     * update HikingTrails
-     * @param HikingTrails  HikingTrails to be inserted or updated
+     * update HikingTrail
+     * @param HikingTrails  HikingTrail to be inserted or updated
      */
-    public void saveOrUpdate(HikingTrails HikingTrails) {
+    public void saveOrUpdate(HikingTrail HikingTrails) {
         Session session = sessionFactory.openSession();
         session.saveOrUpdate(HikingTrails);
         session.close();
     }
 
     /**
-     * update HikingTrails
-     * @param HikingTrails  HikingTrails to be inserted or updated
+     * update HikingTrail
+     * @param HikingTrails  HikingTrail to be inserted or updated
      */
-    public int insert(HikingTrails HikingTrails) {
+    public int insert(HikingTrail HikingTrails) {
         int id = 0;
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
@@ -83,10 +83,10 @@ public class HikingTrailsDao {
     }
 
     /**
-     * Delete a HikingTrails
-     * @param HikingTrails HikingTrails to be deleted
+     * Delete a HikingTrail
+     * @param HikingTrails HikingTrail to be deleted
      */
-    public void delete(HikingTrails HikingTrails) {
+    public void delete(HikingTrail HikingTrails) {
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
         session.delete(HikingTrails);
@@ -95,61 +95,61 @@ public class HikingTrailsDao {
     }
 
 
-    /** Return a list of all HikingTrails
+    /** Return a list of all HikingTrail
      *
-     * @return All HikingTrails
+     * @return All HikingTrail
      */
-    public List<HikingTrails> getAll() {
+    public List<HikingTrail> getAll() {
 
         Session session = sessionFactory.openSession();
 
         CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<HikingTrails> query = builder.createQuery( HikingTrails.class );
-        Root<HikingTrails> root = query.from( HikingTrails.class );
-        List<HikingTrails> HikingTrails = session.createQuery( query ).getResultList();
+        CriteriaQuery<HikingTrail> query = builder.createQuery( HikingTrail.class );
+        Root<HikingTrail> root = query.from( HikingTrail.class );
+        List<HikingTrail> HikingTrails = session.createQuery( query ).getResultList();
 
-        logger.debug("The list of HikingTrails " + HikingTrails);
+        logger.debug("The list of HikingTrail " + HikingTrails);
         session.close();
 
         return HikingTrails;
     }
 
     /**
-     * Get HikingTrails by property (exact match)
+     * Get HikingTrail by property (exact match)
      * sample usage: getByPropertyEqual("lastname", "Curry")
      */
-    public List<HikingTrails> getByPropertyEqual(String propertyName, String value) {
+    public List<HikingTrail> getByPropertyEqual(String propertyName, String value) {
         Session session = sessionFactory.openSession();
 
-        logger.debug("Searching for HikingTrails with " + propertyName + " = " + value);
+        logger.debug("Searching for HikingTrail with " + propertyName + " = " + value);
 
         CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<HikingTrails> query = builder.createQuery( HikingTrails.class );
-        Root<HikingTrails> root = query.from( HikingTrails.class );
+        CriteriaQuery<HikingTrail> query = builder.createQuery( HikingTrail.class );
+        Root<HikingTrail> root = query.from( HikingTrail.class );
         query.select(root).where(builder.equal(root.get(propertyName), value));
-        List<HikingTrails> HikingTrails = session.createQuery( query ).getResultList();
+        List<HikingTrail> HikingTrails = session.createQuery( query ).getResultList();
 
         session.close();
         return HikingTrails;
     }
 
     /**
-     * Get HikingTrails by property (like)
+     * Get HikingTrail by property (like)
      * sample usage: getByPropertyLike("lastname", "C")
      */
-    public List<HikingTrails> getByPropertyLike(String propertyName, String value) {
+    public List<HikingTrail> getByPropertyLike(String propertyName, String value) {
         Session session = sessionFactory.openSession();
 
-        logger.debug("Searching for HikingTrails with {} = {}",  propertyName, value);
+        logger.debug("Searching for HikingTrail with {} = {}",  propertyName, value);
 
         CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<HikingTrails> query = builder.createQuery( HikingTrails.class );
-        Root<HikingTrails> root = query.from( HikingTrails.class );
+        CriteriaQuery<HikingTrail> query = builder.createQuery( HikingTrail.class );
+        Root<HikingTrail> root = query.from( HikingTrail.class );
         Expression<String> propertyPath = root.get(propertyName);
 
         query.where(builder.like(propertyPath, "%" + value + "%"));
 
-        List<HikingTrails> HikingTrails = session.createQuery( query ).getResultList();
+        List<HikingTrail> HikingTrails = session.createQuery( query ).getResultList();
         session.close();
         return HikingTrails;
     }

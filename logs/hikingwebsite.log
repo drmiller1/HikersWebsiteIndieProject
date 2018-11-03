@@ -1,1 +1,22 @@
-[ERROR] 2018-10-19 10:06:17.777 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-10-31 20:25:03.833 [main] HikerAccountDao - Searching for {}c
+[DEBUG] 2018-10-31 20:25:04.259 [main] HikingTrailDao - Searching for HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-10-31 20:25:04.337 [main] HikingTrailDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-10-31 20:30:37.910 [main] HikerAccountDao - Searching for {}c
+[DEBUG] 2018-10-31 20:30:38.471 [main] HikingTrailDao - Searching for HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-10-31 20:30:38.539 [main] HikingTrailDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-10-31 20:42:27.877 [main] HikerAccountDao - Searching for {}c
+[DEBUG] 2018-10-31 20:42:28.292 [main] HikingTrailDao - Searching for HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-10-31 20:42:28.311 [main] HikingTrailDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-10-31 20:49:33.793 [main] HikerAccountDao - Searching for {}c
+[DEBUG] 2018-10-31 20:49:34.335 [main] HikingTrailDao - Searching for HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-10-31 20:49:34.382 [main] HikingTrailDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-10-31 20:55:47.678 [main] HikerAccountDao - Searching for {}c
+[DEBUG] 2018-10-31 20:55:48.210 [main] HikingTrailDao - Searching for HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-10-31 20:55:48.291 [main] HikingTrailDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-10-31 20:56:59.092 [main] HikerAccountDao - Searching for {}c
+[DEBUG] 2018-10-31 20:56:59.658 [main] HikingTrailDao - Searching for HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-10-31 20:56:59.710 [main] HikingTrailDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-10-31 21:09:04.253 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-10-31 21:09:20.894 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-10-31 21:17:59.323 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-10-31 21:18:17.449 [main] GenericDao - Searching for HikingTrail with lastName = c

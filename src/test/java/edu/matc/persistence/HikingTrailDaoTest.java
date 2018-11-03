@@ -1,6 +1,6 @@
 package edu.matc.persistence;
 
-import edu.matc.entity.HikingTrails;
+import edu.matc.entity.HikingTrail;
 import edu.matc.entity.HikerAccount;
 import edu.matc.test.util.Database;
 import org.junit.jupiter.api.BeforeEach;
@@ -10,9 +10,8 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class HikingTrailsDaoTest {
+class HikingTrailDaoTest {
 
-    HikingTrailsDao dao;
     GenericDao genericDao;
 
     /**
@@ -20,8 +19,8 @@ class HikingTrailsDaoTest {
      */
     @BeforeEach
     void setUp() {
-        dao = new HikingTrailsDao();
-        genericDao = new GenericDao(HikingTrails.class);
+
+        genericDao = new GenericDao(HikingTrail.class);
 
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
@@ -30,25 +29,25 @@ class HikingTrailsDaoTest {
 
     @Test
     void getAllHikingTrailsSuccess() {
-        List<HikingTrails> HikingTrails = dao.getAllHikingTrails();
-        assertEquals(1, HikingTrails.size());
+        List<HikingTrail> HikingTrails = (List<HikingTrail>) genericDao.getAll();
+        assertEquals(3, HikingTrails.size());
     }
 
     @Test
     void getByIdSuccess() {
-        HikingTrails retrievedHikingTrails = (HikingTrails)genericDao.getById(2);
+        HikingTrail retrievedHikingTrails = (HikingTrail)genericDao.getById(1);
         assertNotNull(retrievedHikingTrails);
-        assertEquals("TrailHead1", retrievedHikingTrails.getTrailHeadName());
+        assertEquals("Trailhead1", retrievedHikingTrails.getTrailHeadName());
     }
 
     /**
-     * Verifies a HikingTrails is returned correctly based on id search
+     * Verifies a HikingTrail is returned correctly based on id search
      */
     @Test
     void getByIdVerifyHikerAccountSuccess() {
-        HikingTrails retrievedHikingTrails = dao.getById(2);
+        HikingTrail retrievedHikingTrails = (HikingTrail) genericDao.getById(2);
         assertNotNull(retrievedHikingTrails);
-        assertEquals("TrailHead1", retrievedHikingTrails.getTrailHeadName());
+        assertEquals("Trailhead2", retrievedHikingTrails.getTrailHeadName());
     }
 
     /**
@@ -59,13 +58,13 @@ class HikingTrailsDaoTest {
 
         HikerAccountDao HikerAccountDao = new HikerAccountDao();
         HikerAccount HikerAccount = HikerAccountDao.getById(1);
-        HikingTrails newHikingTrail = new HikingTrails( "Trailhead1", "long trail", 1, 5, 4, "Trees", "Greate for kids", HikerAccount);
+        HikingTrail newHikingTrail = new HikingTrail( "Trailhead1", "long trail", 1, 5, 4, "Trees", "Greate for kids", HikerAccount);
         HikerAccount.addHikingTrail(newHikingTrail);
 
-        int id = dao.insert(newHikingTrail);
+        int id = genericDao.insert(newHikingTrail);
 
         assertNotEquals(0, id);
-        HikingTrails insertedHikingTrails = dao.getById(id);
+        HikingTrail insertedHikingTrails = (HikingTrail) genericDao.getById(id);
         assertNotNull(insertedHikingTrails);
         assertEquals("Trailhead1", insertedHikingTrails.getTrailHeadName());
         assertNotNull(insertedHikingTrails.getHikerAccount());
@@ -73,24 +72,24 @@ class HikingTrailsDaoTest {
     }
 
     /**
-     * Verify successful delete of HikingTrails
+     * Verify successful delete of HikingTrail
      */
     @Test
     void deleteSuccess() {
-        dao.delete(dao.getById(2));
-        assertNull(dao.getById(2));
+        genericDao.delete(genericDao.getById(3));
+        assertNull(genericDao.getById(3));
     }
 
     /**
-     * Verify successful update of HikingTrails
+     * Verify successful update of HikingTrail
      */
     @Test
     void updateSuccess() {
-        String newTrailHeadName = "TrailHead3";
-        HikingTrails HikingTrailsToUpdate = dao.getById(3);
-        HikingTrailsToUpdate.setTrailHeadName(newTrailHeadName);
-        dao.saveOrUpdate(HikingTrailsToUpdate);
-        HikingTrails retrievedHikingTrails = dao.getById(3);
+        String newTrailHeadName = "Trailhead2";
+        HikingTrail hikingTrailsToUpdate = (HikingTrail) genericDao.getById(2);
+        hikingTrailsToUpdate.setTrailHeadName(newTrailHeadName);
+        genericDao.saveOrUpdate(hikingTrailsToUpdate);
+        HikingTrail retrievedHikingTrails = (HikingTrail) genericDao.getById(2);
         assertEquals(newTrailHeadName, retrievedHikingTrails.getTrailHeadName());
     }
 
@@ -99,7 +98,7 @@ class HikingTrailsDaoTest {
      */
     @Test
     void getByPropertyEqualSuccess() {
-        List<HikingTrails> HikingTrails = dao.getByPropertyEqual("trailHeadName", "TrailHead1");
+        List<HikingTrail> HikingTrails = genericDao.getByPropertyEqual("trailHeadName", "TrailHead2");
         assertEquals(1, HikingTrails.size());
         assertEquals(2, HikingTrails.get(0).getId());
     }
@@ -109,7 +108,7 @@ class HikingTrailsDaoTest {
      */
     @Test
     void getByPropertyLikeSuccess() {
-        List<HikingTrails> HikingTrails = dao.getByPropertyLike("description", "t");
+        List<HikingTrail> HikingTrails = genericDao.getByPropertyLike("trailDescription", "t");
         assertEquals(3, HikingTrails.size());
     }
 }

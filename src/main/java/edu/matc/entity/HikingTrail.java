@@ -8,9 +8,9 @@ import javax.persistence.*;
 /**
  * The type Hiking trails.
  */
-@Entity(name = "HikingTrails")
-@Table(name = "Hiking_Trails")
-public class HikingTrails {
+@Entity(name = "HikingTrail")
+@Table(name = "Hiking_Trail")
+public class HikingTrail {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
@@ -44,9 +44,9 @@ public class HikingTrails {
 
 
     /**
-     * Instantiates a new Hiking trails.
+     * Instantiates a new Hiking trail.
      */
-    public HikingTrails() {
+    public HikingTrail() {
     }
 
     /**
@@ -61,9 +61,9 @@ public class HikingTrails {
      * @param trailDetails     the trail details
      * @param hikerAccount     the hiker account
      */
-    public HikingTrails(String trailHeadName, String trailDescription, int trailLength,
-                        int trailDifficulty, int trailRating, String trailFeatures,
-                        String trailDetails, HikerAccount hikerAccount) {
+    public HikingTrail(String trailHeadName, String trailDescription, int trailLength,
+                       int trailDifficulty, int trailRating, String trailFeatures,
+                       String trailDetails, HikerAccount hikerAccount) {
         this.trailHeadName = trailHeadName;
         this.trailDescription = trailDescription;
         this.trailLength = trailLength;
@@ -238,7 +238,7 @@ public class HikingTrails {
 
     @Override
     public String toString() {
-        return "HikingTrails{" +
+        return "HikingTrail{" +
                 "id=" + id +
                 ", trailHeadName='" + trailHeadName + '\'' +
                 ", trailDescription='" + trailDescription + '\'' +

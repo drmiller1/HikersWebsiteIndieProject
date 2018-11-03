@@ -1,6 +1,5 @@
 package edu.matc.persistence;
 
-import edu.matc.entity.HikingTrails;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
@@ -84,7 +83,7 @@ public class GenericDao<T> {
     public List<T> getByPropertyLike(String propertyName, String value) {
         Session session = getSession();
 
-        logger.debug("Searching for HikingTrails with {} = {}",  propertyName, value);
+        logger.debug("Searching for HikingTrail with {} = {}",  propertyName, value);
 
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<T> query = builder.createQuery( type );

@@ -18,6 +18,16 @@
 
 <body>
 
+<FORM ACTION="j_security_check" METHOD="POST">
+    <TABLE>
+        <TR><TD>Email Address: <INPUT TYPE="TEXT" NAME="j_username">
+        <TR><TD>Password: <INPUT TYPE="PASSWORD" NAME="j_password">
+        <TR><TH><INPUT TYPE="SUBMIT" VALUE="Log In">
+    </TABLE>
+</FORM>
+
+
+<!--
 <div class="container">
     <h2>Hiker Login</h2>
     <form>
@@ -37,5 +47,6 @@
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
+-->
 
 </body>

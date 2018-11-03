@@ -18,7 +18,7 @@
 
         <style>
             body {
-                background-image: url("/images/Helena_Hike.jpg");
+                background-image: url("images/Helena_Hike.jpg");
                 background-repeat: no-repeat;
                 background-position:center;
             }
