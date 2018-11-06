@@ -9,7 +9,7 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class HikerAccountgenericDaoTest {
+class HikerAccountGenericDaoTest {
 
     GenericDao genericDao;
 
@@ -63,7 +63,7 @@ class HikerAccountgenericDaoTest {
     @Test
     void insertSuccess() {
 
-        HikerAccount newHiker = new HikerAccount("Fred", "Flintstone", "Madison", "WI","emailaddress7@hotmail.com",7);
+        HikerAccount newHiker = new HikerAccount("Fred", "Flintstone", "Madison", "WI","emailaddress7@hotmail.com","student");
         int id = genericDao.insert(newHiker);
         assertNotEquals(0, id);
         HikerAccount insertedHikerAccount = (HikerAccount) genericDao.getById(id);
@@ -77,17 +77,17 @@ class HikerAccountgenericDaoTest {
     /**@Test
     void insertWithOrderSuccess() {
 
-        String hikingTrailName = "Trail2";
-        HikerAccount newHiker = new HikerAccount("Barney", "Rubble", "Madison", "WI","emailaddress2@hotmail.com",2);
-        HikingTrail hikingTrail = new HikingTrail(hikingTrailName, newHiker);
+    String hikingTrailName = "Trail2";
+    HikerAccount newHiker = new HikerAccount("Barney", "Rubble", "Madison", "WI","emailaddress2@hotmail.com",2);
+    HikingTrail hikingTrail = new HikingTrail(hikingTrailName, newHiker);
 
-        newHiker.addHikingTrail(hikingTrail);
+    newHiker.addHikingTrail(hikingTrail);
 
-        int id = genericDao.insert(newHiker);
+    int id = genericDao.insert(newHiker);
 
-        assertNotEquals(0, id);
-        HikerAccount insertedHiker = genericDao.getById(id);
-        assertNotNull(insertedHiker);
-        assertEquals("Fred", insertedHiker.getFirstName());
-        assertEquals(1, insertedHiker.getHikingTrails().size());*/
+    assertNotEquals(0, id);
+    HikerAccount insertedHiker = genericDao.getById(id);
+    assertNotNull(insertedHiker);
+    assertEquals("Fred", insertedHiker.getFirstName());
+    assertEquals(1, insertedHiker.getHikingTrails().size());*/
 }

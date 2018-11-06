@@ -28,6 +28,12 @@ public class HikerAccount {
     @Column(name = "state")
     private String state;
 
+    @Column(name = "email_address")
+    private String emailAddress;
+
+    @Column(name = "password")
+    private String password;
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -38,16 +44,14 @@ public class HikerAccount {
                 Objects.equals(lastName, hikerAccount.lastName) &&
                 Objects.equals(city, hikerAccount.city) &&
                 Objects.equals(state, hikerAccount.state) &&
-                Objects.equals(emailAddress, hikerAccount.emailAddress);
+                Objects.equals(emailAddress, hikerAccount.emailAddress) &&
+                Objects.equals(password, hikerAccount.password);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(firstName, lastName, city, state, emailAddress, id);
+        return Objects.hash(firstName, lastName, city, state, emailAddress, password, id);
     }
-
-    @Column(name = "email_address")
-    private String emailAddress;
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
@@ -71,15 +75,15 @@ public class HikerAccount {
      * @param city         the city
      * @param state        the state
      * @param emailAddress the email address
-     * @param id           the id
+     * @param password     the hiker password
      */
-    public HikerAccount(String firstName, String lastName, String city, String state, String emailAddress, int id) {
+    public HikerAccount(String firstName, String lastName, String city, String state, String emailAddress, String password) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.city = city;
         this.state = state;
         this.emailAddress = emailAddress;
-        this.id = id;
+        this.password = password;
     }
 
 
@@ -174,6 +178,24 @@ public class HikerAccount {
     }
 
     /**
+     * Gets password.
+     *
+     * @return the password
+     */
+    public String getPassword() {
+        return password;
+    }
+
+    /**
+     * Sets password.
+     *
+     * @param password the password
+     */
+    public void setpassword(String password) {
+        this.password = password;
+    }
+
+    /**
      * Gets id.
      *
      * @return the id
@@ -238,6 +260,7 @@ public class HikerAccount {
                 ", city='" + city + '\'' +
                 ", state ='" + state + '\'' +
                 ", emailAddress = '" + emailAddress + '\'' +
+                ", password = '" + password + '\'' +
                 ", id=" + id + '\'' +
                 '}';
     }
