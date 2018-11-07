@@ -1,0 +1,8 @@
+[DEBUG] 2018-11-06 22:42:49.745 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[DEBUG] 2018-11-06 22:42:50.342 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[DEBUG] 2018-11-06 22:42:51.433 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[INFO ] 2018-11-06 22:42:57.122 [main] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-11-06 22:42:57.283 [main] Environment - HHH000206: hibernate.properties not found
+[DEBUG] 2018-11-06 22:43:19.406 [main] LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[DEBUG] 2018-11-06 22:43:19.456 [main] LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2018-11-06 22:43:19.999 [main] JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information

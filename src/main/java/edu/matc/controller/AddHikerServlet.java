@@ -87,6 +87,13 @@ public class AddHikerServlet extends HttpServlet {
             session.setAttribute("emptyEmailAddress", null);
         }
 
+        passwordValid = validateFormField(password);
+        if (!passwordValid) {
+            session.setAttribute("emptyPassword", "Please enter a valid password.");
+        } else {
+            session.setAttribute("emptyPassword", null);
+        }
+
         if (firstNameValid && lastNameValid && cityValid && stateValid && emailAddressValid && passwordValid) {
 
             HikerAccount hiker = new HikerAccount(firstName, lastName, city, state, emailAddress, password);
@@ -112,7 +119,7 @@ public class AddHikerServlet extends HttpServlet {
             session.setAttribute("password", password);
         }
 
-        String url = "addHiker-servlet";
+        String url = "/addHikerDisplay-servlet";
         response.sendRedirect(url);
         return;
     }

@@ -30,40 +30,40 @@
             <h3 style="color: red;">${queryResultMessage}</h3>
             <c:remove var="queryResultMessage" scope="session" />
 
-            <form method="POST" action="HikersWebsiteIndieProject/addHiker-servlet" align="right">
+            <form method="POST" action="/addHiker-servlet" align="right">
 
                 <label for="first_name">First Name: </label>
                 <strong style="color: red;">${emptyFirstName}</strong>
                 <c:remove var="emptyFirstName" scope="session" />
                 <br />
-                <input type="text" name="firstName" value = ${firstName} >
+                <input type="text" name="firstName" id="first_name" value = ${firstName} >
                 <br /><br />
 
                 <label for="last_name">Last Name: </label>
                 <strong style="color: red;">${emptyLastName}</strong>
                 <c:remove var="emptyLastName" scope="session" />
                 <br />
-                <input type="text" name="lastName" value = ${lastName}>
+                <input type="text" name="lastName" id="last_name"value = ${lastName}>
                 <br /> <br />
 
                 <label for="city">City: </label>
                 <br />
-                <input type="text" name="city" value = ${city}>
+                <input type="text" name="city" id="city" value = ${city}>
                 <br /><br />
 
                 <label for="state">State: </label>
                 <br />
-                <input type="text" name="state" value = ${state}>
+                <input type="text" name="state" id="state" value = ${state}>
                 <br /><br />
 
                 <label for="email_address">Email Address: </label>
                 <br />
-                <input type="text" name="emailAddress" value = ${emailAddress}>
+                <input type="text" name="emailAddress" id="email_address" value = ${emailAddress}>
                 <br /><br />
 
                 <label for="password">Password: </label>
                 <br />
-                <input type="text" name="password" value = ${password}>
+                <input type="text" name="password" id="password" value = ${password}>
                 <br /><br />
 
                 <br />
