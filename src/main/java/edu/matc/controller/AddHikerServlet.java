@@ -119,7 +119,7 @@ public class AddHikerServlet extends HttpServlet {
             session.setAttribute("password", password);
         }
 
-        String url = "/addHikerDisplay-servlet";
+        String url = "addHikerDisplay-servlet";
         response.sendRedirect(url);
         return;
     }

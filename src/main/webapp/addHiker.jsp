@@ -30,7 +30,7 @@
             <h3 style="color: red;">${queryResultMessage}</h3>
             <c:remove var="queryResultMessage" scope="session" />
 
-            <form method="POST" action="/addHiker-servlet" align="right">
+            <form method="POST" action="addHiker-servlet" align="right">
 
                 <label for="first_name">First Name: </label>
                 <strong style="color: red;">${emptyFirstName}</strong>
