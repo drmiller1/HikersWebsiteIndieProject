@@ -20,8 +20,8 @@ public class HikingTrail {
     @Column(name = "trail_head_name")
     private String trailHeadName;
 
-    @Column(name = "trail_description")
-    private String trailDescription;
+    @Column(name = "trail_head_location")
+    private String trailHeadLocation;
 
     @Column(name = "trail_length")
     private int trailLength;
@@ -38,6 +38,9 @@ public class HikingTrail {
     @Column(name = "trail_details")
     private String trailDetails;
 
+    @Column(name = "trail_description")
+    private String trailDescription;
+
     @ManyToOne
     @JoinColumn(name = "hiker_account_id")
     private HikerAccount hikerAccount;
@@ -53,24 +56,27 @@ public class HikingTrail {
      * Instantiates a new Hiking trails.
      *
      * @param trailHeadName    the trail head name
-     * @param trailDescription the trail description
+     * @param trailHeadLocation  the trail head location
      * @param trailLength      the trail length
      * @param trailDifficulty  the trail difficulty
      * @param trailRating      the trail rating
      * @param trailFeatures    the trail features
      * @param trailDetails     the trail details
+     * @param trailDescription the trail description
      * @param hikerAccount     the hiker account
      */
-    public HikingTrail(String trailHeadName, String trailDescription, int trailLength,
-                       int trailDifficulty, int trailRating, String trailFeatures,
-                       String trailDetails, HikerAccount hikerAccount) {
+    public HikingTrail(String trailHeadName, String trailHeadLocation,
+                       int trailLength, int trailDifficulty, int trailRating,
+                       String trailFeatures, String trailDetails,
+                       String trailDescription, HikerAccount hikerAccount) {
         this.trailHeadName = trailHeadName;
-        this.trailDescription = trailDescription;
+        this.trailHeadLocation = trailHeadLocation;
         this.trailLength = trailLength;
         this.trailDifficulty = trailDifficulty;
         this.trailRating = trailRating;
         this.trailFreatures = trailFeatures;
         this.trailDetails = trailDetails;
+        this.trailDescription = trailDescription;
         this.hikerAccount = hikerAccount;
     }
 
@@ -110,22 +116,23 @@ public class HikingTrail {
         this.trailHeadName = trailHeadName;
     }
 
+
     /**
-     * Gets trail description.
+     * Gets trail head location.
      *
-     * @return the trail description
+     * @return the trail head location
      */
-    public String getTrailDescription() {
-        return trailDescription;
+    public String getTrailHeadLocation() {
+        return trailHeadLocation;
     }
 
     /**
-     * Sets trail description.
+     * Sets trail head location.
      *
-     * @param trailDescription the trail description
+     * @param trailHeadLocation the trail head location
      */
-    public void setTrailDescription(String trailDescription) {
-        this.trailDescription = trailDescription;
+    public void setTrailHeadLocation(String trailHeadLocation) {
+        this.trailHeadLocation = trailHeadLocation;
     }
 
     /**
@@ -216,6 +223,24 @@ public class HikingTrail {
      */
     public void setTrailDetails(String trailDetails) {
         this.trailDetails = trailDetails;
+    }
+
+    /**
+     * Gets trail description.
+     *
+     * @return the trail description
+     */
+    public String getTrailDescription() {
+        return trailDescription;
+    }
+
+    /**
+     * Sets trail description.
+     *
+     * @param trailDescription the trail description
+     */
+    public void setTrailDescription(String trailDescription) {
+        this.trailDescription = trailDescription;
     }
 
     /**
