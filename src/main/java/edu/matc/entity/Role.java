@@ -8,8 +8,8 @@ import javax.persistence.*;
 /**
  * The type Role.
  */
-@Entity(name = "Role")
-@Table(name = "Role")
+@Entity(name = "role")
+@Table(name = "role")
 public class Role {
 
     @Id
@@ -20,8 +20,8 @@ public class Role {
     @Column(name = "role_name")
     private String roleName;
 
-    @Column(name = "user_name")
-    private String userName;
+    @Column(name = "email_address")
+    private String emailAddress;
 
     @ManyToOne
     @JoinColumn(name = "hiker_account_id")
@@ -38,12 +38,12 @@ public class Role {
      * Instantiates a new User Role.
      *
      * @param roleName      the role name
-     * @param userName      the user name
+     * @param emailAddress      the email address
      * @param hikerAccount     the hiker account
      */
-    public Role(String roleName, String userName, HikerAccount hikerAccount) {
+    public Role(String roleName, String emailAddress, HikerAccount hikerAccount) {
         this.roleName = roleName;
-        this.userName = userName;
+        this.emailAddress = emailAddress;
         this.hikerAccount = hikerAccount;
     }
 
@@ -79,26 +79,26 @@ public class Role {
      *
      * @param roleName the hiker role name
      */
-    public void setroleName(String roleName) {
+    public void setRoleName(String roleName) {
         this.roleName = roleName;
     }
 
     /**
-     * Gets hiker user name.
+     * Gets hiker email address.
      *
-     * @return the hiker user name
+     * @return the hiker email address
      */
-    public String getUserName() {
-        return userName;
+    public String getEmailAddress() {
+        return emailAddress;
     }
 
     /**
-     * Sets hiker user name.
+     * Sets hiker email address.
      *
-     * @param userName the hiker user name
+     * @param emailAddress the hiker email address
      */
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
     }
 
     /**
@@ -124,7 +124,7 @@ public class Role {
         return "Role{" +
                 "id=" + id +
                 ", roleName='" + roleName + '\'' +
-                ", userName='" + userName + '\'' +
+                ", emailAddress='" + emailAddress + '\'' +
                 ", hikerAccount=" + hikerAccount +
                 '}';
     }

@@ -88,18 +88,22 @@ public class AddHikingTrailServlet extends HttpServlet {
             hikerAccountList.get(0).addHikingTrail(hikingTrail);
             int id = genericDAO.insert(hikingTrail);
 
-            HikerAccount insertedHikerAccount = (HikerAccount) genericDAO.getById(id);
+            HikingTrail insertedHikingTrail = (HikingTrail) genericDAO.getById(id);
 
-            session.setAttribute("queryResultMessage", insertedHikerAccount);
+            session.setAttribute("queryResultMessage", insertedHikingTrail);
 
-            session.setAttribute("firstName", null);
-            session.setAttribute("lastName", null);
-            session.setAttribute("city", null);
-            session.setAttribute("state", null);
-            session.setAttribute("emailAddress", null);
-            session.setAttribute("password", null);
+            session.setAttribute("trailHeadName", null);
+            session.setAttribute("trailHeadLocation", null);
+            session.setAttribute("trailLength", null);
+            session.setAttribute("trailDifficulty", null);
+            session.setAttribute("trailRating", null);
+            session.setAttribute("trailFeatures", null);
+            session.setAttribute("trailDetails", null);
+            session.setAttribute("trailDescription", null);
 
         } else {
+            session.setAttribute("trailHeadName", trailHeadName);
+            session.setAttribute("trailHeadLocation", trailHeadLocation);
             session.setAttribute("trailLength", trailLength);
             session.setAttribute("trailDifficulty", trailDifficulty);
             session.setAttribute("trailRating", trailRating);
@@ -108,7 +112,7 @@ public class AddHikingTrailServlet extends HttpServlet {
             session.setAttribute("trailDesctiption", trailDescription);
         }
 
-        String url = "addHikerDisplay-servlet";
+        String url = "addHikingTrail-servlet";
         response.sendRedirect(url);
         return;
     }

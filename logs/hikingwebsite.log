@@ -58,3 +58,111 @@
 [DEBUG] 2018-11-07 21:04:13.119 [main] GenericDao - Searching for HikingTrail with lastName = c
 [DEBUG] 2018-11-07 21:04:13.971 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
 [DEBUG] 2018-11-07 21:04:14.008 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[ERROR] 2018-11-28 18:41:55.072 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-11-28 18:41:57.279 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-11-28 18:41:57.281 [main] GenericDao - Searching for HikingTrail with lastName = c
+[ERROR] 2018-11-28 18:41:57.542 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-11-28 18:41:57.594 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-11-28 18:41:57.622 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-11-28 18:41:57.677 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-11-28 18:41:57.701 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-11-28 18:41:57.702 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[ERROR] 2018-11-28 18:41:57.740 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-11-28 18:41:57.740 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[ERROR] 2018-11-28 18:41:57.764 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-11-28 18:41:57.787 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-11-28 18:41:57.803 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-11-28 18:41:57.813 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-11-28 18:41:57.822 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-11-28 18:42:41.264 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-11-28 18:46:36.791 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'PRIMARY'
+[ERROR] 2018-11-28 18:46:38.304 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'PRIMARY'
+[DEBUG] 2018-11-28 18:46:38.305 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[ERROR] 2018-11-28 18:46:38.569 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'PRIMARY'
+[DEBUG] 2018-11-28 18:46:38.571 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[ERROR] 2018-11-28 18:46:38.599 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'PRIMARY'
+[ERROR] 2018-11-28 18:46:38.625 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'PRIMARY'
+[ERROR] 2018-11-28 18:46:38.646 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'PRIMARY'
+[ERROR] 2018-11-28 18:46:38.662 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'PRIMARY'
+[ERROR] 2018-11-28 18:46:38.679 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'PRIMARY'
+[DEBUG] 2018-11-28 18:51:07.333 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 18:51:07.616 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 18:52:00.200 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 18:52:00.483 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 18:54:24.308 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 18:54:24.532 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 18:54:42.243 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 18:54:42.686 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 18:54:42.722 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 19:08:33.747 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 19:08:34.168 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 19:08:34.215 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 19:14:17.112 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 19:14:17.475 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 19:14:17.506 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 19:22:29.250 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 19:22:29.676 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 19:22:29.719 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 20:06:23.146 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 20:06:23.553 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 20:06:23.601 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 20:15:08.142 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 20:15:08.489 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 20:15:08.541 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 20:18:31.228 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 20:18:31.558 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 20:18:31.590 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 20:25:01.355 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 20:25:01.717 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 20:25:01.746 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 20:29:06.125 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 20:29:06.537 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 20:29:06.575 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 20:36:46.577 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 20:36:46.991 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 20:36:47.037 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 20:40:53.970 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 20:40:54.312 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 20:40:54.338 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 20:47:31.309 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 20:47:31.679 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 20:47:31.723 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 20:53:22.749 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 20:53:23.124 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 20:53:23.180 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 20:59:26.879 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 20:59:27.210 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 20:59:27.234 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 21:03:48.973 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 21:03:50.438 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 21:03:50.469 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 21:10:50.627 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 21:10:51.014 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 21:10:51.080 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 21:13:33.647 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 21:13:33.957 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 21:13:33.983 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 21:18:18.160 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 21:18:18.560 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 21:18:18.605 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 21:30:59.942 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 21:31:00.278 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 21:31:00.291 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 21:33:19.869 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 21:33:20.291 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 21:33:20.350 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 21:38:37.408 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 21:38:37.763 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 21:38:37.779 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 21:44:12.165 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 21:44:12.556 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 21:44:12.592 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-28 21:54:10.932 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-28 21:54:11.269 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-28 21:54:11.294 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-29 22:35:59.252 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-29 22:36:02.083 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-29 22:36:02.256 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-11-29 22:44:50.468 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-11-29 22:44:52.463 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-11-29 22:44:52.604 [main] GenericDao - Searching for HikingTrail with trailDescription = t

@@ -1,6 +1,7 @@
 package edu.matc.controller;
 
 import edu.matc.entity.HikerAccount;
+import edu.matc.entity.Role;
 import edu.matc.persistence.GenericDao;
 
 import java.io.*;
@@ -40,7 +41,8 @@ public class AddHikerServlet extends HttpServlet {
 
         String queryResultMessage = null;
 
-        GenericDao genericDAO = new GenericDao(HikerAccount.class);
+        GenericDao hikerAccountDao = new GenericDao(HikerAccount.class);
+        GenericDao roleDao = new GenericDao(Role.class);
 
         ServletContext context = getServletContext();
         HttpSession session = request.getSession();
@@ -51,6 +53,8 @@ public class AddHikerServlet extends HttpServlet {
         String state = request.getParameter("state");
         String emailAddress = request.getParameter("emailAddress");
         String password = request.getParameter("password");
+
+        String roleName = "user";
 
         firstNameValid = validateFormField(firstName);
         if (!firstNameValid) {
@@ -97,11 +101,14 @@ public class AddHikerServlet extends HttpServlet {
         if (firstNameValid && lastNameValid && cityValid && stateValid && emailAddressValid && passwordValid) {
 
             HikerAccount hiker = new HikerAccount(firstName, lastName, city, state, emailAddress, password);
-            int id = genericDAO.insert(hiker);
-
-            HikerAccount insertedHikerAccount = (HikerAccount) genericDAO.getById(id);
-
+            int id = hikerAccountDao.insert(hiker);
+            HikerAccount insertedHikerAccount = (HikerAccount) hikerAccountDao.getById(id);
             session.setAttribute("queryResultMessage", insertedHikerAccount);
+
+            Role hiker_role = new Role(roleName, emailAddress, hiker);
+            int role_id = roleDao.insert(hiker_role);
+            Role insertedRole = (Role) roleDao.getById(role_id);
+            session.setAttribute("queryResultMessage", insertedRole);
 
             session.setAttribute("firstName", null);
             session.setAttribute("lastName", null);

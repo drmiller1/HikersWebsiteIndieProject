@@ -47,23 +47,31 @@
                 <br /> <br />
 
                 <label for="city">City: </label>
+                <strong style="color: red;">${emptyCity}</strong>
+                <c:remove var="emptyCity" scope="session" />
                 <br />
                 <input type="text" name="city" id="city" value = ${city}>
                 <br /><br />
 
                 <label for="state">State: </label>
+                <strong style="color: red;">${emptyState}</strong>
+                <c:remove var="emptyState" scope="session" />
                 <br />
                 <input type="text" name="state" id="state" value = ${state}>
                 <br /><br />
 
                 <label for="email_address">Email Address: </label>
+                <strong style="color: red;">${emptyEmailAddress}</strong>
+                <c:remove var="emptyEmailAddress" scope="session" />
                 <br />
                 <input type="text" name="emailAddress" id="email_address" value = ${emailAddress}>
                 <br /><br />
 
                 <label for="password">Password: </label>
+                <strong style="color: red;">${emptyPassword}</strong>
+                <c:remove var="emptyPassword" scope="session" />
                 <br />
-                <input type="text" name="password" id="password" value = ${password}>
+                <input type="password" name="password" id="password" value = ${password}>
                 <br /><br />
 
                 <br />
