@@ -14,6 +14,7 @@
   </login-config>
 
   <!-- Protect the add hiker page. -->
+  <!--
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>addTrail</web-resource-name>
@@ -23,6 +24,7 @@
       <role-name>user</role-name>
     </auth-constraint>
   </security-constraint>
+-->
 
   <security-role>
     <role-name>admin</role-name>

@@ -23,7 +23,7 @@
     <div id="main_content_top"></div>
     <div id="main_content">
         <div class="content">
-            <h1>
+            <h1 align="center">
                 Add New Hiking Trail
             </h1>
 
@@ -36,38 +36,49 @@
                 <strong style="color: red;">${emptyTrailHeadName}</strong>
                 <c:remove var="emptyTrailHeadName" scope="session" />
                 <br />
-                <input type="text" name="trailHeadName" id="first_name" value = ${trailHeadName} >
+                <input type="text" name="trailHeadName" id="trail_head_name" value = ${trailHeadName} >
                 <br /><br />
 
-                <label for="last_name">Last Name: </label>
-                <strong style="color: red;">${emptyLastName}</strong>
-                <c:remove var="emptyLastName" scope="session" />
+                <label for="trail_head_location">Trail Head Location: </label>
+                <strong style="color: red;">${emptyTrailHeadLocation}</strong>
+                <c:remove var="emptyTrailHeadLocation" scope="session" />
                 <br />
-                <input type="text" name="lastName" id="last_name"value = ${lastName}>
+                <input type="text" name="trailHeadLocation" id="trail_head_location"value = ${trailHeadLocation}>
                 <br /> <br />
 
-                <label for="city">City: </label>
+                <label for="trail_length">Trail Length: </label>
                 <br />
-                <input type="text" name="city" id="city" value = ${city}>
+                <input type="text" name="trailLocation" id="trail_length" value = ${trailLocation}>
                 <br /><br />
 
-                <label for="state">State: </label>
+                <label for="trail_difficulty">Trail Difficulty: </label>
                 <br />
-                <input type="text" name="state" id="state" value = ${state}>
+
+                <input type="text" name="trailDifficulty" id="trail_difficulty" value = ${trailDifficulty}>
                 <br /><br />
 
-                <label for="email_address">Email Address: </label>
+                <label for="trail_rating">Trail Rating: </label>
                 <br />
-                <input type="text" name="emailAddress" id="email_address" value = ${emailAddress}>
+                <input type="text" name="trailRating" id="trail_rating" value = ${trailRating}>
                 <br /><br />
 
-                <label for="password">Password: </label>
+                <label for="trail_features">Trail Features: </label>
                 <br />
-                <input type="text" name="password" id="password" value = ${password}>
+                <input type="text" name="trailFeatures" id="trail_features" value = ${trailFeatures}>
+                <br /><br />
+
+                <label for="trail_details">Trail Details: </label>
+                <br />
+                <input type="text" name="trailDetails" id="trail_details" value = ${trailDetails}>
+                <br /><br />
+
+                <label for="trail_description">Trail Description: </label>
+                <br />
+                <input type="text" name="trailDiscription" id="trail_description" value = ${trailDiscription}>
                 <br /><br />
 
                 <br />
-                <input type="submit" value="Add Hiker" align="right"/>
+                <input type="submit" value="Add Trail" align="right"/>
 
             </form>
 

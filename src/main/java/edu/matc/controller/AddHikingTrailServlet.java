@@ -4,13 +4,10 @@ import edu.matc.entity.HikingTrail;
 import edu.matc.entity.HikerAccount;
 import edu.matc.persistence.GenericDao;
 
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.annotation.*;
 import java.io.IOException;
 import java.util.List;
 
@@ -84,7 +81,7 @@ public class AddHikingTrailServlet extends HttpServlet {
             GenericDao hikingTrailDAO = new GenericDao(HikingTrail.class);
 
             List <HikerAccount> hikerAccountList = hikerAccountDAO.getByPropertyEqual("emailAddress", emailAddress);
-            HikingTrail hikingTrail = new HikingTrail(trailHeadName, trailHeadLocation, Integer.parseInt(trailLength), Integer.parseInt(trailDifficulty), Integer.parseInt(trailRating), trailFeatures, trailDetails, trailDescription, hikerAccountList.get(0));
+            HikingTrail hikingTrail = new HikingTrail(trailHeadName, trailHeadLocation, Integer.valueOf(trailLength), Integer.valueOf(trailDifficulty), Integer.valueOf(trailRating), trailFeatures, trailDetails, trailDescription, hikerAccountList.get(0));
             hikerAccountList.get(0).addHikingTrail(hikingTrail);
             int id = genericDAO.insert(hikingTrail);
 
@@ -112,7 +109,7 @@ public class AddHikingTrailServlet extends HttpServlet {
             session.setAttribute("trailDesctiption", trailDescription);
         }
 
-        String url = "addHikingTrail-servlet";
+        String url = "addHikingTrailDisplay-servlet";
         response.sendRedirect(url);
         return;
     }

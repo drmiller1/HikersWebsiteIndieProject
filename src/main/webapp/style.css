@@ -1,7 +1,18 @@
-body {
-    background: #CACACA url('images\background.png') repeat-x;
+/*body {
+    background: #CACACA url('images/Helena_Hike.jpg') no-repeat-x;
     font-family: "Trebuchet MS", Verdana, serif
 }
+*/
+body{height:100%;
+    width:100%;
+    background-image:url(images/Helena_Hike.jpg);/*your background image*/
+    background-repeat:no-repeat;/*we want to have one single image not a repeated one*/
+    background-size:cover;/*this sets the image to fullscreen covering the whole screen*/
+
+    font-family: "Trebuchet MS", Verdana, serif
+}
+}
+
 #container {
     margin: 0 auto;
     width: 750px

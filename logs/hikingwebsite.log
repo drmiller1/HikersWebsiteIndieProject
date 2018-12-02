@@ -166,3 +166,169 @@
 [DEBUG] 2018-11-29 22:44:50.468 [main] GenericDao - Searching for HikingTrail with lastName = c
 [DEBUG] 2018-11-29 22:44:52.463 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
 [DEBUG] 2018-11-29 22:44:52.604 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-01 14:27:53.346 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-01 14:27:54.088 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-01 14:27:54.142 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-01 14:33:03.815 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-01 14:33:04.155 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-01 14:33:04.168 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-01 14:56:44.128 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-01 14:56:44.501 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-01 14:56:44.515 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-01 15:05:27.233 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-01 15:05:27.521 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-01 15:05:27.536 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-01 15:25:55.343 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-01 15:25:55.784 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-01 15:25:55.834 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-01 15:34:28.376 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-01 15:34:28.684 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-01 15:34:28.700 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-01 15:40:16.210 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-01 15:40:16.672 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-01 15:40:16.708 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-01 16:15:36.739 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-01 16:15:37.111 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-01 16:15:37.125 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-01 16:17:34.199 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-01 16:17:34.677 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-01 16:17:34.705 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-01 16:20:57.689 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-01 16:20:58.067 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-01 16:20:58.093 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-01 16:28:59.014 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-01 16:28:59.475 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-01 16:28:59.508 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-01 16:38:24.258 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-01 16:38:24.644 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-01 16:38:24.708 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-01 16:39:31.185 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-01 16:39:31.568 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-01 16:39:31.594 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 14:11:32.556 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 14:11:33.011 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 14:11:33.056 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 14:18:35.303 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 14:18:35.889 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 14:18:35.947 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 14:33:00.414 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 14:33:00.884 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 14:33:00.948 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 14:40:21.713 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 14:40:22.411 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 14:40:22.448 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 14:41:18.577 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 14:41:19.098 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 14:41:19.132 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 14:43:45.955 [http-nio-8080-exec-9] GenericDao - Searching for order with emailAddress = null
+[DEBUG] 2018-12-02 14:51:03.120 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 14:51:03.572 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 14:51:03.620 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 14:57:00.452 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 14:57:00.919 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 14:57:00.979 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 15:22:17.770 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 15:22:20.027 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 15:22:20.253 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 15:37:11.693 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 15:37:12.611 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 15:37:12.640 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 15:40:34.029 [http-nio-8080-exec-4] GenericDao - Searching for order with emailAddress = null
+[DEBUG] 2018-12-02 15:43:28.321 [http-nio-8080-exec-9] GenericDao - Searching for order with emailAddress = null
+[ERROR] 2018-12-02 16:09:58.306 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:09:59.992 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[DEBUG] 2018-12-02 16:09:59.994 [main] GenericDao - Searching for HikingTrail with lastName = c
+[ERROR] 2018-12-02 16:10:00.208 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:10:00.256 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:10:00.276 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:10:00.335 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:10:00.361 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[DEBUG] 2018-12-02 16:10:00.362 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[ERROR] 2018-12-02 16:10:00.389 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[DEBUG] 2018-12-02 16:10:00.403 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[ERROR] 2018-12-02 16:10:00.430 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:10:00.463 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:10:00.506 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:10:00.522 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:10:00.539 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:17:41.574 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:17:42.953 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[DEBUG] 2018-12-02 16:17:42.955 [main] GenericDao - Searching for HikingTrail with lastName = c
+[ERROR] 2018-12-02 16:17:43.196 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:17:43.247 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:17:43.274 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:17:43.328 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:17:43.337 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[DEBUG] 2018-12-02 16:17:43.338 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[ERROR] 2018-12-02 16:17:43.371 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[DEBUG] 2018-12-02 16:17:43.372 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[ERROR] 2018-12-02 16:17:43.396 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:17:43.432 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:17:43.452 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:17:43.470 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:17:43.495 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:16.625 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:17.815 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[DEBUG] 2018-12-02 16:19:17.816 [main] GenericDao - Searching for HikingTrail with lastName = c
+[ERROR] 2018-12-02 16:19:18.033 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:18.068 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:18.098 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:18.151 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:18.159 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[DEBUG] 2018-12-02 16:19:18.160 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[ERROR] 2018-12-02 16:19:18.174 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[DEBUG] 2018-12-02 16:19:18.174 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[ERROR] 2018-12-02 16:19:18.185 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:18.195 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:18.205 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:18.212 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:18.241 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:37.677 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:38.903 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[DEBUG] 2018-12-02 16:19:38.908 [main] GenericDao - Searching for HikingTrail with lastName = c
+[ERROR] 2018-12-02 16:19:39.134 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:39.195 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:39.220 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:39.274 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:39.292 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[DEBUG] 2018-12-02 16:19:39.293 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[ERROR] 2018-12-02 16:19:39.347 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[DEBUG] 2018-12-02 16:19:39.349 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[ERROR] 2018-12-02 16:19:39.369 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:39.392 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:39.412 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:39.424 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[ERROR] 2018-12-02 16:19:39.451 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--delete from Hiker_Account' at line 1
+[DEBUG] 2018-12-02 16:20:29.458 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 16:20:29.762 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 16:20:29.776 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 16:21:40.663 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 16:21:41.029 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 16:21:41.060 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 16:28:03.246 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 16:28:03.698 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 16:28:03.749 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 16:34:20.027 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 16:34:20.429 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 16:34:20.462 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 16:37:43.691 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 16:37:44.002 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 16:37:44.020 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 16:44:51.637 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 16:44:51.999 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 16:44:52.013 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 16:49:33.377 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 16:49:33.792 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 16:49:33.825 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 16:50:27.230 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 16:50:27.627 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 16:50:27.668 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 16:51:29.551 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 16:51:29.865 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 16:51:29.891 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 16:57:24.224 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 16:57:24.511 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 16:57:24.539 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-02 16:58:56.341 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-02 16:58:56.645 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-02 16:58:56.660 [main] GenericDao - Searching for HikingTrail with trailDescription = t
