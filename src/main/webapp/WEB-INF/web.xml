@@ -13,18 +13,16 @@
     </form-login-config>
   </login-config>
 
-  <!-- Protect the add hiker page. -->
-  <!--
+  <!-- Protect the add hiking trail page. -->
   <security-constraint>
     <web-resource-collection>
-      <web-resource-name>addTrail</web-resource-name>
-      <url-pattern>/addHikingTrail-servlet</url-pattern>
+      <web-resource-name>RequiresHikerRole</web-resource-name>
+      <url-pattern>/addHikingTrailDisplay-servlet</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>user</role-name>
     </auth-constraint>
   </security-constraint>
--->
 
   <security-role>
     <role-name>admin</role-name>

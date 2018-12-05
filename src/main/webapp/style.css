@@ -3,14 +3,9 @@
     font-family: "Trebuchet MS", Verdana, serif
 }
 */
-body{height:100%;
-    width:100%;
-    background-image:url(images/Helena_Hike.jpg);/*your background image*/
-    background-repeat:no-repeat;/*we want to have one single image not a repeated one*/
-    background-size:cover;/*this sets the image to fullscreen covering the whole screen*/
-
+body{
+    background: #CACACA;
     font-family: "Trebuchet MS", Verdana, serif
-}
 }
 
 #container {
@@ -31,16 +26,16 @@ body{height:100%;
 #main_content {
     margin: 0 auto;
     width: 100%;
-    background: #FFFFFF url('images\background_content.gif');
+    background: #FFFFFF;
     background-repeat: repeat-y
 }
 #main_content_top {
     height: 30px;
-    background: #FFFFFF url('images\background_top.gif');
+    background: #FFFFFF;
 }
 #main_content_bottom {
     height: 30px;
-    background: #FFFFFF url('images\background_bottom.gif');
+    background: #FFFFFF;
 }
 #footer {
     text-align: center;

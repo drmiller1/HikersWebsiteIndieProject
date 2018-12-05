@@ -332,3 +332,89 @@
 [DEBUG] 2018-12-02 16:58:56.341 [main] GenericDao - Searching for HikingTrail with lastName = c
 [DEBUG] 2018-12-02 16:58:56.645 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
 [DEBUG] 2018-12-02 16:58:56.660 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-03 21:40:44.353 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-03 21:40:47.363 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-03 21:40:47.573 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[ERROR] 2018-12-03 22:00:46.039 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:00:54.982 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[DEBUG] 2018-12-03 22:00:54.993 [main] GenericDao - Searching for HikingTrail with lastName = c
+[ERROR] 2018-12-03 22:00:56.244 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:00:56.322 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:00:56.772 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:00:57.178 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:00:57.282 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[DEBUG] 2018-12-03 22:00:57.285 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[ERROR] 2018-12-03 22:00:57.499 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[DEBUG] 2018-12-03 22:00:57.500 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[ERROR] 2018-12-03 22:00:57.623 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:00:57.777 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:00:57.853 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:00:57.910 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:00:57.990 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:01:47.128 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:01:54.491 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[DEBUG] 2018-12-03 22:01:54.500 [main] GenericDao - Searching for HikingTrail with lastName = c
+[ERROR] 2018-12-03 22:01:55.758 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:01:55.846 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:01:56.451 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:01:56.774 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:01:56.878 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[DEBUG] 2018-12-03 22:01:56.881 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[ERROR] 2018-12-03 22:01:57.074 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[DEBUG] 2018-12-03 22:01:57.077 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[ERROR] 2018-12-03 22:01:57.219 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:01:57.327 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:01:57.389 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:01:57.456 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[ERROR] 2018-12-03 22:01:57.541 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'HikerWebsiteDB.Role' doesn't exist
+[DEBUG] 2018-12-03 22:03:40.958 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-03 22:03:43.005 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-03 22:03:43.152 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-03 22:21:51.348 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-03 22:21:53.968 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-03 22:21:54.143 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-03 23:21:16.701 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-03 23:21:19.684 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-03 23:21:19.958 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-03 23:44:24.696 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-03 23:44:27.902 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-03 23:44:28.176 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-04 20:08:43.927 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-04 20:08:44.361 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-04 20:08:44.402 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-04 20:12:06.695 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-04 20:12:07.047 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-04 20:12:07.071 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-04 20:18:52.602 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-04 20:18:52.966 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-04 20:18:52.981 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-04 20:20:44.716 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-04 20:20:45.075 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-04 20:20:45.092 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-04 20:31:19.261 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-04 20:31:19.620 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-04 20:31:19.665 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-04 20:33:54.048 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-04 20:33:54.368 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-04 20:33:54.396 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-04 20:39:11.933 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-04 20:39:12.268 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-04 20:39:12.282 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-04 20:44:49.614 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-04 20:44:50.041 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-04 20:44:50.083 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-04 20:48:54.678 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-04 20:48:55.050 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-04 20:48:55.067 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-04 20:58:07.535 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-04 20:58:07.895 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-04 20:58:07.916 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-04 20:58:23.525 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-04 20:58:23.846 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-04 20:58:23.864 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-04 21:07:00.785 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-04 21:07:01.151 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-04 21:07:01.176 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-04 21:12:00.775 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-04 21:12:01.177 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-04 21:12:01.215 [main] GenericDao - Searching for HikingTrail with trailDescription = t

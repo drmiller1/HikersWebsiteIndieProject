@@ -1,7 +1,7 @@
 <Context docBase="hikerWebsite" path="/hikerWebsite" reloadable="true">
     <Realm className="org.apache.catalina.realm.JDBCRealm"
            driverName="com.mysql.jdbc.Driver"
-           connectionURL="jdbc:mysql://localhost:3306/sample?user=tomcat&amp;password=WalterPayton#34"
+           connectionURL="jdbc:mysql://localhost:3306/HikerWebsiteDB?user=tomcat&amp;password=WalterPayton#34"
            userTable="Hiker_Account" userNameCol="email_address" userCredCol="password"
            userRoleTable="role" roleNameCol="role_name" >
     </Realm>
