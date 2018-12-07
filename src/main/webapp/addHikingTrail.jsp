@@ -13,12 +13,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 
-<%@ include file="head_tag.jsp"%>
-
 <body>
 <div id="container">
-
-    <%@ include file="header_tag.jsp"%>
 
     <div id="main_content_top"></div>
     <div id="main_content">
@@ -84,13 +80,13 @@
 
         </div>
 
-        <%@ include file="menu_tag.jsp"%>
+        <%--<%@ include file="menu_tag.jsp"%>--%>
 
         <div id="clear"></div>
     </div>
     <div id="main_content_bottom"></div>
 
-    <%@ include file="footer_tag.jsp"%>
+    <%--<%@ include file="footer_tag.jsp"%>--%>
 
 </div>
 </body>

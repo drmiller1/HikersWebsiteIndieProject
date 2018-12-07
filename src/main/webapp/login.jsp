@@ -38,24 +38,26 @@
                 Hiker Sign-In
             </h1>
 
-            <br><br>
             <FORM ACTION="j_security_check" METHOD="POST">
+                <br><br>
+
                 <TABLE>
-                    <TR><TD>Email Address: <INPUT TYPE="TEXT" NAME="j_username">
+                    <TR><TD>Email Address:<INPUT TYPE="TEXT" NAME="j_username">
                     <TR><TD>Password: <INPUT TYPE="PASSWORD" NAME="j_password">
                     <TR><TH><INPUT TYPE="SUBMIT" VALUE="Log In">
                 </TABLE>
+
             </FORM>
 
         </div>
 
-        <%@ include file="menu_tag.jsp"%>
+        <%--<%@ include file="menu_tag.jsp"%>--%>
 
         <div id="clear"></div>
     </div>
     <div id="main_content_bottom"></div>
 
-    <%@ include file="footer_tag.jsp"%>
+    <%--<%@ include file="footer_tag.jsp"%>--%>
 
 </div>
 </body>

@@ -129,14 +129,12 @@
 </head>
 
 
-<%@ include file="../head_tag.jsp"%>
+<%@ include file="/head_tag.jsp"%>
 
 <body>
 
-<%--
+
 <%@ include file="header_tag.jsp"%>
-<img src="images\Helena_Hike.jpg" width="100%" height="100%" alt="image"/>
---%>
 
 <div>
 
@@ -145,41 +143,43 @@
             <a href="#tab1" >Home </a>
         </li>
         <li>
-            <a href="#tab2" >Hiker Sign-in </a>
+            <a href="#tab2" >Add a new trail </a>
+
         </li>
         <li>
             <a href="#tab3" >New Hiker Sign-up </a>
         </li>
         <li>
-            <a href="#tab4" >Add a new trail </a>
+
+            <a href="#tab4" >About </a>
         </li>
     </ul>
 </div>
 
 <section id="tab1" class="tab-content active">
     <div>
-        <ul> href="index.jsp"</ul>
+        <%@ include file="homePage.jsp"%>
     </div>
 </section>
 <section id="tab2" class="tab-content hide">
     <div>
-        <ul> <a href="../login.jsp" /> </ul>
+        <%@ include file="addHikingTrail.jsp"%>
     </div>
 </section>
 <section id="tab3" class="tab-content hide">
     <div>
-        <ul> <a href="addHikerDisplay-servlet" /> </ul>
+        <%@ include file="addHiker.jsp"%>
     </div>
 </section>
 <section id="tab4" class="tab-content hide">
     <div>
-        <ul> <a href="addHikingTrail-servlet" /> </ul>
+        <%@ include file="about.jsp"%>
     </div>
 </section>
 
-<div id="main_content_bottom"></div>
+<%--<div id="main_content_bottom"></div>--%>
 
-<%@ include file="../footer_tag.jsp"%>
+<%@ include file="/footer_tag.jsp"%>
 
 </body>
 </html>
