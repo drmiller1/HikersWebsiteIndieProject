@@ -31,7 +31,7 @@
 
             <br />
 
-            <label for="searchTerm">Search String: </label>
+            <label for="search_term">Search String: </label>
             <strong style="color: red;">${emptyTerm}</strong>
             <c:remove var="emptyTerm" scope="session" />
             <br />
@@ -40,12 +40,12 @@
 
             <input type="radio" id="searchTrailHeadName" name="searchType"
                    value="trailHeadName" checked>
-            <label for="searchTrailHeadName">Employee Id</label>
+            <label for="searchTrailHeadName">Search by Trail Head Name</label>
             <br />
 
             <input type="radio" id="searchTrailLocation" name="searchType"
                    value="trailLocation">
-            <label for="searchTrailLocation">First Name</label>
+            <label for="searchTrailLocation">Search by Location</label>
             <br />
 
             <br />

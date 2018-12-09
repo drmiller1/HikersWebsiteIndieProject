@@ -1,0 +1,1370 @@
+[DEBUG] 2018-12-08 23:48:55.622 [http-nio-8080-exec-8] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[DEBUG] 2018-12-08 23:48:55.711 [http-nio-8080-exec-8] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[DEBUG] 2018-12-08 23:48:55.801 [http-nio-8080-exec-8] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[INFO ] 2018-12-08 23:48:56.460 [http-nio-8080-exec-8] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-12-08 23:48:56.466 [http-nio-8080-exec-8] Environment - HHH000206: hibernate.properties not found
+[DEBUG] 2018-12-08 23:48:56.973 [http-nio-8080-exec-8] LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[DEBUG] 2018-12-08 23:48:56.975 [http-nio-8080-exec-8] LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2018-12-08 23:48:57.144 [http-nio-8080-exec-8] JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+[DEBUG] 2018-12-08 23:48:59.053 [http-nio-8080-exec-8] ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[DEBUG] 2018-12-08 23:48:59.232 [http-nio-8080-exec-8] RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[INFO ] 2018-12-08 23:48:59.283 [http-nio-8080-exec-8] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[DEBUG] 2018-12-08 23:48:59.465 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@44c602fb
+[DEBUG] 2018-12-08 23:48:59.466 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@44c602fb
+[DEBUG] 2018-12-08 23:48:59.466 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@44c602fb
+[DEBUG] 2018-12-08 23:48:59.469 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@37aa86b
+[DEBUG] 2018-12-08 23:48:59.478 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@7a437762
+[DEBUG] 2018-12-08 23:48:59.484 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@171c9c31
+[DEBUG] 2018-12-08 23:48:59.493 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@4978b5eb
+[DEBUG] 2018-12-08 23:48:59.494 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@4978b5eb
+[DEBUG] 2018-12-08 23:48:59.498 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@4978b5eb
+[DEBUG] 2018-12-08 23:48:59.512 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@6ea3b005
+[DEBUG] 2018-12-08 23:48:59.513 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@6ea3b005
+[DEBUG] 2018-12-08 23:48:59.513 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@6ea3b005
+[DEBUG] 2018-12-08 23:48:59.520 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@65017e2f
+[DEBUG] 2018-12-08 23:48:59.523 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@65017e2f
+[DEBUG] 2018-12-08 23:48:59.524 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@65017e2f
+[DEBUG] 2018-12-08 23:48:59.530 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@c78c782
+[DEBUG] 2018-12-08 23:48:59.530 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@c78c782
+[DEBUG] 2018-12-08 23:48:59.530 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@c78c782
+[DEBUG] 2018-12-08 23:48:59.541 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@4ae303c5
+[DEBUG] 2018-12-08 23:48:59.541 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@4ae303c5
+[DEBUG] 2018-12-08 23:48:59.549 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@4ae303c5
+[DEBUG] 2018-12-08 23:48:59.584 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@5d655a96
+[DEBUG] 2018-12-08 23:48:59.587 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@5d655a96
+[DEBUG] 2018-12-08 23:48:59.592 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@5d655a96
+[DEBUG] 2018-12-08 23:48:59.605 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@291605cd
+[DEBUG] 2018-12-08 23:48:59.606 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@291605cd
+[DEBUG] 2018-12-08 23:48:59.610 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@291605cd
+[DEBUG] 2018-12-08 23:48:59.614 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@703dd3c7
+[DEBUG] 2018-12-08 23:48:59.614 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@703dd3c7
+[DEBUG] 2018-12-08 23:48:59.616 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@3d500d9f
+[DEBUG] 2018-12-08 23:48:59.617 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@3d500d9f
+[DEBUG] 2018-12-08 23:48:59.619 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@e66d368
+[DEBUG] 2018-12-08 23:48:59.619 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@e66d368
+[DEBUG] 2018-12-08 23:48:59.621 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@5c219aed
+[DEBUG] 2018-12-08 23:48:59.622 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@4c0dbe34
+[DEBUG] 2018-12-08 23:48:59.625 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@65b7b0e4
+[DEBUG] 2018-12-08 23:48:59.626 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@65b7b0e4
+[DEBUG] 2018-12-08 23:48:59.648 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@1faa52b0
+[DEBUG] 2018-12-08 23:48:59.648 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@1faa52b0
+[DEBUG] 2018-12-08 23:48:59.836 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@1ed4db68
+[DEBUG] 2018-12-08 23:48:59.837 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@1ed4db68
+[DEBUG] 2018-12-08 23:48:59.845 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@18d8cc98
+[DEBUG] 2018-12-08 23:48:59.845 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@18d8cc98
+[DEBUG] 2018-12-08 23:48:59.850 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@45e93c77
+[DEBUG] 2018-12-08 23:48:59.851 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@45e93c77
+[DEBUG] 2018-12-08 23:48:59.856 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@2e22b995
+[DEBUG] 2018-12-08 23:48:59.857 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@2e22b995
+[DEBUG] 2018-12-08 23:48:59.862 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4d106e51
+[DEBUG] 2018-12-08 23:48:59.862 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@4d106e51
+[DEBUG] 2018-12-08 23:48:59.866 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@31f0377f
+[DEBUG] 2018-12-08 23:48:59.866 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@31f0377f
+[DEBUG] 2018-12-08 23:48:59.881 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2b10d2ff
+[DEBUG] 2018-12-08 23:48:59.881 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@2b10d2ff
+[DEBUG] 2018-12-08 23:48:59.889 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@53c6b236
+[DEBUG] 2018-12-08 23:48:59.889 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@53c6b236
+[DEBUG] 2018-12-08 23:48:59.894 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@19973bcf
+[DEBUG] 2018-12-08 23:48:59.895 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@19973bcf
+[DEBUG] 2018-12-08 23:48:59.898 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@28932501
+[DEBUG] 2018-12-08 23:48:59.899 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@28932501
+[DEBUG] 2018-12-08 23:48:59.899 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@28932501
+[DEBUG] 2018-12-08 23:48:59.906 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@713f34fc
+[DEBUG] 2018-12-08 23:48:59.910 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@3e3baf86
+[DEBUG] 2018-12-08 23:48:59.911 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@3e3baf86
+[DEBUG] 2018-12-08 23:48:59.911 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@3e3baf86
+[DEBUG] 2018-12-08 23:48:59.914 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@23896cba
+[DEBUG] 2018-12-08 23:48:59.918 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@1c0380b8
+[DEBUG] 2018-12-08 23:48:59.918 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@1c0380b8
+[DEBUG] 2018-12-08 23:48:59.924 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@5ea06804
+[DEBUG] 2018-12-08 23:48:59.925 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@5ea06804
+[DEBUG] 2018-12-08 23:48:59.927 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@7feaf36b
+[DEBUG] 2018-12-08 23:48:59.927 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@7feaf36b
+[DEBUG] 2018-12-08 23:48:59.929 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@438d9682
+[DEBUG] 2018-12-08 23:48:59.929 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@438d9682
+[DEBUG] 2018-12-08 23:48:59.933 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1723181c
+[DEBUG] 2018-12-08 23:48:59.933 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1723181c
+[DEBUG] 2018-12-08 23:48:59.934 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@3e85a99
+[DEBUG] 2018-12-08 23:48:59.936 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@1c5714d
+[DEBUG] 2018-12-08 23:48:59.937 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@1c5714d
+[DEBUG] 2018-12-08 23:48:59.937 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@1c5714d
+[DEBUG] 2018-12-08 23:48:59.939 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@2430ebb1
+[DEBUG] 2018-12-08 23:48:59.940 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@2430ebb1
+[DEBUG] 2018-12-08 23:48:59.940 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@2430ebb1
+[DEBUG] 2018-12-08 23:48:59.942 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@68d6faaa
+[DEBUG] 2018-12-08 23:48:59.944 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@42555472
+[DEBUG] 2018-12-08 23:48:59.946 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@1a770587
+[DEBUG] 2018-12-08 23:48:59.946 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@1a770587
+[DEBUG] 2018-12-08 23:48:59.946 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@1a770587
+[DEBUG] 2018-12-08 23:48:59.949 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1622bec2
+[DEBUG] 2018-12-08 23:48:59.949 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1622bec2
+[DEBUG] 2018-12-08 23:48:59.949 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1622bec2
+[DEBUG] 2018-12-08 23:48:59.950 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@6fd35f0c
+[DEBUG] 2018-12-08 23:48:59.951 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@71edd1eb
+[DEBUG] 2018-12-08 23:48:59.959 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@2e844acc
+[DEBUG] 2018-12-08 23:48:59.959 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@2e844acc
+[DEBUG] 2018-12-08 23:48:59.960 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@32c8a020
+[DEBUG] 2018-12-08 23:48:59.966 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@4b336370
+[DEBUG] 2018-12-08 23:48:59.967 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@4b336370
+[DEBUG] 2018-12-08 23:48:59.972 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@798e4c92
+[DEBUG] 2018-12-08 23:48:59.972 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@798e4c92
+[DEBUG] 2018-12-08 23:48:59.973 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@218d8857
+[DEBUG] 2018-12-08 23:48:59.974 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@5daf2949
+[DEBUG] 2018-12-08 23:48:59.976 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@16723f0a
+[DEBUG] 2018-12-08 23:48:59.983 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@4e4512dc
+[DEBUG] 2018-12-08 23:48:59.983 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4e4512dc
+[DEBUG] 2018-12-08 23:48:59.984 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@17037647
+[DEBUG] 2018-12-08 23:48:59.984 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@71364589
+[DEBUG] 2018-12-08 23:48:59.984 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@15f24a0c
+[DEBUG] 2018-12-08 23:48:59.984 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1514fbaa
+[DEBUG] 2018-12-08 23:48:59.984 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@19291601
+[DEBUG] 2018-12-08 23:48:59.985 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@5af002a0
+[DEBUG] 2018-12-08 23:48:59.985 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@5dd591d8
+[DEBUG] 2018-12-08 23:48:59.985 [http-nio-8080-exec-8] BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@6f2ef863
+[INFO ] 2018-12-08 23:49:00.037 [http-nio-8080-exec-8] C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/HikerWebsiteDB
+[INFO ] 2018-12-08 23:49:00.038 [http-nio-8080-exec-8] C3P0ConnectionProvider - HHH10001001: Connection properties: {user=root, password=****}
+[INFO ] 2018-12-08 23:49:00.038 [http-nio-8080-exec-8] C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+[INFO ] 2018-12-08 23:49:01.716 [http-nio-8080-exec-8] C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+[DEBUG] 2018-12-08 23:49:03.698 [http-nio-8080-exec-8] JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.7.24-0ubuntu0.16.04.1
+      major : 5
+      minor : 7
+[DEBUG] 2018-12-08 23:49:03.707 [http-nio-8080-exec-8] JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.39 ( Revision: 3289a357af6d09ecc1a10fd3c26e95183e5790ad )
+      major : 5
+      minor : 1
+[DEBUG] 2018-12-08 23:49:03.707 [http-nio-8080-exec-8] JdbcEnvironmentInitiator - JDBC version : 4.0
+[INFO ] 2018-12-08 23:49:03.851 [http-nio-8080-exec-8] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[DEBUG] 2018-12-08 23:49:04.055 [http-nio-8080-exec-8] IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[DEBUG] 2018-12-08 23:49:04.068 [http-nio-8080-exec-8] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[DEBUG] 2018-12-08 23:49:04.311 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[DEBUG] 2018-12-08 23:49:04.320 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[DEBUG] 2018-12-08 23:49:04.334 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2018-12-08 23:49:04.334 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2018-12-08 23:49:04.354 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[DEBUG] 2018-12-08 23:49:04.364 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[DEBUG] 2018-12-08 23:49:04.365 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[DEBUG] 2018-12-08 23:49:04.379 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2018-12-08 23:49:04.384 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[DEBUG] 2018-12-08 23:49:04.388 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[DEBUG] 2018-12-08 23:49:04.390 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[DEBUG] 2018-12-08 23:49:04.393 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[DEBUG] 2018-12-08 23:49:04.394 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2018-12-08 23:49:04.398 [http-nio-8080-exec-8] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[DEBUG] 2018-12-08 23:49:04.800 [http-nio-8080-exec-8] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[DEBUG] 2018-12-08 23:49:05.127 [http-nio-8080-exec-8] AnnotationBinder - Binding entity from annotated class: edu.matc.entity.HikerAccount
+[DEBUG] 2018-12-08 23:49:05.452 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-12-08 23:49:05.494 [http-nio-8080-exec-8] EntityBinder - Import with entity name HikerAccount
+[DEBUG] 2018-12-08 23:49:05.502 [http-nio-8080-exec-8] EntityBinder - Bind entity edu.matc.entity.HikerAccount on table Hiker_Account
+[DEBUG] 2018-12-08 23:49:05.592 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiker_Account), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.605 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2018-12-08 23:49:05.612 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.HikerAccount:id]
+[DEBUG] 2018-12-08 23:49:05.619 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2018-12-08 23:49:05.628 [http-nio-8080-exec-8] PropertyBinder - Building property id
+[DEBUG] 2018-12-08 23:49:05.643 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiker_Account), mappingColumn=city, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.643 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property city with lazy=false
+[DEBUG] 2018-12-08 23:49:05.644 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.HikerAccount:city]
+[DEBUG] 2018-12-08 23:49:05.644 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for city
+[DEBUG] 2018-12-08 23:49:05.644 [http-nio-8080-exec-8] PropertyBinder - Building property city
+[DEBUG] 2018-12-08 23:49:05.645 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiker_Account), mappingColumn=email_address, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.646 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property emailAddress with lazy=false
+[DEBUG] 2018-12-08 23:49:05.646 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.HikerAccount:emailAddress]
+[DEBUG] 2018-12-08 23:49:05.646 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for emailAddress
+[DEBUG] 2018-12-08 23:49:05.646 [http-nio-8080-exec-8] PropertyBinder - Building property emailAddress
+[DEBUG] 2018-12-08 23:49:05.646 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiker_Account), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.646 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
+[DEBUG] 2018-12-08 23:49:05.647 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.HikerAccount:firstName]
+[DEBUG] 2018-12-08 23:49:05.647 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for firstName
+[DEBUG] 2018-12-08 23:49:05.648 [http-nio-8080-exec-8] PropertyBinder - Building property firstName
+[DEBUG] 2018-12-08 23:49:05.651 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='hikerAccount'}
+[DEBUG] 2018-12-08 23:49:05.651 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiker_Account), mappingColumn=hikingTrails, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.655 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiker_Account), mappingColumn=null, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.689 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiker_Account), mappingColumn=element, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.691 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiker_Account), mappingColumn=hikingTrails_KEY, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.703 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='hikingTrails_KEY', referencedColumn='null', mappedBy='null'}
+[DEBUG] 2018-12-08 23:49:05.706 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='hikerAccount'}
+[DEBUG] 2018-12-08 23:49:05.708 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='hikerAccount'}
+[DEBUG] 2018-12-08 23:49:05.710 [http-nio-8080-exec-8] CollectionBinder - Collection role: edu.matc.entity.HikerAccount.hikingTrails
+[DEBUG] 2018-12-08 23:49:05.720 [http-nio-8080-exec-8] PropertyBinder - Building property hikingTrails
+[DEBUG] 2018-12-08 23:49:05.721 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiker_Account), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.721 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
+[DEBUG] 2018-12-08 23:49:05.722 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.HikerAccount:lastName]
+[DEBUG] 2018-12-08 23:49:05.722 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for lastName
+[DEBUG] 2018-12-08 23:49:05.722 [http-nio-8080-exec-8] PropertyBinder - Building property lastName
+[DEBUG] 2018-12-08 23:49:05.722 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiker_Account), mappingColumn=password, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.723 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property password with lazy=false
+[DEBUG] 2018-12-08 23:49:05.723 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.HikerAccount:password]
+[DEBUG] 2018-12-08 23:49:05.723 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for password
+[DEBUG] 2018-12-08 23:49:05.723 [http-nio-8080-exec-8] PropertyBinder - Building property password
+[DEBUG] 2018-12-08 23:49:05.723 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiker_Account), mappingColumn=state, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.724 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property state with lazy=false
+[DEBUG] 2018-12-08 23:49:05.724 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.HikerAccount:state]
+[DEBUG] 2018-12-08 23:49:05.724 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for state
+[DEBUG] 2018-12-08 23:49:05.724 [http-nio-8080-exec-8] PropertyBinder - Building property state
+[DEBUG] 2018-12-08 23:49:05.726 [http-nio-8080-exec-8] AnnotationBinder - Binding entity from annotated class: edu.matc.entity.HikingTrail
+[DEBUG] 2018-12-08 23:49:05.727 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-12-08 23:49:05.728 [http-nio-8080-exec-8] EntityBinder - Import with entity name HikingTrail
+[DEBUG] 2018-12-08 23:49:05.728 [http-nio-8080-exec-8] EntityBinder - Bind entity edu.matc.entity.HikingTrail on table Hiking_Trail
+[DEBUG] 2018-12-08 23:49:05.746 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiking_Trail), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.747 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2018-12-08 23:49:05.747 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.HikingTrail:id]
+[DEBUG] 2018-12-08 23:49:05.747 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2018-12-08 23:49:05.747 [http-nio-8080-exec-8] PropertyBinder - Building property id
+[DEBUG] 2018-12-08 23:49:05.748 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='hiker_account_id', referencedColumn='', mappedBy=''}
+[DEBUG] 2018-12-08 23:49:05.748 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiking_Trail), mappingColumn=hikerAccount, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.752 [http-nio-8080-exec-8] PropertyBinder - Building property hikerAccount
+[DEBUG] 2018-12-08 23:49:05.753 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiking_Trail), mappingColumn=trail_description, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.753 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property trailDescription with lazy=false
+[DEBUG] 2018-12-08 23:49:05.753 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.HikingTrail:trailDescription]
+[DEBUG] 2018-12-08 23:49:05.754 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for trailDescription
+[DEBUG] 2018-12-08 23:49:05.754 [http-nio-8080-exec-8] PropertyBinder - Building property trailDescription
+[DEBUG] 2018-12-08 23:49:05.754 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiking_Trail), mappingColumn=trail_details, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.754 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property trailDetails with lazy=false
+[DEBUG] 2018-12-08 23:49:05.754 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.HikingTrail:trailDetails]
+[DEBUG] 2018-12-08 23:49:05.754 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for trailDetails
+[DEBUG] 2018-12-08 23:49:05.755 [http-nio-8080-exec-8] PropertyBinder - Building property trailDetails
+[DEBUG] 2018-12-08 23:49:05.755 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiking_Trail), mappingColumn=trail_difficulty, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.755 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property trailDifficulty with lazy=false
+[DEBUG] 2018-12-08 23:49:05.755 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.HikingTrail:trailDifficulty]
+[DEBUG] 2018-12-08 23:49:05.755 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for trailDifficulty
+[DEBUG] 2018-12-08 23:49:05.755 [http-nio-8080-exec-8] PropertyBinder - Building property trailDifficulty
+[DEBUG] 2018-12-08 23:49:05.755 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiking_Trail), mappingColumn=trail_features, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.756 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property trailFreatures with lazy=false
+[DEBUG] 2018-12-08 23:49:05.756 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.HikingTrail:trailFreatures]
+[DEBUG] 2018-12-08 23:49:05.756 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for trailFreatures
+[DEBUG] 2018-12-08 23:49:05.756 [http-nio-8080-exec-8] PropertyBinder - Building property trailFreatures
+[DEBUG] 2018-12-08 23:49:05.756 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiking_Trail), mappingColumn=trail_head_location, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.756 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property trailHeadLocation with lazy=false
+[DEBUG] 2018-12-08 23:49:05.756 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.HikingTrail:trailHeadLocation]
+[DEBUG] 2018-12-08 23:49:05.756 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for trailHeadLocation
+[DEBUG] 2018-12-08 23:49:05.756 [http-nio-8080-exec-8] PropertyBinder - Building property trailHeadLocation
+[DEBUG] 2018-12-08 23:49:05.757 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiking_Trail), mappingColumn=trail_head_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.757 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property trailHeadName with lazy=false
+[DEBUG] 2018-12-08 23:49:05.757 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.HikingTrail:trailHeadName]
+[DEBUG] 2018-12-08 23:49:05.757 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for trailHeadName
+[DEBUG] 2018-12-08 23:49:05.757 [http-nio-8080-exec-8] PropertyBinder - Building property trailHeadName
+[DEBUG] 2018-12-08 23:49:05.757 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiking_Trail), mappingColumn=trail_length, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.757 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property trailLength with lazy=false
+[DEBUG] 2018-12-08 23:49:05.758 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.HikingTrail:trailLength]
+[DEBUG] 2018-12-08 23:49:05.758 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for trailLength
+[DEBUG] 2018-12-08 23:49:05.758 [http-nio-8080-exec-8] PropertyBinder - Building property trailLength
+[DEBUG] 2018-12-08 23:49:05.758 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Hiking_Trail), mappingColumn=trail_rating, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.758 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property trailRating with lazy=false
+[DEBUG] 2018-12-08 23:49:05.758 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.HikingTrail:trailRating]
+[DEBUG] 2018-12-08 23:49:05.758 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for trailRating
+[DEBUG] 2018-12-08 23:49:05.758 [http-nio-8080-exec-8] PropertyBinder - Building property trailRating
+[DEBUG] 2018-12-08 23:49:05.759 [http-nio-8080-exec-8] AnnotationBinder - Binding entity from annotated class: edu.matc.entity.Role
+[DEBUG] 2018-12-08 23:49:05.759 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-12-08 23:49:05.759 [http-nio-8080-exec-8] EntityBinder - Import with entity name role
+[DEBUG] 2018-12-08 23:49:05.759 [http-nio-8080-exec-8] EntityBinder - Bind entity edu.matc.entity.Role on table role
+[DEBUG] 2018-12-08 23:49:05.761 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.761 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2018-12-08 23:49:05.761 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Role:id]
+[DEBUG] 2018-12-08 23:49:05.761 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for id
+[DEBUG] 2018-12-08 23:49:05.762 [http-nio-8080-exec-8] PropertyBinder - Building property id
+[DEBUG] 2018-12-08 23:49:05.762 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=email_address, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.762 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property emailAddress with lazy=false
+[DEBUG] 2018-12-08 23:49:05.762 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Role:emailAddress]
+[DEBUG] 2018-12-08 23:49:05.762 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for emailAddress
+[DEBUG] 2018-12-08 23:49:05.762 [http-nio-8080-exec-8] PropertyBinder - Building property emailAddress
+[DEBUG] 2018-12-08 23:49:05.763 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3JoinColumn{logicalColumnName='hiker_account_id', referencedColumn='', mappedBy=''}
+[DEBUG] 2018-12-08 23:49:05.763 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=hikerAccount, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.763 [http-nio-8080-exec-8] PropertyBinder - Building property hikerAccount
+[DEBUG] 2018-12-08 23:49:05.763 [http-nio-8080-exec-8] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(role), mappingColumn=role_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-12-08 23:49:05.763 [http-nio-8080-exec-8] PropertyBinder - MetadataSourceProcessor property roleName with lazy=false
+[DEBUG] 2018-12-08 23:49:05.763 [http-nio-8080-exec-8] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [edu.matc.entity.Role:roleName]
+[DEBUG] 2018-12-08 23:49:05.764 [http-nio-8080-exec-8] SimpleValueBinder - building SimpleValue for roleName
+[DEBUG] 2018-12-08 23:49:05.764 [http-nio-8080-exec-8] PropertyBinder - Building property roleName
+[DEBUG] 2018-12-08 23:49:05.765 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2018-12-08 23:49:05.766 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for city
+[DEBUG] 2018-12-08 23:49:05.766 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for emailAddress
+[DEBUG] 2018-12-08 23:49:05.766 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for firstName
+[DEBUG] 2018-12-08 23:49:05.766 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for lastName
+[DEBUG] 2018-12-08 23:49:05.766 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for password
+[DEBUG] 2018-12-08 23:49:05.766 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for state
+[DEBUG] 2018-12-08 23:49:05.766 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2018-12-08 23:49:05.766 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for trailDescription
+[DEBUG] 2018-12-08 23:49:05.766 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for trailDetails
+[DEBUG] 2018-12-08 23:49:05.767 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for trailDifficulty
+[DEBUG] 2018-12-08 23:49:05.767 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for trailFreatures
+[DEBUG] 2018-12-08 23:49:05.767 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for trailHeadLocation
+[DEBUG] 2018-12-08 23:49:05.767 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for trailHeadName
+[DEBUG] 2018-12-08 23:49:05.767 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for trailLength
+[DEBUG] 2018-12-08 23:49:05.771 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for trailRating
+[DEBUG] 2018-12-08 23:49:05.772 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2018-12-08 23:49:05.772 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for emailAddress
+[DEBUG] 2018-12-08 23:49:05.772 [http-nio-8080-exec-8] SimpleValueBinder - Starting fillSimpleValue for roleName
+[DEBUG] 2018-12-08 23:49:05.783 [http-nio-8080-exec-8] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [hiker_account]
+[DEBUG] 2018-12-08 23:49:05.783 [http-nio-8080-exec-8] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [hiking_trail]
+[DEBUG] 2018-12-08 23:49:05.784 [http-nio-8080-exec-8] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [role]
+[DEBUG] 2018-12-08 23:49:05.784 [http-nio-8080-exec-8] CollectionSecondPass - Second pass for collection: edu.matc.entity.HikerAccount.hikingTrails
+[DEBUG] 2018-12-08 23:49:05.786 [http-nio-8080-exec-8] CollectionBinder - Binding a OneToMany: edu.matc.entity.HikerAccount.hikingTrails through a foreign key
+[DEBUG] 2018-12-08 23:49:05.789 [http-nio-8080-exec-8] CollectionBinder - Mapping collection: edu.matc.entity.HikerAccount.hikingTrails -> Hiking_Trail
+[DEBUG] 2018-12-08 23:49:05.792 [http-nio-8080-exec-8] TableBinder - Retrieving property edu.matc.entity.HikingTrail.hikerAccount
+[DEBUG] 2018-12-08 23:49:05.796 [http-nio-8080-exec-8] CollectionSecondPass - Mapped collection key: hiker_account_id, one-to-many: edu.matc.entity.HikingTrail
+[DEBUG] 2018-12-08 23:49:05.796 [http-nio-8080-exec-8] InFlightMetadataCollectorImpl - Resolving reference to class: edu.matc.entity.HikerAccount
+[DEBUG] 2018-12-08 23:49:05.815 [http-nio-8080-exec-8] InFlightMetadataCollectorImpl - Resolving reference to class: edu.matc.entity.HikerAccount
+[DEBUG] 2018-12-08 23:49:05.820 [http-nio-8080-exec-8] InFlightMetadataCollectorImpl - Resolving reference to class: edu.matc.entity.HikerAccount
+[DEBUG] 2018-12-08 23:49:05.821 [http-nio-8080-exec-8] InFlightMetadataCollectorImpl - Resolving reference to class: edu.matc.entity.HikerAccount
+[DEBUG] 2018-12-08 23:49:06.131 [http-nio-8080-exec-8] SessionFactoryImpl - Building session factory
+[DEBUG] 2018-12-08 23:49:06.134 [http-nio-8080-exec-8] Settings - SessionFactory name : null
+[DEBUG] 2018-12-08 23:49:06.135 [http-nio-8080-exec-8] Settings - Automatic flush during beforeCompletion(): enabled
+[DEBUG] 2018-12-08 23:49:06.135 [http-nio-8080-exec-8] Settings - Automatic session close at end of transaction: disabled
+[DEBUG] 2018-12-08 23:49:06.135 [http-nio-8080-exec-8] Settings - Statistics: disabled
+[DEBUG] 2018-12-08 23:49:06.142 [http-nio-8080-exec-8] Settings - Deleted entity synthetic identifier rollback: disabled
+[DEBUG] 2018-12-08 23:49:06.143 [http-nio-8080-exec-8] Settings - Default entity-mode: pojo
+[DEBUG] 2018-12-08 23:49:06.144 [http-nio-8080-exec-8] Settings - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[DEBUG] 2018-12-08 23:49:06.144 [http-nio-8080-exec-8] Settings - Allow initialization of lazy state outside session : disabled
+[DEBUG] 2018-12-08 23:49:06.146 [http-nio-8080-exec-8] Settings - Using BatchFetchStyle : LEGACY
+[DEBUG] 2018-12-08 23:49:06.146 [http-nio-8080-exec-8] Settings - Default batch fetch size: -1
+[DEBUG] 2018-12-08 23:49:06.146 [http-nio-8080-exec-8] Settings - Maximum outer join fetch depth: 2
+[DEBUG] 2018-12-08 23:49:06.146 [http-nio-8080-exec-8] Settings - Default null ordering: NONE
+[DEBUG] 2018-12-08 23:49:06.146 [http-nio-8080-exec-8] Settings - Order SQL updates by primary key: disabled
+[DEBUG] 2018-12-08 23:49:06.149 [http-nio-8080-exec-8] Settings - Order SQL inserts for batching: disabled
+[DEBUG] 2018-12-08 23:49:06.149 [http-nio-8080-exec-8] Settings - multi-tenancy strategy : NONE
+[DEBUG] 2018-12-08 23:49:06.149 [http-nio-8080-exec-8] Settings - JTA Track by Thread: enabled
+[DEBUG] 2018-12-08 23:49:06.149 [http-nio-8080-exec-8] Settings - Query language substitutions: {}
+[DEBUG] 2018-12-08 23:49:06.150 [http-nio-8080-exec-8] Settings - JPA query language strict compliance: disabled
+[DEBUG] 2018-12-08 23:49:06.150 [http-nio-8080-exec-8] Settings - Named query checking : enabled
+[DEBUG] 2018-12-08 23:49:06.150 [http-nio-8080-exec-8] Settings - Second-level cache: enabled
+[DEBUG] 2018-12-08 23:49:06.150 [http-nio-8080-exec-8] Settings - Second-level query cache: disabled
+[DEBUG] 2018-12-08 23:49:06.150 [http-nio-8080-exec-8] Settings - Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@1d64745a
+[DEBUG] 2018-12-08 23:49:06.151 [http-nio-8080-exec-8] Settings - Second-level cache region prefix: null
+[DEBUG] 2018-12-08 23:49:06.151 [http-nio-8080-exec-8] Settings - Optimize second-level cache for minimal puts: disabled
+[DEBUG] 2018-12-08 23:49:06.151 [http-nio-8080-exec-8] Settings - Structured second-level cache entries: disabled
+[DEBUG] 2018-12-08 23:49:06.151 [http-nio-8080-exec-8] Settings - Second-level cache direct-reference entries: disabled
+[DEBUG] 2018-12-08 23:49:06.151 [http-nio-8080-exec-8] Settings - Automatic eviction of collection cache: disabled
+[DEBUG] 2018-12-08 23:49:06.151 [http-nio-8080-exec-8] Settings - JDBC batch size: 15
+[DEBUG] 2018-12-08 23:49:06.151 [http-nio-8080-exec-8] Settings - JDBC batch updates for versioned data: enabled
+[DEBUG] 2018-12-08 23:49:06.151 [http-nio-8080-exec-8] Settings - Scrollable result sets: enabled
+[DEBUG] 2018-12-08 23:49:06.151 [http-nio-8080-exec-8] Settings - Wrap result sets: disabled
+[DEBUG] 2018-12-08 23:49:06.151 [http-nio-8080-exec-8] Settings - JDBC3 getGeneratedKeys(): enabled
+[DEBUG] 2018-12-08 23:49:06.152 [http-nio-8080-exec-8] Settings - JDBC result set fetch size: null
+[DEBUG] 2018-12-08 23:49:06.152 [http-nio-8080-exec-8] Settings - Connection release mode: AFTER_TRANSACTION
+[DEBUG] 2018-12-08 23:49:06.152 [http-nio-8080-exec-8] Settings - Generate SQL with comments: disabled
+[DEBUG] 2018-12-08 23:49:07.492 [http-nio-8080-exec-8] SessionFactoryImpl - Session factory constructed with filter configurations : {}
+[DEBUG] 2018-12-08 23:49:07.493 [http-nio-8080-exec-8] SessionFactoryImpl - Instantiating session factory with properties: {awt.toolkit=sun.awt.X11.XToolkit, java.specification.version=1.8, sun.cpu.isalist=, hibernate.c3p0.idle_test_period=3000, sun.jnu.encoding=UTF-8, hibernate.c3p0.min_size=5, sun.arch.data.model=64, catalina.useNaming=true, java.vendor.url=http://java.oracle.com/, openejb.provider.default=org.apache.tomee, sun.boot.library.path=/usr/lib/jvm/java-8-oracle/jre/lib/amd64, com.sun.management.jmxremote.ssl=false, sun.java.command=org.apache.catalina.startup.Bootstrap start, java.specification.vendor=Oracle Corporation, openejb.embedder.source=ServerListener, java.naming.factory.url.pkgs=org.apache.naming:org.apache.openejb.core.ivm.naming, java.home=/usr/lib/jvm/java-8-oracle/jre, file.separator=/, line.separator=
+, hibernate.c3p0.timeout=300, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.,org.apache.tomcat., openejb.deployments.classpath.filter.systemapps=false, sun.boot.class.path=/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes, jdk.tls.ephemeralDHKeySize=2048, java.util.logging.config.file=/home/student/.IntelliJIdea2018.2/system/tomcat/Unnamed_HikerWebsiteIndieProject_2/conf/logging.properties, connection.password=student, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_144-b01, user.name=student, org.apache.johnzon.max-string-length=8192, file.encoding=UTF-8, derby.system.home=/home/student/tomcat/bin, show_sql=true, hibernate.connection.driver_class=com.mysql.jdbc.Driver, java.io.tmpdir=/home/student/tomcat/temp, tomcat.util.scan.StandardJarScanFilter.jarsToScan=log4j-core*.jar,log4j-taglib*.jar,log4javascript*.jar,slf4j-taglib*.jar, com.sun.management.jmxremote.port=1099, java.version=1.8.0_144, tomcat.util.scan.StandardJarScanFilter.jarsToSkip=bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,websocket-api.jar,jaspic-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-storeconfig.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-util-scan.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-websocket.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,tools.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,taglibs-standard-spec-*.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,junit.jar,junit-*.jar,ant-launcher.jar,cobertura-*.jar,asm-*.jar,dom4j-*.jar,icu4j-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,oro-*.jar,servlet-api-*.jar,tagsoup-*.jar,xmlParserAPIs-*.jar,xom-*.jar, connection.username=root, java.vm.specification.name=Java Virtual Machine Specification, java.awt.printerjob=sun.print.PSPrinterJob, sun.os.patch.level=unknown, connection.driver_class=com.mysql.jdbc.Driver, tomcat.built=Jun 9 2016 11:16:29 UTC, java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, java.vendor=Oracle Corporation, tomee.version=7.0.1, java.rmi.server.randomIDs=true, sun.io.unicode.encoding=UnicodeLittle, tomcat.util.buf.StringCache.byte.enabled=true, sun.desktop=gnome, file.encoding.pkg=sun.io, com.sun.management.jmxremote.authenticate=false, java.class.path=/home/student/tomcat/bin/bootstrap.jar:/home/student/tomcat/bin/tomcat-juli.jar:/home/student/tomcat/lib/openejb-javaagent.jar, tomcat.version=8.5.3.0, java.vm.vendor=Oracle Corporation, openejb.home=/home/student/tomcat, openejb.system.apps=true, user.timezone=America/Chicago, os.name=Linux, java.vm.specification.version=1.8, sun.java.launcher=SUN_STANDARD, user.country=US, openejb.base=/home/student/.IntelliJIdea2018.2/system/tomcat/Unnamed_HikerWebsiteIndieProject_2, com.sun.management.jmxremote=, sun.cpu.endian=little, user.home=/home/student, hibernate.c3p0.max_statements=50, user.language=en, openejb.deployments.classpath=false, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.tomcat., openejb.loader=tomcat-system, server.loader=, hibernate.c3p0.max_size=20, java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory, org.apache.openejb.core.security.JaccProvider=org.apache.openejb.core.security.jacc.BasicJaccProvider, path.separator=:, hibernate.connection.username=root, common.loader="/home/student/tomcat/lib","/home/student/tomcat/lib/*.jar","/home/student/tomcat/lib","/home/student/tomcat/lib/*.jar", openejb.java9.hack=false, os.version=4.4.0-57-generic, openejb.version=7.0.1, java.endorsed.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/endorsed, org.apache.security.jacc.EJBMethodPermission.methodInterfaces=BusinessLocalHome,BusinessRemoteHome,BusinessRemote,BusinessLocal, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/HikerWebsiteDB, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=true, tomee.remote.support=true, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, catalina.home=/home/student/tomcat, bval.in-container=true, user.dir=/home/student/tomcat/bin, os.arch=amd64, openjpa.Log=org.apache.openejb.openjpa.JULOpenJPALogFactory, hibernate.connection.password=****, tomee.serialization.class.blacklist=-, tomee.serialization.class.whitelist=, catalina.base=/home/student/.IntelliJIdea2018.2/system/tomcat/Unnamed_HikerWebsiteIndieProject_2, shared.loader=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@295b4e3, java.util.logging.manager=org.apache.juli.ClassLoaderLogManager, noBanner=true, org.apache.webbeans.logger.WebBeansLoggerFacade=org.apache.openejb.cdi.logging.ContainerJULLoggerFactory, java.vm.info=mixed mode, java.vm.version=25.144-b01, hibernate.bytecode.use_reflection_optimizer=false, java.rmi.server.hostname=127.0.0.1, javax.security.jacc.PolicyConfigurationFactory.provider=org.apache.openejb.core.security.JaccProvider$Factory, java.ext.dirs=/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext, connection.url=jdbc:mysql://localhost:3306/HikerWebsiteDB, java.class.version=52.0, authconfigprovider.factory=false}
+[DEBUG] 2018-12-08 23:49:07.649 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [edu.matc.entity.HikingTrail] is safe
+[DEBUG] 2018-12-08 23:49:07.649 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.matc.entity.HikingTrail
+[DEBUG] 2018-12-08 23:49:07.822 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [edu.matc.entity.HikerAccount] is safe
+[DEBUG] 2018-12-08 23:49:07.822 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.matc.entity.HikerAccount
+[DEBUG] 2018-12-08 23:49:07.829 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [edu.matc.entity.Role] is safe
+[DEBUG] 2018-12-08 23:49:07.829 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.matc.entity.Role
+[DEBUG] 2018-12-08 23:49:07.841 [http-nio-8080-exec-8] JaccIntegrator - Skipping JACC integration as it was not enabled
+[DEBUG] 2018-12-08 23:49:07.918 [http-nio-8080-exec-8] SessionFactoryImpl - Instantiated session factory
+[DEBUG] 2018-12-08 23:49:08.124 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [edu.matc.entity.HikingTrail] is safe
+[DEBUG] 2018-12-08 23:49:08.125 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.matc.entity.HikingTrail
+[DEBUG] 2018-12-08 23:49:08.215 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [edu.matc.entity.HikingTrail] is safe
+[DEBUG] 2018-12-08 23:49:08.216 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.matc.entity.HikingTrail
+[DEBUG] 2018-12-08 23:49:08.677 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [edu.matc.entity.HikerAccount] is safe
+[DEBUG] 2018-12-08 23:49:08.678 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.matc.entity.HikerAccount
+[DEBUG] 2018-12-08 23:49:08.683 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [edu.matc.entity.HikerAccount] is safe
+[DEBUG] 2018-12-08 23:49:08.683 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.matc.entity.HikerAccount
+[DEBUG] 2018-12-08 23:49:08.691 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [edu.matc.entity.Role] is safe
+[DEBUG] 2018-12-08 23:49:08.691 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.matc.entity.Role
+[DEBUG] 2018-12-08 23:49:08.692 [http-nio-8080-exec-8] ClassLoaderAccessImpl - Not known whether passed class name [edu.matc.entity.Role] is safe
+[DEBUG] 2018-12-08 23:49:08.692 [http-nio-8080-exec-8] ClassLoaderAccessImpl - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : edu.matc.entity.Role
+[DEBUG] 2018-12-08 23:49:08.732 [http-nio-8080-exec-8] AbstractCollectionPersister - Static SQL for collection: edu.matc.entity.HikerAccount.hikingTrails
+[DEBUG] 2018-12-08 23:49:08.733 [http-nio-8080-exec-8] AbstractCollectionPersister -  Row insert: update Hiking_Trail set hiker_account_id=? where id=?
+[DEBUG] 2018-12-08 23:49:08.733 [http-nio-8080-exec-8] AbstractCollectionPersister -  Row update: update Hiking_Trail set  where id=?
+[DEBUG] 2018-12-08 23:49:08.733 [http-nio-8080-exec-8] AbstractCollectionPersister -  Row delete: update Hiking_Trail set hiker_account_id=null where hiker_account_id=? and id=?
+[DEBUG] 2018-12-08 23:49:08.733 [http-nio-8080-exec-8] AbstractCollectionPersister -  One-shot delete: update Hiking_Trail set hiker_account_id=null where hiker_account_id=?
+[DEBUG] 2018-12-08 23:49:08.759 [http-nio-8080-exec-8] AbstractEntityPersister - Static SQL for entity: edu.matc.entity.HikingTrail
+[DEBUG] 2018-12-08 23:49:08.759 [http-nio-8080-exec-8] AbstractEntityPersister -  Version select: select id from Hiking_Trail where id =?
+[DEBUG] 2018-12-08 23:49:08.759 [http-nio-8080-exec-8] AbstractEntityPersister -  Snapshot select: select hikingtrai_.id, hikingtrai_.hiker_account_id as hiker_a10_1_, hikingtrai_.trail_description as trail_de2_1_, hikingtrai_.trail_details as trail_de3_1_, hikingtrai_.trail_difficulty as trail_di4_1_, hikingtrai_.trail_features as trail_fe5_1_, hikingtrai_.trail_head_location as trail_he6_1_, hikingtrai_.trail_head_name as trail_he7_1_, hikingtrai_.trail_length as trail_le8_1_, hikingtrai_.trail_rating as trail_ra9_1_ from Hiking_Trail hikingtrai_ where hikingtrai_.id=?
+[DEBUG] 2018-12-08 23:49:08.759 [http-nio-8080-exec-8] AbstractEntityPersister -  Insert 0: insert into Hiking_Trail (hiker_account_id, trail_description, trail_details, trail_difficulty, trail_features, trail_head_location, trail_head_name, trail_length, trail_rating, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2018-12-08 23:49:08.760 [http-nio-8080-exec-8] AbstractEntityPersister -  Update 0: update Hiking_Trail set hiker_account_id=?, trail_description=?, trail_details=?, trail_difficulty=?, trail_features=?, trail_head_location=?, trail_head_name=?, trail_length=?, trail_rating=? where id=?
+[DEBUG] 2018-12-08 23:49:08.760 [http-nio-8080-exec-8] AbstractEntityPersister -  Delete 0: delete from Hiking_Trail where id=?
+[DEBUG] 2018-12-08 23:49:08.760 [http-nio-8080-exec-8] AbstractEntityPersister -  Identity insert: insert into Hiking_Trail (hiker_account_id, trail_description, trail_details, trail_difficulty, trail_features, trail_head_location, trail_head_name, trail_length, trail_rating) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2018-12-08 23:49:08.844 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@25b88668]
+[DEBUG] 2018-12-08 23:49:08.855 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:08.881 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@51b436f8]
+[DEBUG] 2018-12-08 23:49:08.886 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.city
+[DEBUG] 2018-12-08 23:49:08.886 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.emailAddress
+[DEBUG] 2018-12-08 23:49:08.886 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.firstName
+[DEBUG] 2018-12-08 23:49:08.886 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails
+[DEBUG] 2018-12-08 23:49:08.886 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : hikerAccount.hikingTrails
+[DEBUG] 2018-12-08 23:49:08.887 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.lastName
+[DEBUG] 2018-12-08 23:49:08.887 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.password
+[DEBUG] 2018-12-08 23:49:08.887 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.state
+[DEBUG] 2018-12-08 23:49:08.887 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDescription
+[DEBUG] 2018-12-08 23:49:08.887 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDetails
+[DEBUG] 2018-12-08 23:49:08.887 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDifficulty
+[DEBUG] 2018-12-08 23:49:08.887 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailFreatures
+[DEBUG] 2018-12-08 23:49:08.887 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadLocation
+[DEBUG] 2018-12-08 23:49:08.887 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadName
+[DEBUG] 2018-12-08 23:49:08.888 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailLength
+[DEBUG] 2018-12-08 23:49:08.888 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailRating
+[DEBUG] 2018-12-08 23:49:08.888 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:08.949 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:08.959 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikingTrail)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:0>, path=edu.matc.entity.HikingTrail)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.HikingTrail.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikingTrail)
+          - SQL table alias mapping - hikingtrai0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(hikerAccount)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.matc.entity.HikerAccount)
+                - SQL table alias mapping - hikeraccou1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+
+[DEBUG] 2018-12-08 23:49:08.962 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikingTrail [NONE]: select hikingtrai0_.id as id1_1_0_, hikingtrai0_.hiker_account_id as hiker_a10_1_0_, hikingtrai0_.trail_description as trail_de2_1_0_, hikingtrai0_.trail_details as trail_de3_1_0_, hikingtrai0_.trail_difficulty as trail_di4_1_0_, hikingtrai0_.trail_features as trail_fe5_1_0_, hikingtrai0_.trail_head_location as trail_he6_1_0_, hikingtrai0_.trail_head_name as trail_he7_1_0_, hikingtrai0_.trail_length as trail_le8_1_0_, hikingtrai0_.trail_rating as trail_ra9_1_0_, hikeraccou1_.id as id1_0_1_, hikeraccou1_.city as city2_0_1_, hikeraccou1_.email_address as email_ad3_0_1_, hikeraccou1_.first_name as first_na4_0_1_, hikeraccou1_.last_name as last_nam5_0_1_, hikeraccou1_.password as password6_0_1_, hikeraccou1_.state as state7_0_1_ from Hiking_Trail hikingtrai0_ left outer join Hiker_Account hikeraccou1_ on hikingtrai0_.hiker_account_id=hikeraccou1_.id where hikingtrai0_.id=?
+[DEBUG] 2018-12-08 23:49:08.962 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@79ef460e]
+[DEBUG] 2018-12-08 23:49:08.962 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:08.962 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@20caae5f]
+[DEBUG] 2018-12-08 23:49:08.963 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.city
+[DEBUG] 2018-12-08 23:49:08.963 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.emailAddress
+[DEBUG] 2018-12-08 23:49:08.963 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.firstName
+[DEBUG] 2018-12-08 23:49:08.963 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails
+[DEBUG] 2018-12-08 23:49:08.963 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : hikerAccount.hikingTrails
+[DEBUG] 2018-12-08 23:49:08.963 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.lastName
+[DEBUG] 2018-12-08 23:49:08.963 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.password
+[DEBUG] 2018-12-08 23:49:08.963 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.state
+[DEBUG] 2018-12-08 23:49:08.963 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDescription
+[DEBUG] 2018-12-08 23:49:08.963 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDetails
+[DEBUG] 2018-12-08 23:49:08.963 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDifficulty
+[DEBUG] 2018-12-08 23:49:08.964 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailFreatures
+[DEBUG] 2018-12-08 23:49:08.964 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadLocation
+[DEBUG] 2018-12-08 23:49:08.964 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadName
+[DEBUG] 2018-12-08 23:49:08.964 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailLength
+[DEBUG] 2018-12-08 23:49:08.964 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailRating
+[DEBUG] 2018-12-08 23:49:08.964 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:08.964 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:08.965 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikingTrail)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:0>, path=edu.matc.entity.HikingTrail)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.HikingTrail.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikingTrail)
+          - SQL table alias mapping - hikingtrai0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+          - JOIN (JoinDefinedByMetadata(hikerAccount)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.matc.entity.HikerAccount)
+                - SQL table alias mapping - hikeraccou1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+
+[DEBUG] 2018-12-08 23:49:08.965 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikingTrail [READ]: select hikingtrai0_.id as id1_1_0_, hikingtrai0_.hiker_account_id as hiker_a10_1_0_, hikingtrai0_.trail_description as trail_de2_1_0_, hikingtrai0_.trail_details as trail_de3_1_0_, hikingtrai0_.trail_difficulty as trail_di4_1_0_, hikingtrai0_.trail_features as trail_fe5_1_0_, hikingtrai0_.trail_head_location as trail_he6_1_0_, hikingtrai0_.trail_head_name as trail_he7_1_0_, hikingtrai0_.trail_length as trail_le8_1_0_, hikingtrai0_.trail_rating as trail_ra9_1_0_, hikeraccou1_.id as id1_0_1_, hikeraccou1_.city as city2_0_1_, hikeraccou1_.email_address as email_ad3_0_1_, hikeraccou1_.first_name as first_na4_0_1_, hikeraccou1_.last_name as last_nam5_0_1_, hikeraccou1_.password as password6_0_1_, hikeraccou1_.state as state7_0_1_ from Hiking_Trail hikingtrai0_ left outer join Hiker_Account hikeraccou1_ on hikingtrai0_.hiker_account_id=hikeraccou1_.id where hikingtrai0_.id=?
+[DEBUG] 2018-12-08 23:49:08.965 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5ce0999b]
+[DEBUG] 2018-12-08 23:49:08.965 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:08.966 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7df164bd]
+[DEBUG] 2018-12-08 23:49:08.966 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDescription
+[DEBUG] 2018-12-08 23:49:08.966 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDetails
+[DEBUG] 2018-12-08 23:49:08.966 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDifficulty
+[DEBUG] 2018-12-08 23:49:08.966 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailFreatures
+[DEBUG] 2018-12-08 23:49:08.966 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadLocation
+[DEBUG] 2018-12-08 23:49:08.966 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadName
+[DEBUG] 2018-12-08 23:49:08.966 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailLength
+[DEBUG] 2018-12-08 23:49:08.966 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailRating
+[DEBUG] 2018-12-08 23:49:08.966 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:08.967 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:08.967 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikingTrail)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:0>, path=edu.matc.entity.HikingTrail)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.HikingTrail.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikingTrail)
+          - SQL table alias mapping - hikingtrai0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+[DEBUG] 2018-12-08 23:49:08.967 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikingTrail [UPGRADE]: select hikingtrai0_.id as id1_1_0_, hikingtrai0_.hiker_account_id as hiker_a10_1_0_, hikingtrai0_.trail_description as trail_de2_1_0_, hikingtrai0_.trail_details as trail_de3_1_0_, hikingtrai0_.trail_difficulty as trail_di4_1_0_, hikingtrai0_.trail_features as trail_fe5_1_0_, hikingtrai0_.trail_head_location as trail_he6_1_0_, hikingtrai0_.trail_head_name as trail_he7_1_0_, hikingtrai0_.trail_length as trail_le8_1_0_, hikingtrai0_.trail_rating as trail_ra9_1_0_ from Hiking_Trail hikingtrai0_ where hikingtrai0_.id=? for update
+[DEBUG] 2018-12-08 23:49:08.967 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@41ab560c]
+[DEBUG] 2018-12-08 23:49:08.967 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:08.967 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@755252f8]
+[DEBUG] 2018-12-08 23:49:08.967 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDescription
+[DEBUG] 2018-12-08 23:49:08.968 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDetails
+[DEBUG] 2018-12-08 23:49:08.968 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDifficulty
+[DEBUG] 2018-12-08 23:49:08.968 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailFreatures
+[DEBUG] 2018-12-08 23:49:08.968 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadLocation
+[DEBUG] 2018-12-08 23:49:08.968 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadName
+[DEBUG] 2018-12-08 23:49:08.968 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailLength
+[DEBUG] 2018-12-08 23:49:08.968 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailRating
+[DEBUG] 2018-12-08 23:49:08.968 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:08.968 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:08.969 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikingTrail)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:0>, path=edu.matc.entity.HikingTrail)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.HikingTrail.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikingTrail)
+          - SQL table alias mapping - hikingtrai0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+[DEBUG] 2018-12-08 23:49:08.969 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikingTrail [UPGRADE_NOWAIT]: select hikingtrai0_.id as id1_1_0_, hikingtrai0_.hiker_account_id as hiker_a10_1_0_, hikingtrai0_.trail_description as trail_de2_1_0_, hikingtrai0_.trail_details as trail_de3_1_0_, hikingtrai0_.trail_difficulty as trail_di4_1_0_, hikingtrai0_.trail_features as trail_fe5_1_0_, hikingtrai0_.trail_head_location as trail_he6_1_0_, hikingtrai0_.trail_head_name as trail_he7_1_0_, hikingtrai0_.trail_length as trail_le8_1_0_, hikingtrai0_.trail_rating as trail_ra9_1_0_ from Hiking_Trail hikingtrai0_ where hikingtrai0_.id=? for update
+[DEBUG] 2018-12-08 23:49:08.969 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3f01463]
+[DEBUG] 2018-12-08 23:49:08.969 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:08.969 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@78d051f1]
+[DEBUG] 2018-12-08 23:49:08.969 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDescription
+[DEBUG] 2018-12-08 23:49:08.969 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDetails
+[DEBUG] 2018-12-08 23:49:08.969 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDifficulty
+[DEBUG] 2018-12-08 23:49:08.969 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailFreatures
+[DEBUG] 2018-12-08 23:49:08.970 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadLocation
+[DEBUG] 2018-12-08 23:49:08.970 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadName
+[DEBUG] 2018-12-08 23:49:08.970 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailLength
+[DEBUG] 2018-12-08 23:49:08.970 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailRating
+[DEBUG] 2018-12-08 23:49:08.970 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:08.970 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:08.970 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikingTrail)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:0>, path=edu.matc.entity.HikingTrail)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.HikingTrail.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikingTrail)
+          - SQL table alias mapping - hikingtrai0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+[DEBUG] 2018-12-08 23:49:08.971 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikingTrail [UPGRADE_SKIPLOCKED]: select hikingtrai0_.id as id1_1_0_, hikingtrai0_.hiker_account_id as hiker_a10_1_0_, hikingtrai0_.trail_description as trail_de2_1_0_, hikingtrai0_.trail_details as trail_de3_1_0_, hikingtrai0_.trail_difficulty as trail_di4_1_0_, hikingtrai0_.trail_features as trail_fe5_1_0_, hikingtrai0_.trail_head_location as trail_he6_1_0_, hikingtrai0_.trail_head_name as trail_he7_1_0_, hikingtrai0_.trail_length as trail_le8_1_0_, hikingtrai0_.trail_rating as trail_ra9_1_0_ from Hiking_Trail hikingtrai0_ where hikingtrai0_.id=? for update
+[DEBUG] 2018-12-08 23:49:08.971 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1f721981]
+[DEBUG] 2018-12-08 23:49:08.971 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:08.971 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5826eb2]
+[DEBUG] 2018-12-08 23:49:08.971 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDescription
+[DEBUG] 2018-12-08 23:49:08.971 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDetails
+[DEBUG] 2018-12-08 23:49:08.971 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDifficulty
+[DEBUG] 2018-12-08 23:49:08.971 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailFreatures
+[DEBUG] 2018-12-08 23:49:08.971 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadLocation
+[DEBUG] 2018-12-08 23:49:08.971 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadName
+[DEBUG] 2018-12-08 23:49:08.971 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailLength
+[DEBUG] 2018-12-08 23:49:08.972 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailRating
+[DEBUG] 2018-12-08 23:49:08.972 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:08.972 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:08.972 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikingTrail)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:0>, path=edu.matc.entity.HikingTrail)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.HikingTrail.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikingTrail)
+          - SQL table alias mapping - hikingtrai0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+[DEBUG] 2018-12-08 23:49:08.972 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikingTrail [FORCE]: select hikingtrai0_.id as id1_1_0_, hikingtrai0_.hiker_account_id as hiker_a10_1_0_, hikingtrai0_.trail_description as trail_de2_1_0_, hikingtrai0_.trail_details as trail_de3_1_0_, hikingtrai0_.trail_difficulty as trail_di4_1_0_, hikingtrai0_.trail_features as trail_fe5_1_0_, hikingtrai0_.trail_head_location as trail_he6_1_0_, hikingtrai0_.trail_head_name as trail_he7_1_0_, hikingtrai0_.trail_length as trail_le8_1_0_, hikingtrai0_.trail_rating as trail_ra9_1_0_ from Hiking_Trail hikingtrai0_ where hikingtrai0_.id=? for update
+[DEBUG] 2018-12-08 23:49:08.972 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7fa7e82a]
+[DEBUG] 2018-12-08 23:49:08.973 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:08.973 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7e129919]
+[DEBUG] 2018-12-08 23:49:08.973 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDescription
+[DEBUG] 2018-12-08 23:49:08.973 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDetails
+[DEBUG] 2018-12-08 23:49:08.973 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDifficulty
+[DEBUG] 2018-12-08 23:49:08.973 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailFreatures
+[DEBUG] 2018-12-08 23:49:08.973 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadLocation
+[DEBUG] 2018-12-08 23:49:08.973 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadName
+[DEBUG] 2018-12-08 23:49:08.973 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailLength
+[DEBUG] 2018-12-08 23:49:08.973 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailRating
+[DEBUG] 2018-12-08 23:49:08.973 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:08.974 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:08.974 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikingTrail)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:0>, path=edu.matc.entity.HikingTrail)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.HikingTrail.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikingTrail)
+          - SQL table alias mapping - hikingtrai0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+[DEBUG] 2018-12-08 23:49:08.987 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikingTrail [PESSIMISTIC_READ]: select hikingtrai0_.id as id1_1_0_, hikingtrai0_.hiker_account_id as hiker_a10_1_0_, hikingtrai0_.trail_description as trail_de2_1_0_, hikingtrai0_.trail_details as trail_de3_1_0_, hikingtrai0_.trail_difficulty as trail_di4_1_0_, hikingtrai0_.trail_features as trail_fe5_1_0_, hikingtrai0_.trail_head_location as trail_he6_1_0_, hikingtrai0_.trail_head_name as trail_he7_1_0_, hikingtrai0_.trail_length as trail_le8_1_0_, hikingtrai0_.trail_rating as trail_ra9_1_0_ from Hiking_Trail hikingtrai0_ where hikingtrai0_.id=? lock in share mode
+[DEBUG] 2018-12-08 23:49:09.016 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@68f38f97]
+[DEBUG] 2018-12-08 23:49:09.017 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.017 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6ac3b567]
+[DEBUG] 2018-12-08 23:49:09.017 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDescription
+[DEBUG] 2018-12-08 23:49:09.027 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDetails
+[DEBUG] 2018-12-08 23:49:09.027 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDifficulty
+[DEBUG] 2018-12-08 23:49:09.028 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailFreatures
+[DEBUG] 2018-12-08 23:49:09.029 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadLocation
+[DEBUG] 2018-12-08 23:49:09.029 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadName
+[DEBUG] 2018-12-08 23:49:09.029 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailLength
+[DEBUG] 2018-12-08 23:49:09.029 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailRating
+[DEBUG] 2018-12-08 23:49:09.029 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.030 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.031 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikingTrail)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:0>, path=edu.matc.entity.HikingTrail)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.HikingTrail.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikingTrail)
+          - SQL table alias mapping - hikingtrai0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+[DEBUG] 2018-12-08 23:49:09.031 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikingTrail [PESSIMISTIC_WRITE]: select hikingtrai0_.id as id1_1_0_, hikingtrai0_.hiker_account_id as hiker_a10_1_0_, hikingtrai0_.trail_description as trail_de2_1_0_, hikingtrai0_.trail_details as trail_de3_1_0_, hikingtrai0_.trail_difficulty as trail_di4_1_0_, hikingtrai0_.trail_features as trail_fe5_1_0_, hikingtrai0_.trail_head_location as trail_he6_1_0_, hikingtrai0_.trail_head_name as trail_he7_1_0_, hikingtrai0_.trail_length as trail_le8_1_0_, hikingtrai0_.trail_rating as trail_ra9_1_0_ from Hiking_Trail hikingtrai0_ where hikingtrai0_.id=? for update
+[DEBUG] 2018-12-08 23:49:09.031 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@733377]
+[DEBUG] 2018-12-08 23:49:09.032 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.032 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@72bba447]
+[DEBUG] 2018-12-08 23:49:09.054 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDescription
+[DEBUG] 2018-12-08 23:49:09.055 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDetails
+[DEBUG] 2018-12-08 23:49:09.055 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDifficulty
+[DEBUG] 2018-12-08 23:49:09.055 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailFreatures
+[DEBUG] 2018-12-08 23:49:09.055 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadLocation
+[DEBUG] 2018-12-08 23:49:09.055 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadName
+[DEBUG] 2018-12-08 23:49:09.055 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailLength
+[DEBUG] 2018-12-08 23:49:09.055 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailRating
+[DEBUG] 2018-12-08 23:49:09.056 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.056 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.057 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikingTrail)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:0>, path=edu.matc.entity.HikingTrail)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.HikingTrail.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikingTrail)
+          - SQL table alias mapping - hikingtrai0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+[DEBUG] 2018-12-08 23:49:09.057 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikingTrail [PESSIMISTIC_FORCE_INCREMENT]: select hikingtrai0_.id as id1_1_0_, hikingtrai0_.hiker_account_id as hiker_a10_1_0_, hikingtrai0_.trail_description as trail_de2_1_0_, hikingtrai0_.trail_details as trail_de3_1_0_, hikingtrai0_.trail_difficulty as trail_di4_1_0_, hikingtrai0_.trail_features as trail_fe5_1_0_, hikingtrai0_.trail_head_location as trail_he6_1_0_, hikingtrai0_.trail_head_name as trail_he7_1_0_, hikingtrai0_.trail_length as trail_le8_1_0_, hikingtrai0_.trail_rating as trail_ra9_1_0_ from Hiking_Trail hikingtrai0_ where hikingtrai0_.id=? for update
+[DEBUG] 2018-12-08 23:49:09.057 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5a44ffa]
+[DEBUG] 2018-12-08 23:49:09.057 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.057 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2c33aab2]
+[DEBUG] 2018-12-08 23:49:09.058 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDescription
+[DEBUG] 2018-12-08 23:49:09.058 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDetails
+[DEBUG] 2018-12-08 23:49:09.058 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDifficulty
+[DEBUG] 2018-12-08 23:49:09.058 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailFreatures
+[DEBUG] 2018-12-08 23:49:09.058 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadLocation
+[DEBUG] 2018-12-08 23:49:09.058 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadName
+[DEBUG] 2018-12-08 23:49:09.058 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailLength
+[DEBUG] 2018-12-08 23:49:09.058 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailRating
+[DEBUG] 2018-12-08 23:49:09.059 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.061 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.062 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikingTrail)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:0>, path=edu.matc.entity.HikingTrail)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.HikingTrail.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikingTrail)
+          - SQL table alias mapping - hikingtrai0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+[DEBUG] 2018-12-08 23:49:09.062 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikingTrail [OPTIMISTIC]: select hikingtrai0_.id as id1_1_0_, hikingtrai0_.hiker_account_id as hiker_a10_1_0_, hikingtrai0_.trail_description as trail_de2_1_0_, hikingtrai0_.trail_details as trail_de3_1_0_, hikingtrai0_.trail_difficulty as trail_di4_1_0_, hikingtrai0_.trail_features as trail_fe5_1_0_, hikingtrai0_.trail_head_location as trail_he6_1_0_, hikingtrai0_.trail_head_name as trail_he7_1_0_, hikingtrai0_.trail_length as trail_le8_1_0_, hikingtrai0_.trail_rating as trail_ra9_1_0_ from Hiking_Trail hikingtrai0_ where hikingtrai0_.id=?
+[DEBUG] 2018-12-08 23:49:09.062 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@305baef]
+[DEBUG] 2018-12-08 23:49:09.063 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.063 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@117cf67b]
+[DEBUG] 2018-12-08 23:49:09.063 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDescription
+[DEBUG] 2018-12-08 23:49:09.063 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDetails
+[DEBUG] 2018-12-08 23:49:09.063 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDifficulty
+[DEBUG] 2018-12-08 23:49:09.064 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailFreatures
+[DEBUG] 2018-12-08 23:49:09.067 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadLocation
+[DEBUG] 2018-12-08 23:49:09.076 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadName
+[DEBUG] 2018-12-08 23:49:09.076 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailLength
+[DEBUG] 2018-12-08 23:49:09.076 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailRating
+[DEBUG] 2018-12-08 23:49:09.076 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.076 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.077 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikingTrail)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:0>, path=edu.matc.entity.HikingTrail)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.HikingTrail.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikingTrail)
+          - SQL table alias mapping - hikingtrai0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_1_0_}
+
+[DEBUG] 2018-12-08 23:49:09.077 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikingTrail [OPTIMISTIC_FORCE_INCREMENT]: select hikingtrai0_.id as id1_1_0_, hikingtrai0_.hiker_account_id as hiker_a10_1_0_, hikingtrai0_.trail_description as trail_de2_1_0_, hikingtrai0_.trail_details as trail_de3_1_0_, hikingtrai0_.trail_difficulty as trail_di4_1_0_, hikingtrai0_.trail_features as trail_fe5_1_0_, hikingtrai0_.trail_head_location as trail_he6_1_0_, hikingtrai0_.trail_head_name as trail_he7_1_0_, hikingtrai0_.trail_length as trail_le8_1_0_, hikingtrai0_.trail_rating as trail_ra9_1_0_ from Hiking_Trail hikingtrai0_ where hikingtrai0_.id=?
+[DEBUG] 2018-12-08 23:49:09.260 [http-nio-8080-exec-8] Loader - Static select for action ACTION_MERGE on entity edu.matc.entity.HikingTrail: select hikingtrai0_.id as id1_1_0_, hikingtrai0_.hiker_account_id as hiker_a10_1_0_, hikingtrai0_.trail_description as trail_de2_1_0_, hikingtrai0_.trail_details as trail_de3_1_0_, hikingtrai0_.trail_difficulty as trail_di4_1_0_, hikingtrai0_.trail_features as trail_fe5_1_0_, hikingtrai0_.trail_head_location as trail_he6_1_0_, hikingtrai0_.trail_head_name as trail_he7_1_0_, hikingtrai0_.trail_length as trail_le8_1_0_, hikingtrai0_.trail_rating as trail_ra9_1_0_ from Hiking_Trail hikingtrai0_ where hikingtrai0_.id=?
+[DEBUG] 2018-12-08 23:49:09.266 [http-nio-8080-exec-8] Loader - Static select for action ACTION_REFRESH on entity edu.matc.entity.HikingTrail: select hikingtrai0_.id as id1_1_0_, hikingtrai0_.hiker_account_id as hiker_a10_1_0_, hikingtrai0_.trail_description as trail_de2_1_0_, hikingtrai0_.trail_details as trail_de3_1_0_, hikingtrai0_.trail_difficulty as trail_di4_1_0_, hikingtrai0_.trail_features as trail_fe5_1_0_, hikingtrai0_.trail_head_location as trail_he6_1_0_, hikingtrai0_.trail_head_name as trail_he7_1_0_, hikingtrai0_.trail_length as trail_le8_1_0_, hikingtrai0_.trail_rating as trail_ra9_1_0_ from Hiking_Trail hikingtrai0_ where hikingtrai0_.id=?
+[DEBUG] 2018-12-08 23:49:09.267 [http-nio-8080-exec-8] AbstractEntityPersister - Static SQL for entity: edu.matc.entity.HikerAccount
+[DEBUG] 2018-12-08 23:49:09.268 [http-nio-8080-exec-8] AbstractEntityPersister -  Version select: select id from Hiker_Account where id =?
+[DEBUG] 2018-12-08 23:49:09.268 [http-nio-8080-exec-8] AbstractEntityPersister -  Snapshot select: select hikeraccou_.id, hikeraccou_.city as city2_0_, hikeraccou_.email_address as email_ad3_0_, hikeraccou_.first_name as first_na4_0_, hikeraccou_.last_name as last_nam5_0_, hikeraccou_.password as password6_0_, hikeraccou_.state as state7_0_ from Hiker_Account hikeraccou_ where hikeraccou_.id=?
+[DEBUG] 2018-12-08 23:49:09.268 [http-nio-8080-exec-8] AbstractEntityPersister -  Insert 0: insert into Hiker_Account (city, email_address, first_name, last_name, password, state, id) values (?, ?, ?, ?, ?, ?, ?)
+[DEBUG] 2018-12-08 23:49:09.268 [http-nio-8080-exec-8] AbstractEntityPersister -  Update 0: update Hiker_Account set city=?, email_address=?, first_name=?, last_name=?, password=?, state=? where id=?
+[DEBUG] 2018-12-08 23:49:09.268 [http-nio-8080-exec-8] AbstractEntityPersister -  Delete 0: delete from Hiker_Account where id=?
+[DEBUG] 2018-12-08 23:49:09.268 [http-nio-8080-exec-8] AbstractEntityPersister -  Identity insert: insert into Hiker_Account (city, email_address, first_name, last_name, password, state) values (?, ?, ?, ?, ?, ?)
+[DEBUG] 2018-12-08 23:49:09.268 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@35aa5033]
+[DEBUG] 2018-12-08 23:49:09.269 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : city
+[DEBUG] 2018-12-08 23:49:09.269 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.269 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-12-08 23:49:09.269 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails
+[DEBUG] 2018-12-08 23:49:09.271 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@12295669]
+[DEBUG] 2018-12-08 23:49:09.296 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@f7cec0a]
+[DEBUG] 2018-12-08 23:49:09.328 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.hikerAccount
+[DEBUG] 2018-12-08 23:49:09.328 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : hikingTrails.hikerAccount
+[DEBUG] 2018-12-08 23:49:09.334 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.trailDescription
+[DEBUG] 2018-12-08 23:49:09.335 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.trailDetails
+[DEBUG] 2018-12-08 23:49:09.335 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.trailDifficulty
+[DEBUG] 2018-12-08 23:49:09.335 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.trailFreatures
+[DEBUG] 2018-12-08 23:49:09.335 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.trailHeadLocation
+[DEBUG] 2018-12-08 23:49:09.335 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.trailHeadName
+[DEBUG] 2018-12-08 23:49:09.335 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.trailLength
+[DEBUG] 2018-12-08 23:49:09.335 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.trailRating
+[DEBUG] 2018-12-08 23:49:09.335 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-12-08 23:49:09.336 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-12-08 23:49:09.336 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : state
+[DEBUG] 2018-12-08 23:49:09.336 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.336 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.365 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikerAccount)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:0>, path=edu.matc.entity.HikerAccount)
+          - CollectionAttributeFetchImpl(collection=edu.matc.entity.HikerAccount.hikingTrails, querySpaceUid=<gen:1>, path=edu.matc.entity.HikerAccount.hikingTrails)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:2>, path=edu.matc.entity.HikerAccount.hikingTrails.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikerAccount)
+          - SQL table alias mapping - hikeraccou0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(hikingTrails)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=edu.matc.entity.HikerAccount.hikingTrails)
+                - SQL table alias mapping - hikingtrai1_
+                - alias suffix - 1_
+                - suffixed key columns - {hiker_a10_1_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.matc.entity.HikingTrail)
+                      - SQL table alias mapping - hikingtrai1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+
+[DEBUG] 2018-12-08 23:49:09.365 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikerAccount [NONE]: select hikeraccou0_.id as id1_0_0_, hikeraccou0_.city as city2_0_0_, hikeraccou0_.email_address as email_ad3_0_0_, hikeraccou0_.first_name as first_na4_0_0_, hikeraccou0_.last_name as last_nam5_0_0_, hikeraccou0_.password as password6_0_0_, hikeraccou0_.state as state7_0_0_, hikingtrai1_.hiker_account_id as hiker_a10_1_1_, hikingtrai1_.id as id1_1_1_, hikingtrai1_.id as id1_1_2_, hikingtrai1_.hiker_account_id as hiker_a10_1_2_, hikingtrai1_.trail_description as trail_de2_1_2_, hikingtrai1_.trail_details as trail_de3_1_2_, hikingtrai1_.trail_difficulty as trail_di4_1_2_, hikingtrai1_.trail_features as trail_fe5_1_2_, hikingtrai1_.trail_head_location as trail_he6_1_2_, hikingtrai1_.trail_head_name as trail_he7_1_2_, hikingtrai1_.trail_length as trail_le8_1_2_, hikingtrai1_.trail_rating as trail_ra9_1_2_ from Hiker_Account hikeraccou0_ left outer join Hiking_Trail hikingtrai1_ on hikeraccou0_.id=hikingtrai1_.hiker_account_id where hikeraccou0_.id=?
+[DEBUG] 2018-12-08 23:49:09.366 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@40344feb]
+[DEBUG] 2018-12-08 23:49:09.366 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : city
+[DEBUG] 2018-12-08 23:49:09.366 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.366 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-12-08 23:49:09.366 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails
+[DEBUG] 2018-12-08 23:49:09.366 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7f4b62c]
+[DEBUG] 2018-12-08 23:49:09.366 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@8527276]
+[DEBUG] 2018-12-08 23:49:09.367 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.hikerAccount
+[DEBUG] 2018-12-08 23:49:09.367 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : hikingTrails.hikerAccount
+[DEBUG] 2018-12-08 23:49:09.367 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.trailDescription
+[DEBUG] 2018-12-08 23:49:09.367 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.trailDetails
+[DEBUG] 2018-12-08 23:49:09.367 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.trailDifficulty
+[DEBUG] 2018-12-08 23:49:09.367 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.trailFreatures
+[DEBUG] 2018-12-08 23:49:09.367 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.trailHeadLocation
+[DEBUG] 2018-12-08 23:49:09.367 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.trailHeadName
+[DEBUG] 2018-12-08 23:49:09.367 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.trailLength
+[DEBUG] 2018-12-08 23:49:09.367 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails.trailRating
+[DEBUG] 2018-12-08 23:49:09.367 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-12-08 23:49:09.367 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-12-08 23:49:09.368 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : state
+[DEBUG] 2018-12-08 23:49:09.368 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.368 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.369 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikerAccount)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:0>, path=edu.matc.entity.HikerAccount)
+          - CollectionAttributeFetchImpl(collection=edu.matc.entity.HikerAccount.hikingTrails, querySpaceUid=<gen:1>, path=edu.matc.entity.HikerAccount.hikingTrails)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:2>, path=edu.matc.entity.HikerAccount.hikingTrails.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikerAccount)
+          - SQL table alias mapping - hikeraccou0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(hikingTrails)) : <gen:0> -> <gen:1>
+             - CollectionQuerySpaceImpl(uid=<gen:1>, collection=edu.matc.entity.HikerAccount.hikingTrails)
+                - SQL table alias mapping - hikingtrai1_
+                - alias suffix - 1_
+                - suffixed key columns - {hiker_a10_1_1_}
+                - entity-element alias suffix - 2_
+                - 2_entity-element suffixed key columns - id1_1_2_
+                - JOIN (JoinDefinedByMetadata(elements)) : <gen:1> -> <gen:2>
+                   - EntityQuerySpaceImpl(uid=<gen:2>, entity=edu.matc.entity.HikingTrail)
+                      - SQL table alias mapping - hikingtrai1_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_1_2_}
+
+[DEBUG] 2018-12-08 23:49:09.370 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikerAccount [READ]: select hikeraccou0_.id as id1_0_0_, hikeraccou0_.city as city2_0_0_, hikeraccou0_.email_address as email_ad3_0_0_, hikeraccou0_.first_name as first_na4_0_0_, hikeraccou0_.last_name as last_nam5_0_0_, hikeraccou0_.password as password6_0_0_, hikeraccou0_.state as state7_0_0_, hikingtrai1_.hiker_account_id as hiker_a10_1_1_, hikingtrai1_.id as id1_1_1_, hikingtrai1_.id as id1_1_2_, hikingtrai1_.hiker_account_id as hiker_a10_1_2_, hikingtrai1_.trail_description as trail_de2_1_2_, hikingtrai1_.trail_details as trail_de3_1_2_, hikingtrai1_.trail_difficulty as trail_di4_1_2_, hikingtrai1_.trail_features as trail_fe5_1_2_, hikingtrai1_.trail_head_location as trail_he6_1_2_, hikingtrai1_.trail_head_name as trail_he7_1_2_, hikingtrai1_.trail_length as trail_le8_1_2_, hikingtrai1_.trail_rating as trail_ra9_1_2_ from Hiker_Account hikeraccou0_ left outer join Hiking_Trail hikingtrai1_ on hikeraccou0_.id=hikingtrai1_.hiker_account_id where hikeraccou0_.id=?
+[DEBUG] 2018-12-08 23:49:09.370 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7860973e]
+[DEBUG] 2018-12-08 23:49:09.370 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : city
+[DEBUG] 2018-12-08 23:49:09.370 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.382 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-12-08 23:49:09.383 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails
+[DEBUG] 2018-12-08 23:49:09.383 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@500e2f4e]
+[DEBUG] 2018-12-08 23:49:09.383 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@321771e4]
+[DEBUG] 2018-12-08 23:49:09.383 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-12-08 23:49:09.383 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-12-08 23:49:09.383 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : state
+[DEBUG] 2018-12-08 23:49:09.383 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.384 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.384 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikerAccount)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:0>, path=edu.matc.entity.HikerAccount)
+          - CollectionAttributeFetchImpl(collection=edu.matc.entity.HikerAccount.hikingTrails, querySpaceUid=<gen:1>, path=edu.matc.entity.HikerAccount.hikingTrails)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:2>, path=edu.matc.entity.HikerAccount.hikingTrails.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikerAccount)
+          - SQL table alias mapping - hikeraccou0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-12-08 23:49:09.385 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikerAccount [UPGRADE]: select hikeraccou0_.id as id1_0_0_, hikeraccou0_.city as city2_0_0_, hikeraccou0_.email_address as email_ad3_0_0_, hikeraccou0_.first_name as first_na4_0_0_, hikeraccou0_.last_name as last_nam5_0_0_, hikeraccou0_.password as password6_0_0_, hikeraccou0_.state as state7_0_0_ from Hiker_Account hikeraccou0_ where hikeraccou0_.id=? for update
+[DEBUG] 2018-12-08 23:49:09.385 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4eb2c9ff]
+[DEBUG] 2018-12-08 23:49:09.385 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : city
+[DEBUG] 2018-12-08 23:49:09.385 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.385 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-12-08 23:49:09.385 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails
+[DEBUG] 2018-12-08 23:49:09.386 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@58363939]
+[DEBUG] 2018-12-08 23:49:09.386 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5127eb8a]
+[DEBUG] 2018-12-08 23:49:09.386 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-12-08 23:49:09.386 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-12-08 23:49:09.386 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : state
+[DEBUG] 2018-12-08 23:49:09.386 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.387 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.387 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikerAccount)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:0>, path=edu.matc.entity.HikerAccount)
+          - CollectionAttributeFetchImpl(collection=edu.matc.entity.HikerAccount.hikingTrails, querySpaceUid=<gen:1>, path=edu.matc.entity.HikerAccount.hikingTrails)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:2>, path=edu.matc.entity.HikerAccount.hikingTrails.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikerAccount)
+          - SQL table alias mapping - hikeraccou0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-12-08 23:49:09.387 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikerAccount [UPGRADE_NOWAIT]: select hikeraccou0_.id as id1_0_0_, hikeraccou0_.city as city2_0_0_, hikeraccou0_.email_address as email_ad3_0_0_, hikeraccou0_.first_name as first_na4_0_0_, hikeraccou0_.last_name as last_nam5_0_0_, hikeraccou0_.password as password6_0_0_, hikeraccou0_.state as state7_0_0_ from Hiker_Account hikeraccou0_ where hikeraccou0_.id=? for update
+[DEBUG] 2018-12-08 23:49:09.388 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@9022d60]
+[DEBUG] 2018-12-08 23:49:09.388 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : city
+[DEBUG] 2018-12-08 23:49:09.388 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.388 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-12-08 23:49:09.388 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails
+[DEBUG] 2018-12-08 23:49:09.389 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@17e19bc]
+[DEBUG] 2018-12-08 23:49:09.389 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6f6bd9a2]
+[DEBUG] 2018-12-08 23:49:09.389 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-12-08 23:49:09.389 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-12-08 23:49:09.389 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : state
+[DEBUG] 2018-12-08 23:49:09.389 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.390 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.397 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikerAccount)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:0>, path=edu.matc.entity.HikerAccount)
+          - CollectionAttributeFetchImpl(collection=edu.matc.entity.HikerAccount.hikingTrails, querySpaceUid=<gen:1>, path=edu.matc.entity.HikerAccount.hikingTrails)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:2>, path=edu.matc.entity.HikerAccount.hikingTrails.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikerAccount)
+          - SQL table alias mapping - hikeraccou0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-12-08 23:49:09.397 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikerAccount [UPGRADE_SKIPLOCKED]: select hikeraccou0_.id as id1_0_0_, hikeraccou0_.city as city2_0_0_, hikeraccou0_.email_address as email_ad3_0_0_, hikeraccou0_.first_name as first_na4_0_0_, hikeraccou0_.last_name as last_nam5_0_0_, hikeraccou0_.password as password6_0_0_, hikeraccou0_.state as state7_0_0_ from Hiker_Account hikeraccou0_ where hikeraccou0_.id=? for update
+[DEBUG] 2018-12-08 23:49:09.398 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@779a9002]
+[DEBUG] 2018-12-08 23:49:09.402 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : city
+[DEBUG] 2018-12-08 23:49:09.410 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.411 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-12-08 23:49:09.411 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails
+[DEBUG] 2018-12-08 23:49:09.411 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2ecbb67e]
+[DEBUG] 2018-12-08 23:49:09.412 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1f5cdccc]
+[DEBUG] 2018-12-08 23:49:09.412 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-12-08 23:49:09.412 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-12-08 23:49:09.412 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : state
+[DEBUG] 2018-12-08 23:49:09.412 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.413 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.414 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikerAccount)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:0>, path=edu.matc.entity.HikerAccount)
+          - CollectionAttributeFetchImpl(collection=edu.matc.entity.HikerAccount.hikingTrails, querySpaceUid=<gen:1>, path=edu.matc.entity.HikerAccount.hikingTrails)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:2>, path=edu.matc.entity.HikerAccount.hikingTrails.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikerAccount)
+          - SQL table alias mapping - hikeraccou0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-12-08 23:49:09.414 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikerAccount [FORCE]: select hikeraccou0_.id as id1_0_0_, hikeraccou0_.city as city2_0_0_, hikeraccou0_.email_address as email_ad3_0_0_, hikeraccou0_.first_name as first_na4_0_0_, hikeraccou0_.last_name as last_nam5_0_0_, hikeraccou0_.password as password6_0_0_, hikeraccou0_.state as state7_0_0_ from Hiker_Account hikeraccou0_ where hikeraccou0_.id=? for update
+[DEBUG] 2018-12-08 23:49:09.426 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3c6545a5]
+[DEBUG] 2018-12-08 23:49:09.426 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : city
+[DEBUG] 2018-12-08 23:49:09.427 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.427 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-12-08 23:49:09.427 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails
+[DEBUG] 2018-12-08 23:49:09.427 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@5f4969e4]
+[DEBUG] 2018-12-08 23:49:09.427 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@260a747d]
+[DEBUG] 2018-12-08 23:49:09.427 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-12-08 23:49:09.427 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-12-08 23:49:09.427 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : state
+[DEBUG] 2018-12-08 23:49:09.427 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.428 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.428 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikerAccount)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:0>, path=edu.matc.entity.HikerAccount)
+          - CollectionAttributeFetchImpl(collection=edu.matc.entity.HikerAccount.hikingTrails, querySpaceUid=<gen:1>, path=edu.matc.entity.HikerAccount.hikingTrails)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:2>, path=edu.matc.entity.HikerAccount.hikingTrails.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikerAccount)
+          - SQL table alias mapping - hikeraccou0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-12-08 23:49:09.429 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikerAccount [PESSIMISTIC_READ]: select hikeraccou0_.id as id1_0_0_, hikeraccou0_.city as city2_0_0_, hikeraccou0_.email_address as email_ad3_0_0_, hikeraccou0_.first_name as first_na4_0_0_, hikeraccou0_.last_name as last_nam5_0_0_, hikeraccou0_.password as password6_0_0_, hikeraccou0_.state as state7_0_0_ from Hiker_Account hikeraccou0_ where hikeraccou0_.id=? lock in share mode
+[DEBUG] 2018-12-08 23:49:09.436 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@30545574]
+[DEBUG] 2018-12-08 23:49:09.436 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : city
+[DEBUG] 2018-12-08 23:49:09.436 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.436 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-12-08 23:49:09.436 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails
+[DEBUG] 2018-12-08 23:49:09.437 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1a28bfb2]
+[DEBUG] 2018-12-08 23:49:09.437 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6ff48916]
+[DEBUG] 2018-12-08 23:49:09.437 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-12-08 23:49:09.437 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-12-08 23:49:09.437 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : state
+[DEBUG] 2018-12-08 23:49:09.437 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.438 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.438 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikerAccount)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:0>, path=edu.matc.entity.HikerAccount)
+          - CollectionAttributeFetchImpl(collection=edu.matc.entity.HikerAccount.hikingTrails, querySpaceUid=<gen:1>, path=edu.matc.entity.HikerAccount.hikingTrails)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:2>, path=edu.matc.entity.HikerAccount.hikingTrails.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikerAccount)
+          - SQL table alias mapping - hikeraccou0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-12-08 23:49:09.439 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikerAccount [PESSIMISTIC_WRITE]: select hikeraccou0_.id as id1_0_0_, hikeraccou0_.city as city2_0_0_, hikeraccou0_.email_address as email_ad3_0_0_, hikeraccou0_.first_name as first_na4_0_0_, hikeraccou0_.last_name as last_nam5_0_0_, hikeraccou0_.password as password6_0_0_, hikeraccou0_.state as state7_0_0_ from Hiker_Account hikeraccou0_ where hikeraccou0_.id=? for update
+[DEBUG] 2018-12-08 23:49:09.439 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7d998e69]
+[DEBUG] 2018-12-08 23:49:09.439 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : city
+[DEBUG] 2018-12-08 23:49:09.439 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.439 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-12-08 23:49:09.439 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails
+[DEBUG] 2018-12-08 23:49:09.440 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7bfe6aa0]
+[DEBUG] 2018-12-08 23:49:09.449 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3089f0f0]
+[DEBUG] 2018-12-08 23:49:09.450 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-12-08 23:49:09.450 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-12-08 23:49:09.450 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : state
+[DEBUG] 2018-12-08 23:49:09.450 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.450 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.451 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikerAccount)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:0>, path=edu.matc.entity.HikerAccount)
+          - CollectionAttributeFetchImpl(collection=edu.matc.entity.HikerAccount.hikingTrails, querySpaceUid=<gen:1>, path=edu.matc.entity.HikerAccount.hikingTrails)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:2>, path=edu.matc.entity.HikerAccount.hikingTrails.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikerAccount)
+          - SQL table alias mapping - hikeraccou0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-12-08 23:49:09.451 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikerAccount [PESSIMISTIC_FORCE_INCREMENT]: select hikeraccou0_.id as id1_0_0_, hikeraccou0_.city as city2_0_0_, hikeraccou0_.email_address as email_ad3_0_0_, hikeraccou0_.first_name as first_na4_0_0_, hikeraccou0_.last_name as last_nam5_0_0_, hikeraccou0_.password as password6_0_0_, hikeraccou0_.state as state7_0_0_ from Hiker_Account hikeraccou0_ where hikeraccou0_.id=? for update
+[DEBUG] 2018-12-08 23:49:09.462 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@152da4e]
+[DEBUG] 2018-12-08 23:49:09.463 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : city
+[DEBUG] 2018-12-08 23:49:09.463 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.463 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-12-08 23:49:09.463 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails
+[DEBUG] 2018-12-08 23:49:09.463 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@9a05621]
+[DEBUG] 2018-12-08 23:49:09.463 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@76d12995]
+[DEBUG] 2018-12-08 23:49:09.463 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-12-08 23:49:09.463 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-12-08 23:49:09.463 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : state
+[DEBUG] 2018-12-08 23:49:09.464 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.464 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.464 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikerAccount)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:0>, path=edu.matc.entity.HikerAccount)
+          - CollectionAttributeFetchImpl(collection=edu.matc.entity.HikerAccount.hikingTrails, querySpaceUid=<gen:1>, path=edu.matc.entity.HikerAccount.hikingTrails)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:2>, path=edu.matc.entity.HikerAccount.hikingTrails.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikerAccount)
+          - SQL table alias mapping - hikeraccou0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-12-08 23:49:09.465 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikerAccount [OPTIMISTIC]: select hikeraccou0_.id as id1_0_0_, hikeraccou0_.city as city2_0_0_, hikeraccou0_.email_address as email_ad3_0_0_, hikeraccou0_.first_name as first_na4_0_0_, hikeraccou0_.last_name as last_nam5_0_0_, hikeraccou0_.password as password6_0_0_, hikeraccou0_.state as state7_0_0_ from Hiker_Account hikeraccou0_ where hikeraccou0_.id=?
+[DEBUG] 2018-12-08 23:49:09.465 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@61c60dab]
+[DEBUG] 2018-12-08 23:49:09.465 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : city
+[DEBUG] 2018-12-08 23:49:09.465 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.465 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : firstName
+[DEBUG] 2018-12-08 23:49:09.465 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikingTrails
+[DEBUG] 2018-12-08 23:49:09.465 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@777c3364]
+[DEBUG] 2018-12-08 23:49:09.465 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@81e319f]
+[DEBUG] 2018-12-08 23:49:09.465 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : lastName
+[DEBUG] 2018-12-08 23:49:09.465 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : password
+[DEBUG] 2018-12-08 23:49:09.465 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : state
+[DEBUG] 2018-12-08 23:49:09.466 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.466 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.466 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.HikerAccount)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:0>, path=edu.matc.entity.HikerAccount)
+          - CollectionAttributeFetchImpl(collection=edu.matc.entity.HikerAccount.hikingTrails, querySpaceUid=<gen:1>, path=edu.matc.entity.HikerAccount.hikingTrails)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:2>, path=edu.matc.entity.HikerAccount.hikingTrails.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.HikerAccount)
+          - SQL table alias mapping - hikeraccou0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+[DEBUG] 2018-12-08 23:49:09.477 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.HikerAccount [OPTIMISTIC_FORCE_INCREMENT]: select hikeraccou0_.id as id1_0_0_, hikeraccou0_.city as city2_0_0_, hikeraccou0_.email_address as email_ad3_0_0_, hikeraccou0_.first_name as first_na4_0_0_, hikeraccou0_.last_name as last_nam5_0_0_, hikeraccou0_.password as password6_0_0_, hikeraccou0_.state as state7_0_0_ from Hiker_Account hikeraccou0_ where hikeraccou0_.id=?
+[DEBUG] 2018-12-08 23:49:09.480 [http-nio-8080-exec-8] Loader - Static select for action ACTION_MERGE on entity edu.matc.entity.HikerAccount: select hikeraccou0_.id as id1_0_1_, hikeraccou0_.city as city2_0_1_, hikeraccou0_.email_address as email_ad3_0_1_, hikeraccou0_.first_name as first_na4_0_1_, hikeraccou0_.last_name as last_nam5_0_1_, hikeraccou0_.password as password6_0_1_, hikeraccou0_.state as state7_0_1_, hikingtrai1_.hiker_account_id as hiker_a10_1_3_, hikingtrai1_.id as id1_1_3_, hikingtrai1_.id as id1_1_0_, hikingtrai1_.hiker_account_id as hiker_a10_1_0_, hikingtrai1_.trail_description as trail_de2_1_0_, hikingtrai1_.trail_details as trail_de3_1_0_, hikingtrai1_.trail_difficulty as trail_di4_1_0_, hikingtrai1_.trail_features as trail_fe5_1_0_, hikingtrai1_.trail_head_location as trail_he6_1_0_, hikingtrai1_.trail_head_name as trail_he7_1_0_, hikingtrai1_.trail_length as trail_le8_1_0_, hikingtrai1_.trail_rating as trail_ra9_1_0_ from Hiker_Account hikeraccou0_ left outer join Hiking_Trail hikingtrai1_ on hikeraccou0_.id=hikingtrai1_.hiker_account_id where hikeraccou0_.id=?
+[DEBUG] 2018-12-08 23:49:09.480 [http-nio-8080-exec-8] Loader - Static select for action ACTION_REFRESH on entity edu.matc.entity.HikerAccount: select hikeraccou0_.id as id1_0_1_, hikeraccou0_.city as city2_0_1_, hikeraccou0_.email_address as email_ad3_0_1_, hikeraccou0_.first_name as first_na4_0_1_, hikeraccou0_.last_name as last_nam5_0_1_, hikeraccou0_.password as password6_0_1_, hikeraccou0_.state as state7_0_1_, hikingtrai1_.hiker_account_id as hiker_a10_1_3_, hikingtrai1_.id as id1_1_3_, hikingtrai1_.id as id1_1_0_, hikingtrai1_.hiker_account_id as hiker_a10_1_0_, hikingtrai1_.trail_description as trail_de2_1_0_, hikingtrai1_.trail_details as trail_de3_1_0_, hikingtrai1_.trail_difficulty as trail_di4_1_0_, hikingtrai1_.trail_features as trail_fe5_1_0_, hikingtrai1_.trail_head_location as trail_he6_1_0_, hikingtrai1_.trail_head_name as trail_he7_1_0_, hikingtrai1_.trail_length as trail_le8_1_0_, hikingtrai1_.trail_rating as trail_ra9_1_0_ from Hiker_Account hikeraccou0_ left outer join Hiking_Trail hikingtrai1_ on hikeraccou0_.id=hikingtrai1_.hiker_account_id where hikeraccou0_.id=?
+[DEBUG] 2018-12-08 23:49:09.481 [http-nio-8080-exec-8] AbstractEntityPersister - Static SQL for entity: edu.matc.entity.Role
+[DEBUG] 2018-12-08 23:49:09.481 [http-nio-8080-exec-8] AbstractEntityPersister -  Version select: select id from role where id =?
+[DEBUG] 2018-12-08 23:49:09.481 [http-nio-8080-exec-8] AbstractEntityPersister -  Snapshot select: select role_.id, role_.email_address as email_ad2_2_, role_.hiker_account_id as hiker_ac4_2_, role_.role_name as role_nam3_2_ from role role_ where role_.id=?
+[DEBUG] 2018-12-08 23:49:09.486 [http-nio-8080-exec-8] AbstractEntityPersister -  Insert 0: insert into role (email_address, hiker_account_id, role_name, id) values (?, ?, ?, ?)
+[DEBUG] 2018-12-08 23:49:09.487 [http-nio-8080-exec-8] AbstractEntityPersister -  Update 0: update role set email_address=?, hiker_account_id=?, role_name=? where id=?
+[DEBUG] 2018-12-08 23:49:09.487 [http-nio-8080-exec-8] AbstractEntityPersister -  Delete 0: delete from role where id=?
+[DEBUG] 2018-12-08 23:49:09.487 [http-nio-8080-exec-8] AbstractEntityPersister -  Identity insert: insert into role (email_address, hiker_account_id, role_name) values (?, ?, ?)
+[DEBUG] 2018-12-08 23:49:09.488 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2082af]
+[DEBUG] 2018-12-08 23:49:09.494 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.498 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.506 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6a30f68]
+[DEBUG] 2018-12-08 23:49:09.507 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.city
+[DEBUG] 2018-12-08 23:49:09.508 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.emailAddress
+[DEBUG] 2018-12-08 23:49:09.508 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.firstName
+[DEBUG] 2018-12-08 23:49:09.508 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails
+[DEBUG] 2018-12-08 23:49:09.508 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@1f7ec6e6]
+[DEBUG] 2018-12-08 23:49:09.509 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@385d60c5]
+[DEBUG] 2018-12-08 23:49:09.509 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.hikerAccount
+[DEBUG] 2018-12-08 23:49:09.510 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : hikerAccount.hikingTrails.hikerAccount
+[DEBUG] 2018-12-08 23:49:09.510 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.trailDescription
+[DEBUG] 2018-12-08 23:49:09.510 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.trailDetails
+[DEBUG] 2018-12-08 23:49:09.510 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.trailDifficulty
+[DEBUG] 2018-12-08 23:49:09.510 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.trailFreatures
+[DEBUG] 2018-12-08 23:49:09.522 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.trailHeadLocation
+[DEBUG] 2018-12-08 23:49:09.523 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.trailHeadName
+[DEBUG] 2018-12-08 23:49:09.523 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.trailLength
+[DEBUG] 2018-12-08 23:49:09.523 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.trailRating
+[DEBUG] 2018-12-08 23:49:09.523 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.lastName
+[DEBUG] 2018-12-08 23:49:09.523 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.password
+[DEBUG] 2018-12-08 23:49:09.523 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.state
+[DEBUG] 2018-12-08 23:49:09.523 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : roleName
+[DEBUG] 2018-12-08 23:49:09.523 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.524 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.525 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.Role, querySpaceUid=<gen:0>, path=edu.matc.entity.Role)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.Role.hikerAccount)
+             - CollectionAttributeFetchImpl(collection=edu.matc.entity.HikerAccount.hikingTrails, querySpaceUid=<gen:2>, path=edu.matc.entity.Role.hikerAccount.hikingTrails)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:3>, path=edu.matc.entity.Role.hikerAccount.hikingTrails.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(hikerAccount)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.matc.entity.HikerAccount)
+                - SQL table alias mapping - hikeraccou1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+                - JOIN (JoinDefinedByMetadata(hikingTrails)) : <gen:1> -> <gen:2>
+                   - CollectionQuerySpaceImpl(uid=<gen:2>, collection=edu.matc.entity.HikerAccount.hikingTrails)
+                      - SQL table alias mapping - hikingtrai2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {hiker_a10_1_2_}
+                      - entity-element alias suffix - 3_
+                      - 3_entity-element suffixed key columns - id1_1_3_
+                      - JOIN (JoinDefinedByMetadata(elements)) : <gen:2> -> <gen:3>
+                         - EntityQuerySpaceImpl(uid=<gen:3>, entity=edu.matc.entity.HikingTrail)
+                            - SQL table alias mapping - hikingtrai2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {id1_1_3_}
+
+[DEBUG] 2018-12-08 23:49:09.525 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.Role [NONE]: select role0_.id as id1_2_0_, role0_.email_address as email_ad2_2_0_, role0_.hiker_account_id as hiker_ac4_2_0_, role0_.role_name as role_nam3_2_0_, hikeraccou1_.id as id1_0_1_, hikeraccou1_.city as city2_0_1_, hikeraccou1_.email_address as email_ad3_0_1_, hikeraccou1_.first_name as first_na4_0_1_, hikeraccou1_.last_name as last_nam5_0_1_, hikeraccou1_.password as password6_0_1_, hikeraccou1_.state as state7_0_1_, hikingtrai2_.hiker_account_id as hiker_a10_1_2_, hikingtrai2_.id as id1_1_2_, hikingtrai2_.id as id1_1_3_, hikingtrai2_.hiker_account_id as hiker_a10_1_3_, hikingtrai2_.trail_description as trail_de2_1_3_, hikingtrai2_.trail_details as trail_de3_1_3_, hikingtrai2_.trail_difficulty as trail_di4_1_3_, hikingtrai2_.trail_features as trail_fe5_1_3_, hikingtrai2_.trail_head_location as trail_he6_1_3_, hikingtrai2_.trail_head_name as trail_he7_1_3_, hikingtrai2_.trail_length as trail_le8_1_3_, hikingtrai2_.trail_rating as trail_ra9_1_3_ from role role0_ left outer join Hiker_Account hikeraccou1_ on role0_.hiker_account_id=hikeraccou1_.id left outer join Hiking_Trail hikingtrai2_ on hikeraccou1_.id=hikingtrai2_.hiker_account_id where role0_.id=?
+[DEBUG] 2018-12-08 23:49:09.530 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2cc10086]
+[DEBUG] 2018-12-08 23:49:09.531 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.531 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.531 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6acad2b]
+[DEBUG] 2018-12-08 23:49:09.531 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.city
+[DEBUG] 2018-12-08 23:49:09.531 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.emailAddress
+[DEBUG] 2018-12-08 23:49:09.531 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.firstName
+[DEBUG] 2018-12-08 23:49:09.531 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails
+[DEBUG] 2018-12-08 23:49:09.532 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@6add6e42]
+[DEBUG] 2018-12-08 23:49:09.532 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5d979014]
+[DEBUG] 2018-12-08 23:49:09.532 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.hikerAccount
+[DEBUG] 2018-12-08 23:49:09.532 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : hikerAccount.hikingTrails.hikerAccount
+[DEBUG] 2018-12-08 23:49:09.532 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.trailDescription
+[DEBUG] 2018-12-08 23:49:09.532 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.trailDetails
+[DEBUG] 2018-12-08 23:49:09.532 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.trailDifficulty
+[DEBUG] 2018-12-08 23:49:09.532 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.trailFreatures
+[DEBUG] 2018-12-08 23:49:09.532 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.trailHeadLocation
+[DEBUG] 2018-12-08 23:49:09.532 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.trailHeadName
+[DEBUG] 2018-12-08 23:49:09.532 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.trailLength
+[DEBUG] 2018-12-08 23:49:09.532 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.hikingTrails.trailRating
+[DEBUG] 2018-12-08 23:49:09.533 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.lastName
+[DEBUG] 2018-12-08 23:49:09.533 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.password
+[DEBUG] 2018-12-08 23:49:09.533 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount.state
+[DEBUG] 2018-12-08 23:49:09.533 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : roleName
+[DEBUG] 2018-12-08 23:49:09.533 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.533 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.534 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.Role, querySpaceUid=<gen:0>, path=edu.matc.entity.Role)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.Role.hikerAccount)
+             - CollectionAttributeFetchImpl(collection=edu.matc.entity.HikerAccount.hikingTrails, querySpaceUid=<gen:2>, path=edu.matc.entity.Role.hikerAccount.hikingTrails)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:3>, path=edu.matc.entity.Role.hikerAccount.hikingTrails.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+          - JOIN (JoinDefinedByMetadata(hikerAccount)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.matc.entity.HikerAccount)
+                - SQL table alias mapping - hikeraccou1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+                - JOIN (JoinDefinedByMetadata(hikingTrails)) : <gen:1> -> <gen:2>
+                   - CollectionQuerySpaceImpl(uid=<gen:2>, collection=edu.matc.entity.HikerAccount.hikingTrails)
+                      - SQL table alias mapping - hikingtrai2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {hiker_a10_1_2_}
+                      - entity-element alias suffix - 3_
+                      - 3_entity-element suffixed key columns - id1_1_3_
+                      - JOIN (JoinDefinedByMetadata(elements)) : <gen:2> -> <gen:3>
+                         - EntityQuerySpaceImpl(uid=<gen:3>, entity=edu.matc.entity.HikingTrail)
+                            - SQL table alias mapping - hikingtrai2_
+                            - alias suffix - 3_
+                            - suffixed key columns - {id1_1_3_}
+
+[DEBUG] 2018-12-08 23:49:09.534 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.Role [READ]: select role0_.id as id1_2_0_, role0_.email_address as email_ad2_2_0_, role0_.hiker_account_id as hiker_ac4_2_0_, role0_.role_name as role_nam3_2_0_, hikeraccou1_.id as id1_0_1_, hikeraccou1_.city as city2_0_1_, hikeraccou1_.email_address as email_ad3_0_1_, hikeraccou1_.first_name as first_na4_0_1_, hikeraccou1_.last_name as last_nam5_0_1_, hikeraccou1_.password as password6_0_1_, hikeraccou1_.state as state7_0_1_, hikingtrai2_.hiker_account_id as hiker_a10_1_2_, hikingtrai2_.id as id1_1_2_, hikingtrai2_.id as id1_1_3_, hikingtrai2_.hiker_account_id as hiker_a10_1_3_, hikingtrai2_.trail_description as trail_de2_1_3_, hikingtrai2_.trail_details as trail_de3_1_3_, hikingtrai2_.trail_difficulty as trail_di4_1_3_, hikingtrai2_.trail_features as trail_fe5_1_3_, hikingtrai2_.trail_head_location as trail_he6_1_3_, hikingtrai2_.trail_head_name as trail_he7_1_3_, hikingtrai2_.trail_length as trail_le8_1_3_, hikingtrai2_.trail_rating as trail_ra9_1_3_ from role role0_ left outer join Hiker_Account hikeraccou1_ on role0_.hiker_account_id=hikeraccou1_.id left outer join Hiking_Trail hikingtrai2_ on hikeraccou1_.id=hikingtrai2_.hiker_account_id where role0_.id=?
+[DEBUG] 2018-12-08 23:49:09.534 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1598d8bd]
+[DEBUG] 2018-12-08 23:49:09.535 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.535 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.535 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4737e2b4]
+[DEBUG] 2018-12-08 23:49:09.535 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : roleName
+[DEBUG] 2018-12-08 23:49:09.535 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.546 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.547 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.Role, querySpaceUid=<gen:0>, path=edu.matc.entity.Role)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.Role.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[DEBUG] 2018-12-08 23:49:09.547 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.Role [UPGRADE]: select role0_.id as id1_2_0_, role0_.email_address as email_ad2_2_0_, role0_.hiker_account_id as hiker_ac4_2_0_, role0_.role_name as role_nam3_2_0_ from role role0_ where role0_.id=? for update
+[DEBUG] 2018-12-08 23:49:09.548 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@63fd2776]
+[DEBUG] 2018-12-08 23:49:09.548 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.548 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.548 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@33f77a0d]
+[DEBUG] 2018-12-08 23:49:09.548 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : roleName
+[DEBUG] 2018-12-08 23:49:09.548 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.548 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.549 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.Role, querySpaceUid=<gen:0>, path=edu.matc.entity.Role)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.Role.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[DEBUG] 2018-12-08 23:49:09.549 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.Role [UPGRADE_NOWAIT]: select role0_.id as id1_2_0_, role0_.email_address as email_ad2_2_0_, role0_.hiker_account_id as hiker_ac4_2_0_, role0_.role_name as role_nam3_2_0_ from role role0_ where role0_.id=? for update
+[DEBUG] 2018-12-08 23:49:09.549 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4b2d0c85]
+[DEBUG] 2018-12-08 23:49:09.549 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.549 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.549 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6b0cedcf]
+[DEBUG] 2018-12-08 23:49:09.550 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : roleName
+[DEBUG] 2018-12-08 23:49:09.550 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.550 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.550 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.Role, querySpaceUid=<gen:0>, path=edu.matc.entity.Role)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.Role.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[DEBUG] 2018-12-08 23:49:09.550 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.Role [UPGRADE_SKIPLOCKED]: select role0_.id as id1_2_0_, role0_.email_address as email_ad2_2_0_, role0_.hiker_account_id as hiker_ac4_2_0_, role0_.role_name as role_nam3_2_0_ from role role0_ where role0_.id=? for update
+[DEBUG] 2018-12-08 23:49:09.551 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6323d5b1]
+[DEBUG] 2018-12-08 23:49:09.551 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.551 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.551 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@b432120]
+[DEBUG] 2018-12-08 23:49:09.551 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : roleName
+[DEBUG] 2018-12-08 23:49:09.551 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.551 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.552 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.Role, querySpaceUid=<gen:0>, path=edu.matc.entity.Role)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.Role.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[DEBUG] 2018-12-08 23:49:09.552 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.Role [FORCE]: select role0_.id as id1_2_0_, role0_.email_address as email_ad2_2_0_, role0_.hiker_account_id as hiker_ac4_2_0_, role0_.role_name as role_nam3_2_0_ from role role0_ where role0_.id=? for update
+[DEBUG] 2018-12-08 23:49:09.552 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@72dc712]
+[DEBUG] 2018-12-08 23:49:09.552 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.552 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.552 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7739e520]
+[DEBUG] 2018-12-08 23:49:09.552 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : roleName
+[DEBUG] 2018-12-08 23:49:09.552 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.553 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.553 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.Role, querySpaceUid=<gen:0>, path=edu.matc.entity.Role)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.Role.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[DEBUG] 2018-12-08 23:49:09.553 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.Role [PESSIMISTIC_READ]: select role0_.id as id1_2_0_, role0_.email_address as email_ad2_2_0_, role0_.hiker_account_id as hiker_ac4_2_0_, role0_.role_name as role_nam3_2_0_ from role role0_ where role0_.id=? lock in share mode
+[DEBUG] 2018-12-08 23:49:09.553 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@65e190c6]
+[DEBUG] 2018-12-08 23:49:09.553 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.553 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.553 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6e9ed7b]
+[DEBUG] 2018-12-08 23:49:09.554 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : roleName
+[DEBUG] 2018-12-08 23:49:09.554 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.554 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.574 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.Role, querySpaceUid=<gen:0>, path=edu.matc.entity.Role)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.Role.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[DEBUG] 2018-12-08 23:49:09.574 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.Role [PESSIMISTIC_WRITE]: select role0_.id as id1_2_0_, role0_.email_address as email_ad2_2_0_, role0_.hiker_account_id as hiker_ac4_2_0_, role0_.role_name as role_nam3_2_0_ from role role0_ where role0_.id=? for update
+[DEBUG] 2018-12-08 23:49:09.577 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3ec10863]
+[DEBUG] 2018-12-08 23:49:09.577 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.577 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.578 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3541083d]
+[DEBUG] 2018-12-08 23:49:09.578 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : roleName
+[DEBUG] 2018-12-08 23:49:09.578 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.578 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.579 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.Role, querySpaceUid=<gen:0>, path=edu.matc.entity.Role)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.Role.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[DEBUG] 2018-12-08 23:49:09.579 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.Role [PESSIMISTIC_FORCE_INCREMENT]: select role0_.id as id1_2_0_, role0_.email_address as email_ad2_2_0_, role0_.hiker_account_id as hiker_ac4_2_0_, role0_.role_name as role_nam3_2_0_ from role role0_ where role0_.id=? for update
+[DEBUG] 2018-12-08 23:49:09.579 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7c0aa9db]
+[DEBUG] 2018-12-08 23:49:09.579 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.579 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.580 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@639e1483]
+[DEBUG] 2018-12-08 23:49:09.580 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : roleName
+[DEBUG] 2018-12-08 23:49:09.580 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.580 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.581 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.Role, querySpaceUid=<gen:0>, path=edu.matc.entity.Role)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.Role.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[DEBUG] 2018-12-08 23:49:09.581 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.Role [OPTIMISTIC]: select role0_.id as id1_2_0_, role0_.email_address as email_ad2_2_0_, role0_.hiker_account_id as hiker_ac4_2_0_, role0_.role_name as role_nam3_2_0_ from role role0_ where role0_.id=?
+[DEBUG] 2018-12-08 23:49:09.581 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5e23f82d]
+[DEBUG] 2018-12-08 23:49:09.581 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : emailAddress
+[DEBUG] 2018-12-08 23:49:09.581 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.582 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4cea2bff]
+[DEBUG] 2018-12-08 23:49:09.582 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : roleName
+[DEBUG] 2018-12-08 23:49:09.582 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.591 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.594 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(entity=edu.matc.entity.Role)
+    - Returns
+       - EntityReturnImpl(entity=edu.matc.entity.Role, querySpaceUid=<gen:0>, path=edu.matc.entity.Role)
+          - EntityAttributeFetchImpl(entity=edu.matc.entity.HikerAccount, querySpaceUid=<gen:1>, path=edu.matc.entity.Role.hikerAccount)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=edu.matc.entity.Role)
+          - SQL table alias mapping - role0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+[DEBUG] 2018-12-08 23:49:09.595 [http-nio-8080-exec-8] EntityLoader - Static select for entity edu.matc.entity.Role [OPTIMISTIC_FORCE_INCREMENT]: select role0_.id as id1_2_0_, role0_.email_address as email_ad2_2_0_, role0_.hiker_account_id as hiker_ac4_2_0_, role0_.role_name as role_nam3_2_0_ from role role0_ where role0_.id=?
+[DEBUG] 2018-12-08 23:49:09.595 [http-nio-8080-exec-8] Loader - Static select for action ACTION_MERGE on entity edu.matc.entity.Role: select role0_.id as id1_2_0_, role0_.email_address as email_ad2_2_0_, role0_.hiker_account_id as hiker_ac4_2_0_, role0_.role_name as role_nam3_2_0_ from role role0_ where role0_.id=?
+[DEBUG] 2018-12-08 23:49:09.596 [http-nio-8080-exec-8] Loader - Static select for action ACTION_REFRESH on entity edu.matc.entity.Role: select role0_.id as id1_2_0_, role0_.email_address as email_ad2_2_0_, role0_.hiker_account_id as hiker_ac4_2_0_, role0_.role_name as role_nam3_2_0_ from role role0_ where role0_.id=?
+[DEBUG] 2018-12-08 23:49:09.645 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@435f9c7a]
+[DEBUG] 2018-12-08 23:49:09.645 [http-nio-8080-exec-8] QuerySpacesImpl - Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3d86d1d4]
+[DEBUG] 2018-12-08 23:49:09.645 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.645 [http-nio-8080-exec-8] MetamodelGraphWalker - Property path deemed to be circular : hikerAccount
+[DEBUG] 2018-12-08 23:49:09.646 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDescription
+[DEBUG] 2018-12-08 23:49:09.646 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDetails
+[DEBUG] 2018-12-08 23:49:09.646 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailDifficulty
+[DEBUG] 2018-12-08 23:49:09.646 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailFreatures
+[DEBUG] 2018-12-08 23:49:09.646 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadLocation
+[DEBUG] 2018-12-08 23:49:09.646 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailHeadName
+[DEBUG] 2018-12-08 23:49:09.646 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailLength
+[DEBUG] 2018-12-08 23:49:09.646 [http-nio-8080-exec-8] MetamodelGraphWalker - Visiting attribute path : trailRating
+[DEBUG] 2018-12-08 23:49:09.646 [http-nio-8080-exec-8] FetchStyleLoadPlanBuildingAssociationVisitationStrategy - Building LoadPlan...
+[DEBUG] 2018-12-08 23:49:09.658 [http-nio-8080-exec-8] LoadQueryJoinAndFetchProcessor - processing queryspace <gen:0>
+[DEBUG] 2018-12-08 23:49:09.659 [http-nio-8080-exec-8] LoadPlanTreePrinter - LoadPlan(collection=edu.matc.entity.HikerAccount.hikingTrails)
+    - Returns
+       - CollectionReturnImpl(collection=edu.matc.entity.HikerAccount.hikingTrails, querySpaceUid=<gen:0>, path=[edu.matc.entity.HikerAccount.hikingTrails])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=edu.matc.entity.HikingTrail, querySpaceUid=<gen:1>, path=[edu.matc.entity.HikerAccount.hikingTrails].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=edu.matc.entity.HikerAccount.hikingTrails)
+          - SQL table alias mapping - hikingtrai0_
+          - alias suffix - 0_
+          - suffixed key columns - {hiker_a10_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_1_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=edu.matc.entity.HikingTrail)
+                - SQL table alias mapping - hikingtrai0_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_1_1_}
+
+[DEBUG] 2018-12-08 23:49:09.660 [http-nio-8080-exec-8] CollectionLoader - Static select for collection edu.matc.entity.HikerAccount.hikingTrails: select hikingtrai0_.hiker_account_id as hiker_a10_1_0_, hikingtrai0_.id as id1_1_0_, hikingtrai0_.id as id1_1_1_, hikingtrai0_.hiker_account_id as hiker_a10_1_1_, hikingtrai0_.trail_description as trail_de2_1_1_, hikingtrai0_.trail_details as trail_de3_1_1_, hikingtrai0_.trail_difficulty as trail_di4_1_1_, hikingtrai0_.trail_features as trail_fe5_1_1_, hikingtrai0_.trail_head_location as trail_he6_1_1_, hikingtrai0_.trail_head_name as trail_he7_1_1_, hikingtrai0_.trail_length as trail_le8_1_1_, hikingtrai0_.trail_rating as trail_ra9_1_1_ from Hiking_Trail hikingtrai0_ where hikingtrai0_.hiker_account_id=?
+[DEBUG] 2018-12-08 23:49:09.968 [http-nio-8080-exec-8] SchemaManagementToolCoordinator - No actions specified; doing nothing
+[DEBUG] 2018-12-08 23:49:09.971 [http-nio-8080-exec-8] JtaPlatformInitiator - No JtaPlatform was specified, checking resolver
+[DEBUG] 2018-12-08 23:49:09.973 [http-nio-8080-exec-8] JtaPlatformResolverInitiator - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[DEBUG] 2018-12-08 23:49:10.046 [http-nio-8080-exec-8] StandardJtaPlatformResolver - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[DEBUG] 2018-12-08 23:49:10.053 [http-nio-8080-exec-8] NamedQueryRepository - Checking 0 named HQL queries
+[DEBUG] 2018-12-08 23:49:10.054 [http-nio-8080-exec-8] NamedQueryRepository - Checking 0 named SQL queries
+[DEBUG] 2018-12-08 23:49:10.082 [http-nio-8080-exec-8] SessionFactoryRegistry - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@778bd1f8
+[DEBUG] 2018-12-08 23:49:10.125 [http-nio-8080-exec-8] SessionFactoryRegistry - Registering SessionFactory: e92e650a-544f-4844-88a3-b8b40a627668 (<unnamed>)
+[DEBUG] 2018-12-08 23:49:10.126 [http-nio-8080-exec-8] SessionFactoryRegistry - Not binding SessionFactory to JNDI, no JNDI name configured
+[DEBUG] 2018-12-08 23:49:11.079 [http-nio-8080-exec-8] StatisticsInitiator - Statistics initialized [enabled=false]
+[DEBUG] 2018-12-08 23:49:11.098 [http-nio-8080-exec-8] TransactionImpl - begin
+[DEBUG] 2018-12-08 23:49:11.183 [http-nio-8080-exec-8] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2018-12-08 23:49:11.265 [http-nio-8080-exec-8] SQL - insert into Hiker_Account (city, email_address, first_name, last_name, password, state) values (?, ?, ?, ?, ?, ?)
+[DEBUG] 2018-12-08 23:49:11.511 [http-nio-8080-exec-8] IdentifierGeneratorHelper - Natively generated identity: 15
+[DEBUG] 2018-12-08 23:49:11.512 [http-nio-8080-exec-8] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-12-08 23:49:11.522 [http-nio-8080-exec-8] TransactionImpl - committing
+[DEBUG] 2018-12-08 23:49:11.525 [http-nio-8080-exec-8] AbstractFlushingEventListener - Processing flush-time cascades
+[DEBUG] 2018-12-08 23:49:11.526 [http-nio-8080-exec-8] AbstractFlushingEventListener - Dirty checking collections
+[DEBUG] 2018-12-08 23:49:11.534 [http-nio-8080-exec-8] Collections - Collection found: [edu.matc.entity.HikerAccount.hikingTrails#15], was: [<unreferenced>] (initialized)
+[DEBUG] 2018-12-08 23:49:11.537 [http-nio-8080-exec-8] AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[DEBUG] 2018-12-08 23:49:11.537 [http-nio-8080-exec-8] AbstractFlushingEventListener - Flushed: 1 (re)creations, 0 updates, 0 removals to 1 collections
+[DEBUG] 2018-12-08 23:49:11.558 [http-nio-8080-exec-8] EntityPrinter - Listing entities:
+[DEBUG] 2018-12-08 23:49:11.559 [http-nio-8080-exec-8] EntityPrinter - edu.matc.entity.HikerAccount{firstName=Dan, lastName=Miller, emailAddress=dmiller@hotmail.com, password=Tsting1, city=Madison, id=15, state=WI, hikingTrails=[]}
+[DEBUG] 2018-12-08 23:49:11.602 [http-nio-8080-exec-8] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-12-08 23:49:11.606 [http-nio-8080-exec-8] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-12-08 23:49:11.656 [http-nio-8080-exec-8] SQL - select hikeraccou0_.id as id1_0_0_, hikeraccou0_.city as city2_0_0_, hikeraccou0_.email_address as email_ad3_0_0_, hikeraccou0_.first_name as first_na4_0_0_, hikeraccou0_.last_name as last_nam5_0_0_, hikeraccou0_.password as password6_0_0_, hikeraccou0_.state as state7_0_0_, hikingtrai1_.hiker_account_id as hiker_a10_1_1_, hikingtrai1_.id as id1_1_1_, hikingtrai1_.id as id1_1_2_, hikingtrai1_.hiker_account_id as hiker_a10_1_2_, hikingtrai1_.trail_description as trail_de2_1_2_, hikingtrai1_.trail_details as trail_de3_1_2_, hikingtrai1_.trail_difficulty as trail_di4_1_2_, hikingtrai1_.trail_features as trail_fe5_1_2_, hikingtrai1_.trail_head_location as trail_he6_1_2_, hikingtrai1_.trail_head_name as trail_he7_1_2_, hikingtrai1_.trail_length as trail_le8_1_2_, hikingtrai1_.trail_rating as trail_ra9_1_2_ from Hiker_Account hikeraccou0_ left outer join Hiking_Trail hikingtrai1_ on hikeraccou0_.id=hikingtrai1_.hiker_account_id where hikeraccou0_.id=?
+[DEBUG] 2018-12-08 23:49:11.755 [http-nio-8080-exec-8] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2018-12-08 23:49:11.775 [http-nio-8080-exec-8] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2018-12-08 23:49:11.789 [http-nio-8080-exec-8] CollectionReferenceInitializerImpl - Result set contains (possibly empty) collection: [edu.matc.entity.HikerAccount.hikingTrails#15]
+[DEBUG] 2018-12-08 23:49:11.810 [http-nio-8080-exec-8] TwoPhaseLoad - Resolving associations for [edu.matc.entity.HikerAccount#15]
+[DEBUG] 2018-12-08 23:49:11.812 [http-nio-8080-exec-8] TwoPhaseLoad - Done materializing entity [edu.matc.entity.HikerAccount#15]
+[DEBUG] 2018-12-08 23:49:11.813 [http-nio-8080-exec-8] CollectionLoadContext - 1 collections were found in result set for role: edu.matc.entity.HikerAccount.hikingTrails
+[DEBUG] 2018-12-08 23:49:11.813 [http-nio-8080-exec-8] CollectionLoadContext - Collection fully initialized: [edu.matc.entity.HikerAccount.hikingTrails#15]
+[DEBUG] 2018-12-08 23:49:11.814 [http-nio-8080-exec-8] CollectionLoadContext - 1 collections initialized for role: edu.matc.entity.HikerAccount.hikingTrails
+[DEBUG] 2018-12-08 23:49:11.815 [http-nio-8080-exec-8] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-12-08 23:49:11.815 [http-nio-8080-exec-8] AbstractLoadPlanBasedEntityLoader - Done entity load : edu.matc.entity.HikerAccount#15
+[DEBUG] 2018-12-08 23:49:11.816 [http-nio-8080-exec-8] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-12-08 23:49:11.834 [http-nio-8080-exec-8] TransactionImpl - begin
+[DEBUG] 2018-12-08 23:49:11.839 [http-nio-8080-exec-8] ActionQueue - Executing identity-insert immediately
+[DEBUG] 2018-12-08 23:49:11.859 [http-nio-8080-exec-8] SQL - insert into role (email_address, hiker_account_id, role_name) values (?, ?, ?)
+[DEBUG] 2018-12-08 23:49:11.913 [http-nio-8080-exec-8] IdentifierGeneratorHelper - Natively generated identity: 3
+[DEBUG] 2018-12-08 23:49:11.913 [http-nio-8080-exec-8] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-12-08 23:49:11.914 [http-nio-8080-exec-8] TransactionImpl - committing
+[DEBUG] 2018-12-08 23:49:11.914 [http-nio-8080-exec-8] AbstractFlushingEventListener - Processing flush-time cascades
+[DEBUG] 2018-12-08 23:49:11.914 [http-nio-8080-exec-8] AbstractFlushingEventListener - Dirty checking collections
+[DEBUG] 2018-12-08 23:49:11.915 [http-nio-8080-exec-8] AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+[DEBUG] 2018-12-08 23:49:11.915 [http-nio-8080-exec-8] AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[DEBUG] 2018-12-08 23:49:11.915 [http-nio-8080-exec-8] EntityPrinter - Listing entities:
+[DEBUG] 2018-12-08 23:49:11.916 [http-nio-8080-exec-8] EntityPrinter - edu.matc.entity.Role{emailAddress=dmiller@hotmail.com, roleName=user, hikerAccount=edu.matc.entity.HikerAccount#15, id=3}
+[DEBUG] 2018-12-08 23:49:11.923 [http-nio-8080-exec-8] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-12-08 23:49:11.925 [http-nio-8080-exec-8] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction
+[DEBUG] 2018-12-08 23:49:11.930 [http-nio-8080-exec-8] SQL - select role0_.id as id1_2_0_, role0_.email_address as email_ad2_2_0_, role0_.hiker_account_id as hiker_ac4_2_0_, role0_.role_name as role_nam3_2_0_, hikeraccou1_.id as id1_0_1_, hikeraccou1_.city as city2_0_1_, hikeraccou1_.email_address as email_ad3_0_1_, hikeraccou1_.first_name as first_na4_0_1_, hikeraccou1_.last_name as last_nam5_0_1_, hikeraccou1_.password as password6_0_1_, hikeraccou1_.state as state7_0_1_, hikingtrai2_.hiker_account_id as hiker_a10_1_2_, hikingtrai2_.id as id1_1_2_, hikingtrai2_.id as id1_1_3_, hikingtrai2_.hiker_account_id as hiker_a10_1_3_, hikingtrai2_.trail_description as trail_de2_1_3_, hikingtrai2_.trail_details as trail_de3_1_3_, hikingtrai2_.trail_difficulty as trail_di4_1_3_, hikingtrai2_.trail_features as trail_fe5_1_3_, hikingtrai2_.trail_head_location as trail_he6_1_3_, hikingtrai2_.trail_head_name as trail_he7_1_3_, hikingtrai2_.trail_length as trail_le8_1_3_, hikingtrai2_.trail_rating as trail_ra9_1_3_ from role role0_ left outer join Hiker_Account hikeraccou1_ on role0_.hiker_account_id=hikeraccou1_.id left outer join Hiking_Trail hikingtrai2_ on hikeraccou1_.id=hikingtrai2_.hiker_account_id where role0_.id=?
+[DEBUG] 2018-12-08 23:49:11.944 [http-nio-8080-exec-8] ResultSetProcessorImpl - Starting ResultSet row #0
+[DEBUG] 2018-12-08 23:49:11.945 [http-nio-8080-exec-8] EntityReferenceInitializerImpl - On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+[DEBUG] 2018-12-08 23:49:11.946 [http-nio-8080-exec-8] CollectionReferenceInitializerImpl - Result set contains (possibly empty) collection: [edu.matc.entity.HikerAccount.hikingTrails#15]
+[DEBUG] 2018-12-08 23:49:11.947 [http-nio-8080-exec-8] TwoPhaseLoad - Resolving associations for [edu.matc.entity.Role#3]
+[DEBUG] 2018-12-08 23:49:11.948 [http-nio-8080-exec-8] TwoPhaseLoad - Done materializing entity [edu.matc.entity.Role#3]
+[DEBUG] 2018-12-08 23:49:11.948 [http-nio-8080-exec-8] TwoPhaseLoad - Resolving associations for [edu.matc.entity.HikerAccount#15]
+[DEBUG] 2018-12-08 23:49:11.948 [http-nio-8080-exec-8] TwoPhaseLoad - Done materializing entity [edu.matc.entity.HikerAccount#15]
+[DEBUG] 2018-12-08 23:49:11.948 [http-nio-8080-exec-8] CollectionLoadContext - 1 collections were found in result set for role: edu.matc.entity.HikerAccount.hikingTrails
+[DEBUG] 2018-12-08 23:49:11.949 [http-nio-8080-exec-8] CollectionLoadContext - Collection fully initialized: [edu.matc.entity.HikerAccount.hikingTrails#15]
+[DEBUG] 2018-12-08 23:49:11.949 [http-nio-8080-exec-8] CollectionLoadContext - 1 collections initialized for role: edu.matc.entity.HikerAccount.hikingTrails
+[DEBUG] 2018-12-08 23:49:11.949 [http-nio-8080-exec-8] ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+[DEBUG] 2018-12-08 23:49:11.962 [http-nio-8080-exec-8] AbstractLoadPlanBasedEntityLoader - Done entity load : edu.matc.entity.Role#3
+[DEBUG] 2018-12-08 23:49:11.963 [http-nio-8080-exec-8] LogicalConnectionManagedImpl - Initiating JDBC connection release from afterTransaction

@@ -17,7 +17,7 @@
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>RequiresHikerRole</web-resource-name>
-      <url-pattern>/addHikingTrail.jsp</url-pattern>
+      <url-pattern>/addHikingTrailDisplay-servlet</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>user</role-name>

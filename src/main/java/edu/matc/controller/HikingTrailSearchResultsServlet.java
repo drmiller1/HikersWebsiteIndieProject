@@ -44,7 +44,7 @@ public class HikingTrailSearchResultsServlet extends HttpServlet {
         if (searchTerm == null || searchTerm.isEmpty()) {
             session.setAttribute("emptyTerm", "Please enter a Search Term.");
 
-            String url = "/java112/searchdisplay-servlet";
+            String url = "searchdisplay-servlet";
             response.sendRedirect(url);
             return;
 
