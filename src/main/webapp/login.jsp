@@ -27,6 +27,9 @@
 <%@ include file="head_tag.jsp"%>
 
 <body>
+
+<%@ include file="menu_tag.jsp"%>
+
 <div id="container">
 
     <%@ include file="header_tag.jsp"%>
@@ -34,6 +37,7 @@
     <div id="main_content_top"></div>
     <div id="main_content">
         <div class="content">
+
             <h1 align="center">
                 Hiker Sign-In
             </h1>
@@ -48,16 +52,13 @@
                 </TABLE>
 
             </FORM>
-
         </div>
-
-        <%--<%@ include file="menu_tag.jsp"%>--%>
 
         <div id="clear"></div>
     </div>
     <div id="main_content_bottom"></div>
 
-    <%--<%@ include file="footer_tag.jsp"%>--%>
+    <%@ include file="footer_tag.jsp"%>
 
 </div>
 </body>

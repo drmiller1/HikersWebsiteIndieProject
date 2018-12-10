@@ -569,3 +569,197 @@
 [DEBUG] 2018-12-08 23:46:40.086 [main] GenericDao - Searching for HikingTrail with lastName = c
 [DEBUG] 2018-12-08 23:46:42.465 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
 [DEBUG] 2018-12-08 23:46:42.660 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 00:24:47.318 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 00:24:49.849 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 00:24:50.083 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 00:28:16.569 [http-nio-8080-exec-8] GenericDao - Searching for order with emailAddress = null
+[DEBUG] 2018-12-09 13:46:16.508 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 13:46:17.978 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 13:46:18.030 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 14:19:03.995 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 14:19:04.407 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 14:19:04.462 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 14:24:05.145 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 14:24:05.460 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 14:24:05.475 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 14:35:28.772 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 14:35:29.170 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 14:35:29.229 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 14:36:54.831 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 14:36:55.228 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 14:36:55.278 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 14:39:27.010 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 14:39:27.397 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 14:39:27.413 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 14:41:46.536 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 14:41:46.929 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 14:41:46.943 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 14:42:52.119 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 14:42:52.519 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 14:42:52.565 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 14:45:28.114 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 14:45:28.512 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 14:45:28.548 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 14:48:33.944 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 14:48:34.356 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 14:48:34.393 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:03:39.161 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:03:39.529 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:03:39.549 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:06:39.172 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:06:39.515 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:06:39.551 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:12:13.191 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:12:13.457 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:12:13.471 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:13:51.352 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:13:51.723 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:13:51.749 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:15:16.941 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:15:17.311 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:15:17.338 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:23:01.714 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:23:02.107 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:23:02.152 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:25:37.479 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:25:37.837 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:25:37.868 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:26:35.877 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:26:36.276 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:26:36.308 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:27:37.611 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:27:37.976 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:27:37.992 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:28:42.572 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:28:42.938 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:28:42.988 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:30:58.897 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:30:59.252 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:30:59.292 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:43:09.310 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:43:09.667 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:43:09.683 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:44:44.064 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:44:44.509 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:44:44.538 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:46:16.453 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:46:16.819 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:46:16.850 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:47:19.469 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:47:19.815 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:47:19.831 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:50:50.652 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:50:51.048 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:50:51.092 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 15:59:39.611 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 15:59:40.503 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 15:59:40.567 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:00:53.675 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:00:54.139 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:00:54.172 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:01:57.966 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:01:58.401 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:01:58.439 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:20:34.936 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:20:35.306 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:20:35.324 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:23:10.624 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:23:11.022 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:23:11.084 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:26:37.690 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:26:38.152 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:26:38.196 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:28:10.487 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:28:10.838 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:28:10.852 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:29:56.163 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:29:56.577 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:29:56.653 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:36:39.699 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:36:40.102 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:36:40.137 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:38:43.399 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:38:43.787 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:38:43.813 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:41:07.852 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:41:08.218 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:41:08.289 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:45:20.349 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:45:20.758 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:45:20.776 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:46:37.353 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:46:37.730 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:46:37.743 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:48:36.424 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:48:36.898 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:48:36.939 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:49:13.878 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:49:14.239 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:49:14.325 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:52:02.907 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:52:03.269 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:52:03.314 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:53:15.568 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:53:15.966 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:53:16.034 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:57:01.871 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:57:02.256 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:57:02.283 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 16:58:31.350 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 16:58:31.837 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 16:58:31.852 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 21:27:11.814 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 21:27:19.358 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 21:27:19.572 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[DEBUG] 2018-12-09 22:17:14.156 [main] GenericDao - Searching for HikingTrail with lastName = c
+[ERROR] 2018-12-09 22:18:02.139 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:18:57.755 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:19:00.808 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2018-12-09 22:19:01.015 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[ERROR] 2018-12-09 22:19:53.081 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2018-12-09 22:19:53.087 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[ERROR] 2018-12-09 22:21:45.817 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:20:50.042 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:22:45.823 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:21:51.012 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:23:45.834 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2018-12-09 22:30:24.713 [main] GenericDao - Searching for HikingTrail with lastName = c
+[ERROR] 2018-12-09 22:30:59.959 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:31:51.482 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:33:45.837 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2018-12-09 22:33:45.847 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[ERROR] 2018-12-09 22:32:52.164 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2018-12-09 22:32:52.292 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[ERROR] 2018-12-09 22:34:45.927 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:33:51.772 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:35:45.866 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:34:51.456 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:36:45.927 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2018-12-09 22:36:14.470 [main] GenericDao - Searching for HikingTrail with lastName = c
+[ERROR] 2018-12-09 22:37:00.094 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:37:51.789 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:39:45.870 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2018-12-09 22:39:45.876 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[ERROR] 2018-12-09 22:38:51.066 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2018-12-09 22:38:51.069 [main] GenericDao - Searching for HikingTrail with trailDescription = t
+[ERROR] 2018-12-09 22:40:45.883 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:41:45.872 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:42:45.878 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:41:51.086 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 22:43:45.877 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2018-12-09 22:45:48.751 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 22:46:42.237 [main] GenericDao - Searching for HikingTrail with lastName = c
+[ERROR] 2018-12-09 22:48:45.944 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-12-09 23:00:01.587 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--INSERT INTO Hiker_Account VALUES (1,'Joe','Coyne','Atlanta','GA','emailaddress' at line 1
+[ERROR] 2018-12-09 23:00:10.278 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--INSERT INTO Hiker_Account VALUES (1,'Joe','Coyne','Atlanta','GA','emailaddress' at line 1
+[DEBUG] 2018-12-09 23:00:10.297 [main] GenericDao - Searching for HikingTrail with lastName = c
+[ERROR] 2018-12-09 23:00:11.789 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--INSERT INTO Hiker_Account VALUES (1,'Joe','Coyne','Atlanta','GA','emailaddress' at line 1
+[ERROR] 2018-12-09 23:00:11.886 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '--INSERT INTO Hiker_Account VALUES (1,'Joe','Coyne','Atlanta','GA','emailaddress' at line 1
+[ERROR] 2018-12-09 23:02:46.013 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2018-12-09 23:03:55.955 [main] GenericDao - Searching for HikingTrail with lastName = c
+[ERROR] 2018-12-09 23:04:00.155 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[DEBUG] 2018-12-09 23:17:25.337 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 23:18:05.265 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 23:19:21.464 [main] GenericDao - Searching for HikingTrail with lastName = c
+[DEBUG] 2018-12-09 23:19:27.825 [main] GenericDao - Searching for order with trailHeadName = TrailHead2
+[DEBUG] 2018-12-09 23:19:28.160 [main] GenericDao - Searching for HikingTrail with trailDescription = t

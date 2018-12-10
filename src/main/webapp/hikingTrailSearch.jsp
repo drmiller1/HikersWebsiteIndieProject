@@ -16,6 +16,8 @@
 <%@ include file="head_tag.jsp"%>
 
 <body>
+<%@ include file="menu_tag.jsp"%>
+
 <div id="container">
 
     <%@ include file="header_tag.jsp"%>
@@ -56,7 +58,6 @@
             </form>
 
         </div>
-        <%@ include file="menu_tag.jsp"%>
         <div id="clear"></div>
     </div>
     <div id="main_content_bottom"></div>

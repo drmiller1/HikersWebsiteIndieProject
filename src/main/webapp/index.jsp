@@ -7,6 +7,9 @@
 <%@ include file="head_tag.jsp"%>
 
 <body>
+
+<%@ include file="menu_tag.jsp"%>
+
 <div id="container">
 
     <%@ include file="header_tag.jsp"%>
@@ -18,12 +21,7 @@
                 Welcome
             </h2>
 
-            <h2>
-                <img src="images\Helena_Hike.jpg" width="100%" height="100%" alt="image"/>
-            </h2>
         </div>
-
-        <%@ include file="menu_tag.jsp"%>
 
         <div id="clear"></div>
     </div>

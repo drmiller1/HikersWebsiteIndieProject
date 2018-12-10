@@ -1,122 +1,38 @@
-/*body {
-    background: #CACACA url('images/Helena_Hike.jpg') no-repeat-x;
-    font-family: "Trebuchet MS", Verdana, serif
-}
-*/
-body{
-    background: #CACACA;
-    font-family: "Trebuchet MS", Verdana, serif
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#container {
-    margin: 0 auto;
-    width: 750px
+.topnav {
+    overflow: hidden;
+    background-color: #333;
 }
-#header {
-    width: 100%
-}
-#sub_header {
-    text-align: right;
-    font-weight: bold;
-    font-size: 20px;
-    color: #FFFFFF;
-    padding-right: 20px;
-    padding-bottom: 20px;
-}
-#main_content {
-    margin: 0 auto;
-    width: 100%;
-    background: #FFFFFF;
-    background-repeat: repeat-y
-}
-#main_content_top {
-    height: 30px;
-    background: #FFFFFF;
-}
-#main_content_bottom {
-    height: 30px;
-    background: #FFFFFF;
-}
-#footer {
-    text-align: center;
-    font-size: 12px;
-    margin: 10px auto
-}
-.content {
+
+.topnav a {
     float: left;
-    width: 510px;
-    text-align: justify;
-    padding: 0 30px 0 30px;
-    font-size: 12px
-}
-.menu {
-    width: 139px;
-    float: right;
-    padding: 0 20px 0 20px;
-    font-size: 12px
-}
-.menu ul {
-    margin: 0;
-    padding: 10px 0 10px 15px
-}
-.menu il {
-    list-style-type: disc
-}
-#header h1 {
-    margin-bottom: 0px;
-    font-size: 28px;
-    font-weight: bold;
-    color: #A40008
-}
-.content h2 {
-    margin-top: 0px;
-    font-size: 18px;
-    font-weight: bold;
-    color: #A40008
-}
-#clear {
-    display: block;
-    clear: both;
-    width: 100%;
-    height:1px;
-    overflow:hidden;
-}
-.menu_title {
-    font-size: 18px;
-    font-weight: bold;
-    color: #A40008
-}
-.menu ul {
-    margin: 0;
-    padding: 10px 0 20px 15px
-}
-.menu li {
-    padding-top: 2px;
-    list-style-type: circle
-}
-a {
-    color: #A40008;
-    font-weight: bold;
-    text-decoration: none
-}
-a:hover {
-    color: #A40008;
-    font-weight: bold;
-    text-decoration: underline
-}
-a.menu_link {
-    color: #000000;
-    font-weight: bold;
-    text-decoration: underline
-}
-a.menu_link:hover {
-    color: #A40008;
-    font-weight: bold;
-    text-decoration: none
-}
-.quote {
-    margin: 20px;
+    color: #f2f2f2;
     text-align: center;
-    font-weight: bold;
-    font-style: italic
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.hero-image {
+    background-image: url("images/Helena_Hike.jpg");
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }

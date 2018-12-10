@@ -4,8 +4,15 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
+<%@ include file="head_tag.jsp"%>
+
 <body>
+
+<%@ include file="menu_tag.jsp"%>
+
 <div id="container">
+
+    <%@ include file="header_tag.jsp"%>
 
     <div id="main_content_top"></div>
     <div id="main_content">
@@ -36,6 +43,8 @@
         <div id="clear"></div>
     </div>
     <div id="main_content_bottom"></div>
+
+    <%@ include file="footer_tag.jsp"%>
 
 </div>
 </body>
