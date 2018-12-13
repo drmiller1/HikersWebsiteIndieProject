@@ -18,6 +18,9 @@
 </head>
 
 <body>
+
+<%@ include file="menu_tag.jsp"%>
+
 <div id="container">
 
     <%@ include file="header_tag.jsp"%>
@@ -28,11 +31,11 @@
             <h1>
                 Employee Search Results
             </h1>
-
+            <%--
             <c:choose>
 
-                <c:when test = "${hikingTrailList.isEmpty == false}" >
-
+                <c:when test = "${hikingTrailList.isEmpty()}" >
+            --%>
                     <table style="width:75%" border="1">
 
                         <th>Trail Head Name</th>
@@ -57,7 +60,7 @@
                             </tr>
                         </c:forEach>
                     </table>
-
+                <%--
                 </c:when>
 
                 <c:otherwise>
@@ -70,9 +73,9 @@
                 </c:otherwise>
 
             </c:choose>
-
+            --%>
         </div>
-        <%@ include file="menu_tag.jsp"%>
+
         <div id="clear"></div>
     </div>
     <div id="main_content_bottom"></div>

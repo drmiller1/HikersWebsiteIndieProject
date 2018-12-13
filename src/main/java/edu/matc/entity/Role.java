@@ -1,5 +1,6 @@
 package edu.matc.entity;
 
+import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -10,6 +11,7 @@ import javax.persistence.*;
  */
 @Entity(name = "role")
 @Table(name = "role")
+@Data
 public class Role {
 
     @Id
@@ -48,60 +50,6 @@ public class Role {
     }
 
     /**
-     * Gets id.
-     *
-     * @return the id
-     */
-    public int getId() {
-        return id;
-    }
-
-    /**
-     * Sets id.
-     *
-     * @param id the id
-     */
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    /**
-     * Gets hiker role name.
-     *
-     * @return the hiker role name
-     */
-    public String getRoleName() {
-        return roleName;
-    }
-
-    /**
-     * Sets hiker role name.
-     *
-     * @param roleName the hiker role name
-     */
-    public void setRoleName(String roleName) {
-        this.roleName = roleName;
-    }
-
-    /**
-     * Gets hiker email address.
-     *
-     * @return the hiker email address
-     */
-    public String getEmailAddress() {
-        return emailAddress;
-    }
-
-    /**
-     * Sets hiker email address.
-     *
-     * @param emailAddress the hiker email address
-     */
-    public void setEmailAddress(String emailAddress) {
-        this.emailAddress = emailAddress;
-    }
-
-    /**
      * Gets hiker account.
      *
      * @return the hiker account
@@ -119,13 +67,4 @@ public class Role {
         this.hikerAccount = hikerAccount;
     }
 
-    @Override
-    public String toString() {
-        return "Role{" +
-                "id=" + id +
-                ", roleName='" + roleName + '\'' +
-                ", emailAddress='" + emailAddress + '\'' +
-                ", hikerAccount=" + hikerAccount +
-                '}';
-    }
 }

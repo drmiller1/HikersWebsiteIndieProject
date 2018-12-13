@@ -1,10 +1,12 @@
 package edu.matc.controller;
 
-import edu.matc.entity.HikerAccount;
 import edu.matc.entity.HikingTrail;
 import edu.matc.persistence.GenericDao;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.List;
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -22,6 +24,8 @@ import javax.servlet.annotation.*;
 
 public class HikingTrailSearchResultsServlet extends HttpServlet {
 
+    private final Logger logger = LogManager.getLogger(this.getClass());
+
     /**
      *  Handles HTTP GET requests.
      *
@@ -30,36 +34,50 @@ public class HikingTrailSearchResultsServlet extends HttpServlet {
      *@exception  ServletException  if there is a Servlet failure
      *@exception  IOException       if there is an IO failure
      */
+    @Override
     public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
-        GenericDao genericDAO = new GenericDao(HikingTrail.class);
+        GenericDao hikingTrailDao = new GenericDao(HikingTrail.class);
+        List<HikingTrail> hikingTrails = new ArrayList<>();
 
-        ServletContext context = getServletContext();
-        HttpSession session = request.getSession();
 
         String searchType = request.getParameter("searchType");
         String searchTerm = request.getParameter("searchTerm");
 
         if (searchTerm == null || searchTerm.isEmpty()) {
-            session.setAttribute("emptyTerm", "Please enter a Search Term.");
-
-            String url = "searchdisplay-servlet";
-            response.sendRedirect(url);
-            return;
-
+            logger.debug("Empty Search Term1 - " + searchType + " " + searchTerm + " " + hikingTrails);
+            //GenericDao hikingTrailDao = new GenericDao(HikingTrail.class);
+            //List<HikingTrail> hikingTrailList = hikingTrailDao.getAll();
+            hikingTrails = (List<HikingTrail>)hikingTrailDao.getAll();
+            logger.debug("Empty Search Term2 - " + searchType + " " + searchTerm + " " + hikingTrails);
+            request.setAttribute("hikingTrailList", hikingTrails);
+            logger.debug("Empty Search Term3 - " + searchType + " " + searchTerm + " " + hikingTrails);
         } else {
-            session.setAttribute("emptyTerm", null);
+            request.setAttribute("emptyTerm", null);
 
-            GenericDao hikingTrailDAO = new GenericDao(HikingTrail.class);
+            //GenericDao hikingTrailDao = new GenericDao(HikingTrail.class);
 
-            List<HikingTrail> hikingTrailList = hikingTrailDAO.getByPropertyLike(searchType, searchTerm);
-            session.setAttribute("hikingTrailList", hikingTrailList);
+            //List<HikingTrail> hikingTrailList = hikingTrailDao.getByPropertyLike(searchType, searchTerm);
 
-            String url = "/hikingTrailSearchResults.jsp";
+            //session.setAttribute("hikingTrailList", hikingTrailList);
+            hikingTrails = hikingTrailDao.getByPropertyLike(searchType, searchTerm);
+            request.setAttribute("hikingTrailList", hikingTrails);
+            logger.debug(" Search Term Found - "+ request.getAttribute("hikingTrailList"));
+            //logger.debug("Made it this far 4 - " + hikingTrailList.toString());
+            //String url = "/hikingTrailSearchResults.jsp";
+            //logger.debug("Made it this far 5 - ");
 
-            RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
-            dispatcher.forward(request, response);
+            //RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
+            //logger.debug("Made it this far 6 - ");
+            //dispatcher.forward(request, response);
         }
+
+        String url = "/hikingTrailSearchResults.jsp";
+
+        //RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
+        RequestDispatcher dispatcher = request.getRequestDispatcher(url);
+        logger.debug("Forwarding search request and response");
+        dispatcher.forward(request, response);
     }
 }

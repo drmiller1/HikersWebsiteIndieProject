@@ -5,6 +5,9 @@
 <%@ include file="head_tag.jsp"%>
 
 <body>
+
+<%@ include file="menu_tag.jsp"%>
+
 <div id="container">
 
     <%@ include file="header_tag.jsp"%>
@@ -37,18 +40,35 @@
 
                 <label for="trail_length">Trail Length: </label>
                 <br />
-                <input type="text" name="trailLocation" id="trail_length" value = ${trailLocation}>
+                <input type="text" name="trailLength" id="trail_length" value = ${trailLength}>
                 <br /><br />
 
                 <label for="trail_difficulty">Trail Difficulty: </label>
                 <br />
-
+                <select name="trailDifficulty" id="trail_difficulty" value = ${trailDifficulty}>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <%--
                 <input type="text" name="trailDifficulty" id="trail_difficulty" value = ${trailDifficulty}>
+                --%>
                 <br /><br />
 
                 <label for="trail_rating">Trail Rating: </label>
                 <br />
+                <select name="trailRating" id="trail_rating" value = ${trailRating}>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <%--
                 <input type="text" name="trailRating" id="trail_rating" value = ${trailRating}>
+                --%>
                 <br /><br />
 
                 <label for="trail_features">Trail Features: </label>
@@ -72,8 +92,6 @@
             </form>
 
         </div>
-
-        <%@ include file="menu_tag.jsp"%>
 
         <div id="clear"></div>
     </div>

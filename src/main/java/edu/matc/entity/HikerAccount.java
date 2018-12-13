@@ -1,5 +1,6 @@
 package edu.matc.entity;
 
+import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -13,8 +14,10 @@ import java.util.Set;
  *
  * @author dmiller
  */
+
 @Entity(name = "HikerAccount")
 @Table(name = "Hiker_Account")
+@Data
 public class HikerAccount {
     @Column(name = "first_name")
     private String firstName;
@@ -86,151 +89,6 @@ public class HikerAccount {
         this.password = password;
     }
 
-
-    /**
-     * Gets first name.
-     *
-     * @return the first name
-     */
-    public String getFirstName() {
-        return firstName;
-    }
-
-    /**
-     * Sets first name.
-     *
-     * @param firstName the first name
-     */
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    /**
-     * Gets last name.
-     *
-     * @return the last name
-     */
-    public String getLastName() {
-        return lastName;
-    }
-
-    /**
-     * Sets last name.
-     *
-     * @param lastName the last name
-     */
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    /**
-     * Gets city.
-     *
-     * @return the city
-     */
-    public String getCity() {
-        return city;
-    }
-
-    /**
-     * Sets city.
-     *
-     * @param city the city
-     */
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    /**
-     * Gets state.
-     *
-     * @return the state
-     */
-    public String getState() {
-        return state;
-    }
-
-    /**
-     * Sets state.
-     *
-     * @param state the state
-     */
-    public void setState(String state) {
-        this.state = state;
-    }
-
-    /**
-     * Gets email address.
-     *
-     * @return the email address
-     */
-    public String getEmailAddress() {
-        return emailAddress;
-    }
-
-    /**
-     * Sets email address.
-     *
-     * @param emailAddress the email address
-     */
-    public void setEmailAddress(String emailAddress) {
-        this.emailAddress = emailAddress;
-    }
-
-    /**
-     * Gets password.
-     *
-     * @return the password
-     */
-    public String getPassword() {
-        return password;
-    }
-
-    /**
-     * Sets password.
-     *
-     * @param password the password
-     */
-    public void setpassword(String password) {
-        this.password = password;
-    }
-
-    /**
-     * Gets id.
-     *
-     * @return the id
-     */
-    public int getId() {
-        return id;
-    }
-
-    /**
-     * Sets id.
-     *
-     * @param id the id
-     */
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    /**
-     * Gets hiking trails.
-     *
-     * @return the hiking trails
-     */
-    public Set<HikingTrail> getHikingTrails() {
-        return hikingTrails;
-    }
-
-    /**
-     * Sets hiking trails.
-     *
-     * @param hikingTrails the hiking trails
-     */
-    public void setHikingTrails(Set<HikingTrail> hikingTrails) {
-        this.hikingTrails = hikingTrails;
-    }
-
     /**
      * Add hiking trail.
      *
@@ -251,17 +109,4 @@ public class HikerAccount {
         hikingTrail.setHikerAccount(null);
     }
 
-
-    @Override
-    public String toString() {
-        return "HikerAccount{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", city='" + city + '\'' +
-                ", state ='" + state + '\'' +
-                ", emailAddress = '" + emailAddress + '\'' +
-                ", password = '" + password + '\'' +
-                ", id=" + id + '\'' +
-                '}';
-    }
 }

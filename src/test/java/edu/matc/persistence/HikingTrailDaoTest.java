@@ -56,10 +56,10 @@ class HikingTrailDaoTest {
     @Test
     void insertSuccess() {
 
-        HikerAccountDao HikerAccountDao = new HikerAccountDao();
-        HikerAccount HikerAccount = HikerAccountDao.getById(1);
-        HikingTrail newHikingTrail = new HikingTrail( "Trailhead1", "Madison WI", 2, 1, 5, "Waterfall, Small Stream", "Trees", "Greate for kids", HikerAccount);
-        HikerAccount.addHikingTrail(newHikingTrail);
+        GenericDao hikerAccountGenericDao = new GenericDao(HikerAccount.class);
+        HikerAccount hikerAccount = (HikerAccount)hikerAccountGenericDao.getById(1);
+        HikingTrail newHikingTrail = new HikingTrail( "Trailhead1", "Madison WI", 2, 1, 5, "Waterfall, Small Stream", "Trees", "Greate for kids", hikerAccount);
+        hikerAccount.addHikingTrail(newHikingTrail);
 
         int id = genericDao.insert(newHikingTrail);
 

@@ -110,8 +110,8 @@ public class AddHikingTrailServlet extends HttpServlet {
             session.setAttribute("trailDesctiption", trailDescription);
         }
 
-        String url = "index.jsp";
-        //String url = "addHikingTrailDisplay-servlet";
+        //String url = "index.jsp";
+        String url = "addHikingTrailDisplay-servlet";
         response.sendRedirect(url);
         return;
     }

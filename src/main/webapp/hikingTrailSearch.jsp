@@ -29,7 +29,7 @@
                 Hiking Trail Search
             </h1>
 
-            <form method="GET" action="/trailSearchResults-servlet" />
+            <form method="GET" action="trailSearchResults-servlet" />
 
             <br />
 
@@ -46,7 +46,7 @@
             <br />
 
             <input type="radio" id="searchTrailLocation" name="searchType"
-                   value="trailLocation">
+                   value="trailHeadLocation">
             <label for="searchTrailLocation">Search by Location</label>
             <br />
 
