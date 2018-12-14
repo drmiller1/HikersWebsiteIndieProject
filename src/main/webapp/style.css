@@ -94,6 +94,13 @@ a:hover {
     font-style: italic
 }
 
+.imagecenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #333;

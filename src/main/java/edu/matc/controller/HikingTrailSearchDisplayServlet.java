@@ -1,4 +1,4 @@
-package java112.project4;
+package edu.matc.controller;
 
 import java.io.*;
 import javax.servlet.*;
@@ -11,11 +11,11 @@ import javax.servlet.annotation.*;
  */
 
 @WebServlet(
-        name = "HikerSearchDisplayServlet",
-        urlPatterns = { "/searchDisplay-servlet" }
+        name = "HikingTrailSearchDisplayServlet",
+        urlPatterns = { "/trailSearchDisplay-servlet" }
 )
 
-public class HikerSearchDisplayServlet extends HttpServlet {
+public class HikingTrailSearchDisplayServlet extends HttpServlet {
 
     /**
      *  Handles HTTP GET requests.

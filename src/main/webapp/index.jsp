@@ -18,7 +18,13 @@
     <div id="main_content">
         <div class="content">
             <h2>
-                Welcome
+                <div>
+                    Welcome
+                </div>
+
+                <img src="images/main_page_hiker_cartoon_med.jpg" width="80%" height="80%" alt="imagecenter"  />
+
+
             </h2>
 
         </div>

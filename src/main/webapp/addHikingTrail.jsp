@@ -28,7 +28,7 @@
                 <strong style="color: red;">${emptyTrailHeadName}</strong>
                 <c:remove var="emptyTrailHeadName" scope="session" />
                 <br />
-                <input type="text" name="trailHeadName" id="trail_head_name" value = ${trailHeadName} >
+                <input type="text" name="trailHeadName" id="trail_head_name" value = ${trailHeadName}>
                 <br /><br />
 
                 <label for="trail_head_location">Trail Head Location: </label>
@@ -46,29 +46,23 @@
                 <label for="trail_difficulty">Trail Difficulty: </label>
                 <br />
                 <select name="trailDifficulty" id="trail_difficulty" value = ${trailDifficulty}>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
+                    <option>1 - Easy</option>
+                    <option>2 - Moderate</option>
+                    <option>3 - Difficult</option>
                 </select>
-                <%--
-                <input type="text" name="trailDifficulty" id="trail_difficulty" value = ${trailDifficulty}>
-                --%>
+
                 <br /><br />
 
                 <label for="trail_rating">Trail Rating: </label>
                 <br />
                 <select name="trailRating" id="trail_rating" value = ${trailRating}>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
+                    <option>1 - Favorite</option>
+                    <option>2 - Worth Hiking</option>
+                    <option>3 - Ok</option>
+                    <option>4 - Boring</option>
+                    <option>5 - Don't Bother</option>
                 </select>
-                <%--
-                <input type="text" name="trailRating" id="trail_rating" value = ${trailRating}>
-                --%>
+
                 <br /><br />
 
                 <label for="trail_features">Trail Features: </label>
@@ -80,12 +74,12 @@
                 <br />
                 <input type="text" name="trailDetails" id="trail_details" value = ${trailDetails}>
                 <br /><br />
-
-                <label for="trail_description">Trail Description: </label>
+<%--
+                <label for="trail_description">Other Trail Description: </label>
                 <br />
-                <input type="text" name="trailDiscription" id="trail_description" value = ${trailDiscription}>
+                <input type="text" name="trailDescription" id="trail_description" value = ${trailDescription}>
                 <br /><br />
-
+--%>
                 <br />
                 <input type="submit" value="Add Trail" align="right"/>
 
