@@ -10,12 +10,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100%;
 }
 
 #container {
     margin: 0 auto;
     width: 750px;
+    /*height: 800px;*/
 }
 #header {
     width: 100%
@@ -32,7 +32,8 @@ body{
     margin: 0 auto;
     width: 100%;
     background: #FFFFFF;
-    background-repeat: repeat-y
+    background-repeat: repeat-y;
+
 }
 #main_content_top {
     height: 30px;
@@ -53,7 +54,9 @@ body{
     height: 510px;
     text-align: justify;
     padding: 0 30px 0 30px;
-    font-size: 12px
+    font-size: 12px;
+    /*margin-left: auto;
+    margin-right: auto;*/
 }
 
 #header h1 {
@@ -101,6 +104,7 @@ a:hover {
     width: 50%;
 }
 
+
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -123,4 +127,40 @@ a:hover {
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
+}
+
+
+.table-fixed tbody {
+    height: 200px;
+    overflow-y: auto;
+    width: 100%;
+}
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+    display: block;
+}
+.table-fixed tr:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.table-fixed tbody td,
+.table-fixed thead > tr > th {
+    float: left;
+}
+.table > thead > tr > th,
+.table > thead > tr > td {
+    /*font-size: .9em;*/
+    /*font-weight: 400;*/
+    border-bottom: 0;
+    letter-spacing: 1px;
+    vertical-align: top;
+    padding: 8px;
+    background: #51596a;
+    /*text-transform: uppercase;*/
+    color: #ffffff;
 }

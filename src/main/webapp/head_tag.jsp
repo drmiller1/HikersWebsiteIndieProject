@@ -5,6 +5,7 @@
   Time: 8:23 PM
   To change this template use File | Settings | File Templates.
 --%>
+
 <head>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -15,8 +16,5 @@
    <style>
        <%@ include file="style.css"%>
    </style>
-
-
-
 
 </head>

@@ -15,7 +15,9 @@
 <%@ include file="head_tag.jsp"%>
 
 <head>
+    <style type="text/css">
 
+    </style>
     <style>
         table {
             font-family: arial, sans-serif;
@@ -33,8 +35,13 @@
             background-color: #dddddd;
         }
 
-    </style>
+        .table_outer {
+            height: 9em;
+            overflow: auto;
+            width: 100%;
+        }
 
+    </style>
 </head>
 
 <body>
@@ -52,31 +59,37 @@
                 Hiking Trail Search Results
             </h1>
 
-            <table style="width:75%" border="1">
+            <div>
+                <table class="table_outer">
+                    <thead>
+                        <tr>
+                            <th class="col-xs-3">Trail Head Name</th>
+                            <th class="col-xs-3">Trail Head Location</th>
+                            <th class="col-xs-1">Trail Length</th>
+                            <th class="col-xs-1">Trail Difficulty</th>
+                            <th class="col-xs-1">Trail Rating</th>
+                            <th class="col-xs-5">Trail Features</th>
+                            <th class="col-xs-5">Trail Details</th>
+                            <th class="col-xs-5">Trail Description</th>
+                        </tr>
+                    </thead>
 
-                <th>Trail Head Name</th>
-                <th>Trail Head Location</th>
-                <th>Trail Length</th>
-                <th>Trail Difficulty</th>
-                <th>Trail Rating</th>
-                <th>Trail Features</th>
-                <th>Trail Details</th>
-                <th>Trail Description</th>
-
-                <c:forEach var="hikingTrail" items="${hikingTrailList}">
-                    <tr>
-                        <td>${hikingTrail.trailHeadName}</td>
-                        <td>${hikingTrail.trailHeadLocation}</td>
-                        <td>${hikingTrail.trailLength}</td>
-                        <td>${hikingTrail.trailDifficulty}</td>
-                        <td>${hikingTrail.trailRating}</td>
-                        <td>${hikingTrail.trailFeatures}</td>
-                        <td>${hikingTrail.trailDetails}</td>
-                        <td>${hikingTrail.trailDescription}</td>
-                    </tr>
-                </c:forEach>
-            </table>
-
+                    <tbody>
+                        <c:forEach var="hikingTrail" items="${hikingTrailList}">
+                            <tr>
+                                <td class="col-xs-3">${hikingTrail.trailHeadName}</td>
+                                <td class="col-xs-3">${hikingTrail.trailHeadLocation}</td>
+                                <td class="col-xs-1">${hikingTrail.trailLength}</td>
+                                <td class="col-xs-1">${hikingTrail.trailDifficulty}</td>
+                                <td class="col-xs-1">${hikingTrail.trailRating}</td>
+                                <td class="col-xs-5">${hikingTrail.trailFeatures}</td>
+                                <td class="col-xs-5">${hikingTrail.trailDetails}</td>
+                                <td class="col-xs-5">${hikingTrail.trailDescription}</td>
+                            </tr>
+                        </c:forEach>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
         <div id="clear"></div>
@@ -87,4 +100,4 @@
 
 </div>
 </body>
-</html>
+</html

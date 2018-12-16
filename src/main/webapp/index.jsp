@@ -22,10 +22,11 @@
                     Welcome
                 </div>
 
-                <img src="images/main_page_hiker_cartoon_med.jpg" width="80%" height="80%" alt="imagecenter"  />
-
-
             </h2>
+
+            <div align="center">
+                <img src="images/main_page_hiker_cartoon_med.jpg" width="50%" height="50%" alt="imagecenter"  />
+            </div>
 
         </div>
 

@@ -38,7 +38,7 @@
                 <strong style="color: red;">${emptyFirstName}</strong>
                 <c:remove var="emptyFirstName" scope="session" />
                 <br />
-                <input type="text" name="firstName" id="first_name" value = ${firstName}>
+                <input type="text" name="firstName" id="first_name" value=${firstName} >
                 <br /><br />
 
                 <label for="last_name">Last Name: </label>

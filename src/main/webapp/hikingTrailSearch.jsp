@@ -24,36 +24,36 @@
 
     <div id="main_content_top"></div>
     <div id="main_content">
-        <div class="content">
+        <div class="content" >
             <h1>
                 Hiking Trail Search
             </h1>
 
             <form method="GET" action="trailSearchResults-servlet" />
 
-            <br />
+                <br />
 
-            <label for="search_term">Search String: </label>
-            <strong style="color: red;">${emptyTerm}</strong>
-            <c:remove var="emptyTerm" scope="session" />
-            <br />
-            <input type="text" name="searchTerm" id="search_term" value = "" />
-            <br /><br />
+                <label for="search_term">Search String: </label>
+                <strong style="color: red;">${emptyTerm}</strong>
+                <c:remove var="emptyTerm" scope="session" />
+                <br />
+                <input type="text" name="searchTerm" id="search_term" value = "" />
+                <br /><br />
 
-            <input type="radio" id="searchTrailHeadName" name="searchType"
+                <input type="radio" id="searchTrailHeadName" name="searchType"
                    value="trailHeadName" checked>
-            <label for="searchTrailHeadName">Search by Trail Head Name</label>
-            <br />
+                <label for="searchTrailHeadName">Search by Trail Head Name</label>
+                <br />
 
-            <input type="radio" id="searchTrailLocation" name="searchType"
+                <input type="radio" id="searchTrailLocation" name="searchType"
                    value="trailHeadLocation">
-            <label for="searchTrailLocation">Search by Location</label>
-            <br />
+                <label for="searchTrailLocation">Search by Location</label>
+                <br />
 
-            <br />
-            <br />
+                <br />
+                <br />
 
-            <input type="submit" value="Search" />
+                <input type="submit" value="Search" />
 
             </form>
 
