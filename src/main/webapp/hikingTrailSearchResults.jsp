@@ -13,36 +13,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <%@ include file="head_tag.jsp"%>
-
-<head>
-    <style type="text/css">
-
-    </style>
-    <style>
-        table {
-            font-family: arial, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        td, th {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-
-        tr:nth-child(even) {
-            background-color: #dddddd;
-        }
-
-        .table_outer {
-            height: 9em;
-            overflow: auto;
-            width: 100%;
-        }
-
-    </style>
-</head>
+<script src="/scripts/snippet-javascript-console.min.js?v=1"></script>
 
 <body>
 
@@ -55,36 +26,39 @@
     <div id="main_content_top"></div>
     <div id="main_content">
         <div class="content">
+
             <h1>
                 Hiking Trail Search Results
             </h1>
 
-            <div>
-                <table class="table_outer">
+            <div class="tableFixHead">
+                <%--<table class="table table-scroll">--%>
+                <table>
                     <thead>
                         <tr>
-                            <th class="col-xs-3">Trail Head Name</th>
-                            <th class="col-xs-3">Trail Head Location</th>
-                            <th class="col-xs-1">Trail Length</th>
-                            <th class="col-xs-1">Trail Difficulty</th>
-                            <th class="col-xs-1">Trail Rating</th>
-                            <th class="col-xs-5">Trail Features</th>
-                            <th class="col-xs-5">Trail Details</th>
-                            <th class="col-xs-5">Trail Description</th>
+                            <th>Trail Head Name</th>
+                            <th>Trail Head Location</th>
+                            <th>Trail Length</th>
+                            <th>Trail Difficulty</th>
+                            <th>Trail Rating</th>
+                            <th>Trail Features</th>
+                            <th>Trail Details</th>
+                            <th>Trail Description</th>
                         </tr>
                     </thead>
 
                     <tbody>
                         <c:forEach var="hikingTrail" items="${hikingTrailList}">
                             <tr>
-                                <td class="col-xs-3">${hikingTrail.trailHeadName}</td>
-                                <td class="col-xs-3">${hikingTrail.trailHeadLocation}</td>
-                                <td class="col-xs-1">${hikingTrail.trailLength}</td>
-                                <td class="col-xs-1">${hikingTrail.trailDifficulty}</td>
-                                <td class="col-xs-1">${hikingTrail.trailRating}</td>
-                                <td class="col-xs-5">${hikingTrail.trailFeatures}</td>
-                                <td class="col-xs-5">${hikingTrail.trailDetails}</td>
-                                <td class="col-xs-5">${hikingTrail.trailDescription}</td>
+                                <td>${hikingTrail.trailHeadName}</td>
+                                <td>${hikingTrail.trailHeadLocation}</td>
+                                <td>${hikingTrail.trailLength}</td>
+                                <td>${hikingTrail.trailDifficulty}</td>
+                                <td>${hikingTrail.trailRating}</td>
+                                <td>${hikingTrail.trailFeatures}</td>
+                                <td>${hikingTrail.trailDetails}</td>
+                                <td>${hikingTrail.trailDescription}</td>
+                                <%--<td class="col-xs-5">${hikingTrail.trailDescription}</td>--%>
                             </tr>
                         </c:forEach>
                     </tbody>
@@ -99,5 +73,14 @@
     <%@ include file="footer_tag.jsp"%>
 
 </div>
+
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script type="text/javascript" >
+    var $th = $('.tableFixHead').find('thead th')
+    $('.tableFixHead').on('scroll', function() {
+        $th.css('transform', 'translateY('+ this.scrollTop +'px)');
+    });
+</script>
+
 </body>
 </html

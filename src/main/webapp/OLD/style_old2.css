@@ -50,8 +50,8 @@ body{
 }
 .content {
     float: left;
-    width: 550px;
-    /*height: 510px;*/
+    width: 510px;
+    height: 510px;
     text-align: justify;
     padding: 0 30px 0 30px;
     font-size: 12px;
@@ -104,6 +104,7 @@ a:hover {
     width: 50%;
 }
 
+
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -127,47 +128,3 @@ a:hover {
     background-color: #4CAF50;
     color: white;
 }
-
-/*
-.table-scroll tbody {
-    position: absolute;
-    overflow-y: scroll;
-    height: 9em;
-}
-
-.table-scroll tr {
-    width: 100%;
-    table-layout: fixed;
-    display: inline-table;
-}
-
-.table-scroll thead > tr > th {
-    border: none;
-}
-*/
-/*
-.tableFixHead { overflow: auto; height: 9em; }
-.tableFixHead th { position: sticky; top: 0; }
-*/
-.tableFixHead    { overflow-y: auto; height: 310px; }
-
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
-
-/* Just common table stuff. */
-/*table  { border-collapse: collapse; width: 100%; }
-th, td { padding: 8px 16px; }
-th     { background:#eee; }*/
