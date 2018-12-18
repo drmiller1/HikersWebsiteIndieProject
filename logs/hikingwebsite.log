@@ -921,3 +921,15 @@
 [DEBUG] 2018-12-17 21:35:52.065 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
 [DEBUG] 2018-12-17 21:35:52.439 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
 [DEBUG] 2018-12-17 21:35:52.479 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-17 21:41:08.839 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-17 21:41:09.267 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-17 21:41:09.308 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-17 22:39:40.992 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-17 22:39:43.257 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-17 22:39:43.429 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 00:13:18.375 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 00:13:20.191 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 00:13:20.365 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 00:23:07.305 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 00:23:09.930 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 00:23:10.103 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t

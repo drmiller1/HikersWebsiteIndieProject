@@ -17,9 +17,9 @@
     <div id="main_content_top"></div>
     <div id="main_content">
         <div class="content">
-            <h2>
+            <h1 align="center">
                 About
-            </h2>
+            </h1>
             <br />
 
             <p style="font-size:20px;">Created by: Dan Miller</p>

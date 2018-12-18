@@ -25,7 +25,7 @@
     <div id="main_content_top"></div>
     <div id="main_content">
         <div class="content" >
-            <h1>
+            <h1 align="center">
                 Hiking Trail Search
             </h1>
 

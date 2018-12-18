@@ -12,7 +12,7 @@ import javax.servlet.annotation.*;
 
 @WebServlet(
         name = "HikingTrailSearchDisplayServlet",
-        urlPatterns = { "/trailSearchDisplay-servlet" }
+        urlPatterns = { "m" }
 )
 
 public class HikingTrailSearchDisplayServlet extends HttpServlet {

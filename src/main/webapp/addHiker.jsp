@@ -32,7 +32,7 @@
             <h3 style="color: red;">${queryResultMessage}</h3>
             <c:remove var="queryResultMessage" scope="session" />
 
-            <form method="POST" action="addHiker-servlet" align="right" name="addHiker">
+            <form method="POST" action="addHiker-servlet" align="left" name="addHiker">
 
                 <label for="first_name">First Name: </label>
                 <strong style="color: red;">${emptyFirstName}</strong>
@@ -77,7 +77,7 @@
                 <br /><br />
 
                 <br />
-                <input type="submit" value="Add Hiker" align="right"/>
+                <input type="submit" value="Add Hiker" align="left"/>
 
             </form>
 
