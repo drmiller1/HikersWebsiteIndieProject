@@ -15,7 +15,7 @@ import java.io.IOException;
 
 @WebServlet(
         name = "MyTrailSearchDisplayServlet",
-        urlPatterns = { "/trailSearchDisplay-servlet" }
+        urlPatterns = { "/myTrailSearchDisplay-servlet" }
 )
 
 public class MyTrailSearchDisplayServlet extends HttpServlet {
