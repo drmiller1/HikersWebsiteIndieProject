@@ -9,8 +9,11 @@ import javax.persistence.*;
 
 
 /**
- * The type Hiking trails.
+ * A class to represent a hiking trail.
+ *
+ * @author Dan Miller
  */
+
 @Entity(name = "HikingTrail")
 @Table(name = "Hiking_Trail")
 @Data

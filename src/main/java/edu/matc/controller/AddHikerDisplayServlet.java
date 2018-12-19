@@ -15,6 +15,12 @@ import javax.servlet.annotation.*;
         urlPatterns = { "/addHikerDisplay-servlet" }
 )
 
+/**
+ * class AddHikerDisplayServlet
+ * This class is used to call the addHiker jsp.
+ *
+ * @author Dan Miller
+ */
 public class AddHikerDisplayServlet extends HttpServlet {
 
     /**

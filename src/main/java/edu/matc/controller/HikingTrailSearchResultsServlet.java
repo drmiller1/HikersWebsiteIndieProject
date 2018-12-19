@@ -22,6 +22,13 @@ import javax.servlet.annotation.*;
         urlPatterns = { "/trailSearchResults-servlet" }
 )
 
+/**
+ * class HikingTrailSearchResultsServlet
+ * This class is used to retrieve the Hiking Trail fields corresponding to the entered search text.
+ *
+ * @author Dan Miller
+ */
+
 public class HikingTrailSearchResultsServlet extends HttpServlet {
 
     private final Logger logger = LogManager.getLogger(this.getClass());

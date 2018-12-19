@@ -7,8 +7,11 @@ import javax.persistence.*;
 
 
 /**
- * The type Role.
+ * A class to represent a hiker role.
+ *
+ * @author Dan Miller
  */
+
 @Entity(name = "role")
 @Table(name = "role")
 @Data

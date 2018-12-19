@@ -10,10 +10,9 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 /**
- * Provides access the database
- * Created on 8/31/16.
+ * Provides access to the database
  *
- * @author dmiller
+ * @author Dan Miller
  */
 
 public class Database {

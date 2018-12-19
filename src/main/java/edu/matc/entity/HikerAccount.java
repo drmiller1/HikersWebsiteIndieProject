@@ -12,7 +12,7 @@ import java.util.Set;
 /**
  * A class to represent a hiker account.
  *
- * @author dmiller
+ * @author Dan Miller
  */
 
 @Entity(name = "HikerAccount")

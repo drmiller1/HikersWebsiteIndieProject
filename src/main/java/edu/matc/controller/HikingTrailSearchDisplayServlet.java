@@ -12,8 +12,15 @@ import javax.servlet.annotation.*;
 
 @WebServlet(
         name = "HikingTrailSearchDisplayServlet",
-        urlPatterns = { "m" }
+        urlPatterns = { "/trailSearchDisplay-servlet" }
 )
+
+/**
+ * class HIkingTrailSearchDisplayServlet
+ * This class is used to call the hikingTrailSearch jsp.
+ *
+ * @author Dan Miller
+ */
 
 public class HikingTrailSearchDisplayServlet extends HttpServlet {
 

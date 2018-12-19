@@ -21,6 +21,13 @@ import java.util.List;
         urlPatterns = { "/addHikingTrail-servlet" }
 )
 
+/**
+ * class AddHikingTrailServlet
+ * This class is used to populate and validate the hiking trail fields.
+ *
+ * @author Dan Miller
+ */
+
 public class AddHikingTrailServlet extends HttpServlet {
 
     /**

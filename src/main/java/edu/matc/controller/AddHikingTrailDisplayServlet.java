@@ -18,6 +18,13 @@ import java.io.IOException;
         urlPatterns = { "/addHikingTrailDisplay-servlet" }
 )
 
+/**
+ * class AddHikingTrailDisplayServlet
+ * This class is used to call the addHikingTrail jsp.
+ *
+ * @author Dan Miller
+ */
+
 public class AddHikingTrailDisplayServlet extends HttpServlet {
 
     /**

@@ -19,6 +19,13 @@ import javax.servlet.annotation.*;
         urlPatterns = { "/addHiker-servlet" }
 )
 
+/**
+ * class AddHikerServlet
+ * This class is used to populate and validate the hiker account fields.
+ *
+ * @author Dan Miller
+ */
+
 public class AddHikerServlet extends HttpServlet {
 
     /**

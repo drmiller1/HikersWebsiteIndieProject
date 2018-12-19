@@ -933,3 +933,63 @@
 [DEBUG] 2018-12-18 00:23:07.305 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
 [DEBUG] 2018-12-18 00:23:09.930 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
 [DEBUG] 2018-12-18 00:23:10.103 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 00:25:33.882 [http-nio-8080-exec-9] GenericDao - Searching getByPropertyLikefor HikingTrail with trailHeadName = m
+[DEBUG] 2018-12-18 00:25:35.650 [http-nio-8080-exec-9] HikingTrailSearchResultsServlet -  Search Term Found - []
+[DEBUG] 2018-12-18 00:25:35.660 [http-nio-8080-exec-9] HikingTrailSearchResultsServlet - Forwarding search request and response
+[DEBUG] 2018-12-18 00:25:45.684 [http-nio-8080-exec-2] GenericDao - Searching getByPropertyLikefor HikingTrail with trailHeadName = T
+[DEBUG] 2018-12-18 00:25:45.973 [http-nio-8080-exec-2] HikingTrailSearchResultsServlet -  Search Term Found - [HikingTrail(id=1, trailHeadName=Trailhead1, trailHeadLocation=Madison WI, trailLength=2, trailDifficulty=5, trailRating=4, trailFeatures=Waterfall, Trees, Small Stream, trailDetails=Great for kids, trailDescription=Beautiful trail, not to long with little elevation), HikingTrail(id=2, trailHeadName=Trailhead2, trailHeadLocation=Madison WI, trailLength=2, trailDifficulty=5, trailRating=4, trailFeatures=Waterfall, Trees, Small Stream, trailDetails=Great for kids, trailDescription=Beautiful trail, not to long with little elevation), HikingTrail(id=3, trailHeadName=Trailhead3, trailHeadLocation=Madison WI, trailLength=2, trailDifficulty=5, trailRating=4, trailFeatures=Waterfall, Trees, Small Stream, trailDetails=Great for kids, trailDescription=Beautiful trail, not to long with little elevation), HikingTrail(id=4, trailHeadName=Trailhead4, trailHeadLocation=Madison WI, trailLength=3, trailDifficulty=1, trailRating=5, trailFeatures=Waterfall, Small Stream, trailDetails=Trees, trailDescription=Greate for kids), HikingTrail(id=5, trailHeadName=Trailhead5, trailHeadLocation=Mt. Horeb WI, trailLength=4, trailDifficulty=3, trailRating=2, trailFeatures=River, trailDetails=Hills to climb, trailDescription=Not good for kids), HikingTrail(id=6, trailHeadName=Trailhead6, trailHeadLocation=Platteville WI, trailLength=10, trailDifficulty=2, trailRating=2, trailFeatures=Trees, stream, trailDetails=Flat and rocky, trailDescription=Good for kids)]
+[DEBUG] 2018-12-18 00:25:45.973 [http-nio-8080-exec-2] HikingTrailSearchResultsServlet - Forwarding search request and response
+[DEBUG] 2018-12-18 19:35:33.974 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 19:35:34.384 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 19:35:34.414 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 19:38:56.051 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 19:38:56.428 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 19:38:56.456 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 19:47:20.497 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 19:47:20.927 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 19:47:20.962 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 19:47:31.174 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 19:47:31.494 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 19:47:31.521 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 19:54:33.426 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 19:54:33.799 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 19:54:33.836 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 20:00:11.699 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 20:00:12.307 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 20:00:12.337 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 20:02:22.003 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 20:02:22.318 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 20:02:22.332 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 20:03:57.775 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 20:03:58.228 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 20:03:58.261 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 20:04:57.775 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 20:04:58.150 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 20:04:58.173 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 20:08:11.330 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 20:08:11.694 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 20:08:11.780 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 20:10:32.730 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 20:10:33.123 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 20:10:33.137 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 20:14:21.173 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 20:14:21.537 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 20:14:21.563 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 20:15:10.102 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 20:15:10.703 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 20:15:10.749 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 20:21:17.600 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 20:21:18.026 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 20:21:18.089 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 20:24:55.421 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 20:24:55.830 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 20:24:55.878 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 20:25:44.690 [http-nio-8080-exec-6] GenericDao - Searching getByPropertyLikefor HikingTrail with trailHeadLocation = Madison
+[DEBUG] 2018-12-18 20:25:44.928 [http-nio-8080-exec-6] HikingTrailSearchResultsServlet -  Search Term Found - [HikingTrail(id=1, trailHeadName=Trailhead1, trailHeadLocation=Madison WI, trailLength=2, trailDifficulty=5, trailRating=4, trailFeatures=Waterfall, Trees, Small Stream, trailDetails=Great for kids, trailDescription=Beautiful trail, not to long with little elevation), HikingTrail(id=2, trailHeadName=Trailhead2, trailHeadLocation=Madison WI, trailLength=2, trailDifficulty=5, trailRating=4, trailFeatures=Waterfall, Trees, Small Stream, trailDetails=Great for kids, trailDescription=Beautiful trail, not to long with little elevation), HikingTrail(id=3, trailHeadName=Trailhead3, trailHeadLocation=Madison WI, trailLength=2, trailDifficulty=5, trailRating=4, trailFeatures=Waterfall, Trees, Small Stream, trailDetails=Great for kids, trailDescription=Beautiful trail, not to long with little elevation), HikingTrail(id=4, trailHeadName=Trailhead4, trailHeadLocation=Madison WI, trailLength=3, trailDifficulty=1, trailRating=5, trailFeatures=Waterfall, Small Stream, trailDetails=Trees, trailDescription=Greate for kids)]
+[DEBUG] 2018-12-18 20:25:44.929 [http-nio-8080-exec-6] HikingTrailSearchResultsServlet - Forwarding search request and response
+[DEBUG] 2018-12-18 20:28:32.867 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 20:28:33.278 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 20:28:33.320 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t
+[DEBUG] 2018-12-18 20:50:01.979 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with lastName = c
+[DEBUG] 2018-12-18 20:50:02.523 [main] GenericDao - Searching getByPropertyEqualfor HikingTrail with trailHeadName = TrailHead2
+[DEBUG] 2018-12-18 20:50:02.557 [main] GenericDao - Searching getByPropertyLikefor HikingTrail with trailDescription = t

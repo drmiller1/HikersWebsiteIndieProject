@@ -33,7 +33,7 @@
 
                 <br />
 
-                <label for="search_term">Search String: </label>
+                <label for="search_term">Search Text: </label>
                 <strong style="color: red;">${emptyTerm}</strong>
                 <c:remove var="emptyTerm" scope="session" />
                 <br />
