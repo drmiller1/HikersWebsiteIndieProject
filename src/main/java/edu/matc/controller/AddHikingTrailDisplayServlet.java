@@ -9,10 +9,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * @author Dan Miller
+ * The type Add hiking trail display servlet.
  *
+ * @author Dan Miller
  */
-
 @WebServlet(
         name = "AddHikingTrailDisplayServlet",
         urlPatterns = { "/addHikingTrailDisplay-servlet" }

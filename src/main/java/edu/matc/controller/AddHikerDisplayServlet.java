@@ -6,10 +6,10 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
 /**
- * @author Dan Miller
+ * The type Add hiker display servlet.
  *
+ * @author Dan Miller
  */
-
 @WebServlet(
         name = "AddHikerDisplayServlet",
         urlPatterns = { "/addHikerDisplay-servlet" }

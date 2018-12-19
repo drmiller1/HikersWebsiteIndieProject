@@ -5,8 +5,14 @@ import java.time.LocalDate;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * The type Hiker account test.
+ */
 class HikerAccountTest {
 
+    /**
+     * Gets email address.
+     */
     @Test
     void getEmailAddress() {
         // create the object that has the method that I want to test

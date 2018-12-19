@@ -14,12 +14,18 @@ import java.util.List;
 
 /**
  * A generic DAO somewhat inspired by http://rodrigouchoa.wordpress.com
+ *
+ * @param <T> the type parameter
  */
-
 public class GenericDao<T> {
     private Class <T> type;
     private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * Instantiates a new Generic dao.
+     *
+     * @param type the type
+     */
     public GenericDao(Class<T> type) {
         this.type = type;
 
@@ -27,10 +33,11 @@ public class GenericDao<T> {
 
     /**
      * Gets an Entity by id
-     * @param id entity id to search by
+     *
+     * @param <T> the type parameter
+     * @param id  entity id to search by
      * @return an Entity
      */
-
     public <T>T getById(int id) {
 
         Session session = getSession();
@@ -39,7 +46,11 @@ public class GenericDao<T> {
         return entity;
     }
 
-
+    /**
+     * Save or update.
+     *
+     * @param entity the entity
+     */
     public void saveOrUpdate(T entity) {
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
@@ -48,6 +59,12 @@ public class GenericDao<T> {
         session.close();
     }
 
+    /**
+     * Insert int.
+     *
+     * @param entity the entity
+     * @return the int
+     */
     public int insert(T entity) {
         int id = 0;
         Session session = getSession();
@@ -58,6 +75,11 @@ public class GenericDao<T> {
         return id;
     }
 
+    /**
+     * Delete.
+     *
+     * @param entity the entity
+     */
     public void delete(T entity) {
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
@@ -66,6 +88,13 @@ public class GenericDao<T> {
         session.close();
     }
 
+    /**
+     * Gets by property equal.
+     *
+     * @param propertyName the property name
+     * @param value        the value
+     * @return the by property equal
+     */
     public List<T> getByPropertyEqual(String propertyName, String value) {
         Session session = getSession();
 
@@ -81,6 +110,13 @@ public class GenericDao<T> {
         return entities;
     }
 
+    /**
+     * Gets by property like.
+     *
+     * @param propertyName the property name
+     * @param value        the value
+     * @return the by property like
+     */
     public List<T> getByPropertyLike(String propertyName, String value) {
         Session session = getSession();
 
@@ -98,6 +134,11 @@ public class GenericDao<T> {
         return entities;
     }
 
+    /**
+     * Gets all.
+     *
+     * @return the all
+     */
     public List<T> getAll() {
         Session session = getSession();
 

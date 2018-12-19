@@ -11,7 +11,6 @@ import javax.persistence.*;
  *
  * @author Dan Miller
  */
-
 @Entity(name = "role")
 @Table(name = "role")
 @Data
@@ -42,9 +41,9 @@ public class Role {
     /**
      * Instantiates a new User Role.
      *
-     * @param roleName      the role name
-     * @param emailAddress      the email address
-     * @param hikerAccount     the hiker account
+     * @param roleName     the role name
+     * @param emailAddress the email address
+     * @param hikerAccount the hiker account
      */
     public Role(String roleName, String emailAddress, HikerAccount hikerAccount) {
         this.roleName = roleName;

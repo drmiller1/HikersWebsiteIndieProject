@@ -10,8 +10,14 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * The type Hiking trail dao test.
+ */
 class HikingTrailDaoTest {
 
+    /**
+     * The Generic dao.
+     */
     GenericDao genericDao;
 
     /**
@@ -27,12 +33,18 @@ class HikingTrailDaoTest {
 
     }
 
+    /**
+     * Gets all hiking trails success.
+     */
     @Test
     void getAllHikingTrailsSuccess() {
         List<HikingTrail> HikingTrails = (List<HikingTrail>) genericDao.getAll();
         assertEquals(3, HikingTrails.size());
     }
 
+    /**
+     * Gets by id success.
+     */
     @Test
     void getByIdSuccess() {
         HikingTrail retrievedHikingTrails = (HikingTrail)genericDao.getById(1);

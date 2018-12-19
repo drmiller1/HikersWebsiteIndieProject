@@ -12,10 +12,10 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * @author Dan Miller
+ * The type Add hiking trail servlet.
  *
+ * @author Dan Miller
  */
-
 @WebServlet(
         name = "addHikingTrailServlet",
         urlPatterns = { "/addHikingTrail-servlet" }

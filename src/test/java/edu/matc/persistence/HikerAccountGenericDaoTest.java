@@ -9,8 +9,14 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * The type Hiker account generic dao test.
+ */
 class HikerAccountGenericDaoTest {
 
+    /**
+     * The Generic dao.
+     */
     GenericDao genericDao;
 
     /**
@@ -25,18 +31,27 @@ class HikerAccountGenericDaoTest {
 
     }
 
+    /**
+     * Gets all hiker accounts success.
+     */
     @Test
     void getAllHikerAccountsSuccess() {
         List<HikerAccount> hikerAccounts = genericDao.getAll();
         assertEquals(6, hikerAccounts.size());
     }
 
+    /**
+     * Gets hiker accounts by last name success.
+     */
     @Test
     void getHikerAccountsByLastNameSuccess() {
         List<HikerAccount> hikerAccounts = genericDao.getByPropertyLike("lastName","c");
         assertEquals(3, hikerAccounts.size());
     }
 
+    /**
+     * Gets by id success.
+     */
     @Test
     void getByIdSuccess() {
         HikerAccount retrievedHikerAccount = (HikerAccount) genericDao.getById(1);

@@ -13,7 +13,6 @@ import javax.persistence.*;
  *
  * @author Dan Miller
  */
-
 @Entity(name = "HikingTrail")
 @Table(name = "Hiking_Trail")
 @Data
@@ -64,15 +63,15 @@ public class HikingTrail {
     /**
      * Instantiates a new Hiking trails.
      *
-     * @param trailHeadName    the trail head name
-     * @param trailHeadLocation  the trail head location
-     * @param trailLength      the trail length
-     * @param trailDifficulty  the trail difficulty
-     * @param trailRating      the trail rating
-     * @param trailFeatures    the trail features
-     * @param trailDetails     the trail details
-     * @param trailDescription the trail description
-     * @param hikerAccount     the hiker account
+     * @param trailHeadName     the trail head name
+     * @param trailHeadLocation the trail head location
+     * @param trailLength       the trail length
+     * @param trailDifficulty   the trail difficulty
+     * @param trailRating       the trail rating
+     * @param trailFeatures     the trail features
+     * @param trailDetails      the trail details
+     * @param trailDescription  the trail description
+     * @param hikerAccount      the hiker account
      */
     public HikingTrail(String trailHeadName, String trailHeadLocation,
                        int trailLength, int trailDifficulty, int trailRating,

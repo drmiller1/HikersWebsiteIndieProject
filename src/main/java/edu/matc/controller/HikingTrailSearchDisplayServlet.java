@@ -6,10 +6,10 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
 /**
- * @author Dan Miller
+ * The type Hiking trail search display servlet.
  *
+ * @author Dan Miller
  */
-
 @WebServlet(
         name = "HikingTrailSearchDisplayServlet",
         urlPatterns = { "/trailSearchDisplay-servlet" }

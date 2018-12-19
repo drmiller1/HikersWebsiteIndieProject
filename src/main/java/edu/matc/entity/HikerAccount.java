@@ -14,7 +14,6 @@ import java.util.Set;
  *
  * @author Dan Miller
  */
-
 @Entity(name = "HikerAccount")
 @Table(name = "Hiker_Account")
 @Data

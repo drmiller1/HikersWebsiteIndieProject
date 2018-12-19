@@ -13,10 +13,10 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
 /**
- * @author Dan Miller
+ * The type Hiking trail search results servlet.
  *
+ * @author Dan Miller
  */
-
 @WebServlet(
         name = "trailSearchResultsServlet",
         urlPatterns = { "/trailSearchResults-servlet" }
