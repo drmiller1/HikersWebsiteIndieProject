@@ -32,7 +32,7 @@
             </h1>
 
             <div class="tableFixHead">
-                <%--<table class="table table-scroll">--%>
+
                 <table>
                     <thead>
                         <tr>

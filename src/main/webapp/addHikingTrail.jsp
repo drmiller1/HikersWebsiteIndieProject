@@ -46,9 +46,9 @@
                 <label for="trail_difficulty">Trail Difficulty: </label>
                 <br />
                 <select name="trailDifficulty" id="trail_difficulty" value = ${trailDifficulty}>
-                    <option>1 - Easy</option>
-                    <option>2 - Moderate</option>
-                    <option>3 - Difficult</option>
+                    <option value=1>1 - Easy</option>
+                    <option value=2>2 - Moderate</option>
+                    <option value=3>3 - Difficult</option>
                 </select>
 
                 <br /><br />
@@ -56,11 +56,11 @@
                 <label for="trail_rating">Trail Rating: </label>
                 <br />
                 <select name="trailRating" id="trail_rating" value = ${trailRating}>
-                    <option>1 - Favorite</option>
-                    <option>2 - Worth Hiking</option>
-                    <option>3 - Ok</option>
-                    <option>4 - Boring</option>
-                    <option>5 - Don't Bother</option>
+                    <option value=1>1 - Favorite</option>
+                    <option value=2>2 - Worth Hiking</option>
+                    <option value=3>3 - Ok</option>
+                    <option value=4>4 - Boring</option>
+                    <option value=5>5 - Don't Bother</option>
                 </select>
 
                 <br /><br />
@@ -74,12 +74,12 @@
                 <br />
                 <input type="text" name="trailDetails" id="trail_details" value = ${trailDetails}>
                 <br /><br />
-<%--
+
                 <label for="trail_description">Other Trail Description: </label>
                 <br />
                 <input type="text" name="trailDescription" id="trail_description" value = ${trailDescription}>
                 <br /><br />
---%>
+
                 <br />
                 <input type="submit" value="Add Trail" align="right"/>
 

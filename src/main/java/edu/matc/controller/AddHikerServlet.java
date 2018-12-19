@@ -105,17 +105,18 @@ public class AddHikerServlet extends HttpServlet {
             session.setAttribute("emptyPassword", null);
         }
 
+        session.setAttribute("queryResultMessage", null);
+
         if (firstNameValid && lastNameValid && cityValid && stateValid && emailAddressValid && passwordValid) {
 
             HikerAccount hiker = new HikerAccount(firstName, lastName, city, state, emailAddress, password);
             int id = hikerAccountDao.insert(hiker);
             HikerAccount insertedHikerAccount = (HikerAccount) hikerAccountDao.getById(id);
-            session.setAttribute("queryResultMessage", insertedHikerAccount);
 
             Role hiker_role = new Role(roleName, emailAddress, hiker);
             int role_id = roleDao.insert(hiker_role);
             Role insertedRole = (Role) roleDao.getById(role_id);
-            session.setAttribute("queryResultMessage", insertedRole);
+            session.setAttribute("queryResultMessage", "NEW HIKER INSERTED SUCCESSFULLY");
 
             session.setAttribute("firstName", null);
             session.setAttribute("lastName", null);

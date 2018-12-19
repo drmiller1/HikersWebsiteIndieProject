@@ -3,12 +3,15 @@ package edu.matc.controller;
 import edu.matc.entity.HikingTrail;
 import edu.matc.entity.HikerAccount;
 import edu.matc.persistence.GenericDao;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 
 import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -30,6 +33,8 @@ import java.util.List;
 
 public class AddHikingTrailServlet extends HttpServlet {
 
+    private final Logger logger = LogManager.getLogger(this.getClass());
+
     /**
      *  Handles HTTP GET requests.
      *
@@ -44,11 +49,6 @@ public class AddHikingTrailServlet extends HttpServlet {
         boolean trailHeadNameValid = false;
         boolean trailHeadLocationValid = false;
 
-        String queryResultMessage = null;
-
-        GenericDao genericDAO = new GenericDao(HikingTrail.class);
-
-        ServletContext context = getServletContext();
         HttpSession session = request.getSession();
 
         String emailAddress = request.getParameter ("emailAddress");
@@ -82,20 +82,22 @@ public class AddHikingTrailServlet extends HttpServlet {
         session.setAttribute("emptyTrailFeatures", null);
         session.setAttribute("emptyTrailDetails", null);
         session.setAttribute("emptyTrailDescription", null);
+        session.setAttribute("queryResultMessage", null);
 
         if (trailHeadNameValid && trailHeadLocationValid) {
 
             GenericDao hikerAccountDAO = new GenericDao(HikerAccount.class);
             GenericDao hikingTrailDAO = new GenericDao(HikingTrail.class);
 
-            List <HikerAccount> hikerAccountList = hikerAccountDAO.getByPropertyEqual("emailAddress", emailAddress);
+            List<HikerAccount> hikerAccountList = hikerAccountDAO.getByPropertyEqual("emailAddress", emailAddress);
+
             HikingTrail hikingTrail = new HikingTrail(trailHeadName, trailHeadLocation, Integer.valueOf(trailLength), Integer.valueOf(trailDifficulty), Integer.valueOf(trailRating), trailFeatures, trailDetails, trailDescription, hikerAccountList.get(0));
             hikerAccountList.get(0).addHikingTrail(hikingTrail);
-            int id = genericDAO.insert(hikingTrail);
+            int id = hikingTrailDAO.insert(hikingTrail);
 
-            HikingTrail insertedHikingTrail = (HikingTrail) genericDAO.getById(id);
+            /*HikingTrail insertedHikingTrail = (HikingTrail) hikingTrailDAO.getById(id);*/
 
-            session.setAttribute("queryResultMessage", insertedHikingTrail);
+            session.setAttribute("queryResultMessage", "NEW HIKING TRAIL INSERTED SUCCESSFULLY");
 
             session.setAttribute("trailHeadName", null);
             session.setAttribute("trailHeadLocation", null);
@@ -117,7 +119,6 @@ public class AddHikingTrailServlet extends HttpServlet {
             session.setAttribute("trailDesctiption", trailDescription);
         }
 
-        //String url = "index.jsp";
         String url = "addHikingTrailDisplay-servlet";
         response.sendRedirect(url);
         return;
