@@ -51,7 +51,7 @@ public class AddHikingTrailServlet extends HttpServlet {
 
         HttpSession session = request.getSession();
 
-        String emailAddress = request.getParameter ("emailAddress");
+        String emailAddress = req.getRemoteUser();
         String trailHeadName = request.getParameter("trailHeadName");
         String trailHeadLocation = request.getParameter("trailHeadLocation");
         String trailLength = request.getParameter("trailLength");
